@@ -49,8 +49,68 @@
         </div>
       </header>
     <nav>nav</nav>
-    <section>section</section>
+    <section>
+      <div class="w3-content w3-display-container">
+        <div class="mySlides">
+          <img class="img" src="./images/trong-sinh-thanh-cau-vang-tai-di-the.png" style="width:25% ; height: 200px;">
+          <img class="img" src="./images/huyen-hao-chien-ki.jpg" style="width: 25% ; height: 200px;">
+          <img class="img" src="./images/nghich-thien-chien-than.jpg" style="width:25% ; height: 200px;">
+          <img class="img" src="./images/ta-la-ta-de.jpg" style="width:25% ; height: 200px;">
+        </div>
+        <div class="mySlides">
+          <img class="img" src="./images/huyen-hao-chien-ki.jpg" style="width: 25% ; height: 200px;">
+          <img class="img" src="./images/nghich-thien-chien-than.jpg" style="width:25% ; height: 200px;">
+          <img class="img" src="./images/ta-la-ta-de.jpg" style="width:25% ; height: 200px;">
+          <img class="img" src="./images/vo-luyen-dinh-phong (1).jpg" style="width:25% ; height: 200px;">
+        </div>
+        <div class="mySlides">
+          <img class="img" src="./images/nghich-thien-chien-than.jpg" style="width:25% ; height: 200px;">
+          <img class="img" src="./images/ta-la-ta-de.jpg" style="width:25% ; height: 200px;">
+          <img class="img" src="./images/vo-luyen-dinh-phong (1).jpg" style="width:25% ; height: 200px;">
+          <img class="img" src="./images/tren-nguoi-ta-co-mot-con-rong.jpg" style="width: 25% ; height: 200px;">
+
+        </div>
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+
+      <script>
+        var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+        var slideIndex = 0;
+        carousel();
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > x.length) {slideIndex = 1}
+          x[slideIndex-1].style.display = "block";
+          setTimeout(carousel, 5000); // Change image every 2 seconds
+        }
+        </script>
+
+
+    </section>
     <article>Right</article>
+    <!--  -->
     <aside>Left</aside>
     <footer class="py-5">
       <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -125,6 +185,7 @@
             </ul>
           </div>
       </div>
+
 
    </footer>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
