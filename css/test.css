@@ -311,7 +311,7 @@ aside{
     /* margin-right: 5%; */
     /* width:300px; */
     width: 23%;
-    height:600px;
+    height:1900px;
     background-color: rgb(12, 179, 59);
     float:left;
     overflow: hidden;
@@ -327,7 +327,6 @@ aside{
     outline: none;
     cursor: pointer;
     padding: 20px 16px;
-   
     font-size: 15px;
   }
   
@@ -362,7 +361,6 @@ aside{
       line-height:35px;
       height:60px ;
       border-bottom:1px solid royalblue;
-      background: url(../images/) no-repeat 5px;
       text-indent: 95px;
       color: royalblue;
     }
