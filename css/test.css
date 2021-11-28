@@ -155,7 +155,10 @@ nav{
   background-color: #ccc;
   height: 250px;
 }
-
+.container img{
+   border-radius:40% 
+  
+}
 /* Style links inside the columns */
 .column a {
   float: none;
@@ -197,9 +200,9 @@ nav{
 
 
 section{
-  height: 455px;  
-  width: 83%;
-  margin-left: 8.5%;
+  height: 400px;  
+  width: 100%;
+   /* margin-left: 5%;  */
   border: 1px solid black;
 }
 
