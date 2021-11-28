@@ -81,7 +81,6 @@ nav{
   height: 40px;
   background: rgb(253, 254, 255);
 }
-
 .img{
   float: left;
   padding: 0px 10px 0px 10px;
@@ -213,7 +212,7 @@ aside{
   /* margin-left:11.25%; */
   margin-left:10%;
   width:55%;
-  height: 1200px;
+  height: 1500px;
   float:left;
   border: 1px solid black;
 
@@ -256,7 +255,6 @@ aside{
   border-top: none;
 }
 #right .menu_right ul{
-  margin:-10px 0px 0px;
   padding: 0px;
   border:2px solid black;
 }
@@ -266,21 +264,24 @@ aside{
 #right .menu_right ul div{
     list-style: none;
   }
- #right .menu_right ul div a{
+ #right .menu_right ul div a {
     display: block;
     text-decoration: none;
     line-height:35px;
     height:60px ;
     border-bottom:1px solid royalblue;
-    background: url(../img/ccc.png) no-repeat 5px;
-    text-indent: 25px;
-    color: royalblue;
+    text-indent: 45px;
+   
+  }
+  #right .menu_right img{
+  float: left;
+ margin:1px 1px 1px 0px ;
   }
   .left {
      width:60%;
-      margin-left:8.5%;
-     height: 1500px;
-     float:left;
+     margin-left:8.5%;
+     height: 1900px;
+     /*float:left;*/
    }
    * {
      box-sizing: border-box;
@@ -316,6 +317,7 @@ aside{
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1; 
+   
   }
   
   #right button {
