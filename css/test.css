@@ -85,7 +85,7 @@ header {
 
 
         /* Header cart CSS */
-        header .cart a {
+        /* header .cart a {
             color: #fff;
             text-decoration: none;
         }
@@ -108,7 +108,7 @@ header {
         header .cart a {
             color: #fff;
             text-decoration: none;
-        }
+        } */
         /* End Header cart CSS */
 
 
@@ -126,7 +126,7 @@ header {
         }
 
 
-        /* Responsive CSS */
+        /* Responsive CSS
         @media (max-width: 991px) {
             header .cart a img {
                 width: 30px;
@@ -151,7 +151,7 @@ header {
              width: 50px;
              height: 50px;
             }
-        }
+        } */
 nav{
   width: 100%;
   height: 40px;
