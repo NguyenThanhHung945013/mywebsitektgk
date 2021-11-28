@@ -305,17 +305,14 @@ aside{
      display: table;
    }
    img{
-     border-radius: 10%;
+     border-radius: 1%;
    }
    #right{
     /* margin-right: 5%; */
     /* width:300px; */
     width: 23%;
-<<<<<<< HEAD
     height:1900px;
-=======
     height:1550px;
->>>>>>> 3b42bdff25dbd0c6aa9379ca7f774e0d85e2487f
     background-color: rgb(12, 179, 59);
     float:left;
     overflow: hidden;
