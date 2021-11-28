@@ -162,7 +162,6 @@ nav{
   float: left;
   padding: 0px 10px 0px 10px;
 }
-<<<<<<< HEAD
 
 .navbar {
   overflow: hidden;
@@ -338,13 +337,13 @@ aside{
   padding: 0px;
   border:2px solid black;
 }
-#right .menu_right li :hover{
+#right .menu_right div :hover{
   background-color: mediumaquamarine;
   }
-#right .menu_right ul li{
+#right .menu_right ul div{
     list-style: none;
   }
- #right .menu_right ul li a{
+ #right .menu_right ul div a{
     display: block;
     text-decoration: none;
     line-height:35px;
