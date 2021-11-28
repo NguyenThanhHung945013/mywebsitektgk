@@ -8,6 +8,8 @@
     <meta name="generator" content="Hugo 0.88.1">
     <title>Anime</title>
     <link rel="stylesheet" type="text/css" href="./css/test.css">
+    <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css" />
+   
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <style>
@@ -34,8 +36,83 @@
     </head>
     <body>
       <header>
-        header
-      </header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                 
+                  
+                  <h1>
+                    <img  class="logo" src="./images/456.png" alt="">
+                    WIBU.anime
+                  </h1>
+ 
+                </div>
+                
+
+                <div class="col-lg-4 col-md-3">
+                    <div class="header-search mt-2">
+                        <div class="search-form">
+                            <form method="get">
+                                <div class="input-group">
+                                    <div class="select-style">
+                                        <select name="order">
+                                            <option class="topshow" value="1">All</option>
+                                            <option value="a">Siêu Nhân</option>
+                                            <option value="b">Anime</option>
+                                            <option value="c">NGôn Tình</option>
+                                            <option value="d">Hentai</option>
+                                            <option value="e">Mead</option>
+                                            <option value="f">Others</option>
+                                        </select>
+                                    </div>
+                                    <input type="text" name="search" id="search" class="form-control " placeholder="Search Here" />
+                                    <div class="input-group-addon">
+                                      <button type="submit" class="input-group-text btn-success"><i class="bi bi-search me-2"></i> Search</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 cart-login">
+                    
+
+                    <div class="float-end">
+                     
+                        <button type="button" class="btn btn-dark">Login</button>
+                        <button type="button" class="btn btn-warning">Logout</button>
+                       
+                    </div>
+                </div>
+
+                <div class="col-12 mt-sm-2 mt-lg-0">
+                    <div class="store-location p-0 text-end">
+                      <div class="btn-group float-end">
+                        <a href="#" class="dropdown-toggle text-decoration-none text-light" data-bs-toggle="dropdown">
+                        <i class="bi bi-person-circle"></i>
+                        <span><button type="button" class="btn btn-outline-dark"><b>Account/Password</b></button></span>
+                       
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a href="#" class="dropdown-item"><i class="bi bi-lock-fill"></i> Change Password</a></li>
+                            <li><a href="#" class="dropdown-item"><i class="bi bi-gear-fill"></i> Admin Setion</a></li>
+                            <li><a href="#" class="dropdown-item"><i class="bi bi-gear-wide-connected"></i> IMAP Settings</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a href="#" class="dropdown-item"><i class="bi bi-box-arrow-right"></i> Sign out</a></li>
+                        </ul>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bootstrap JS -->
+    <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script>
     <nav>
         <div class="w3-bar w3-light-grey">
           <a href="#" class="w3-bar-item w3-button" style="margin-left: 10%; width: 8%;">Home</a>

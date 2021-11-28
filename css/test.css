@@ -5,21 +5,153 @@ body{
   background-color: rgba(192, 186, 186, 0.2);
 
 }
-header{
-  width: 100%;
-<<<<<<< HEAD
-  height: 70px;
-  background: rgb(37, 106, 211);
-  border: 1px solid black;
-=======
-  height: 70px;
-  background: rgb(37, 106, 211);
-}
+header {
+            background-color: #2196F3;
+            /* padding: 10px 15px; */
+            height: 120px;
+            background: rgb(150, 171, 169);
+        }
+        header nav .navbar-nav .nav-link {
+            color: #efefef !important;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 0px 18px !important;
+        }
+        header h1{
+          margin-left: 100px;
+          margin-top: 20px;
+        }
+        
+        .search-form{
+          margin-right: 50px;
+          margin-top: 40px;
+        }
+        .float-end{
+          margin-right: 30px;
+        }
+        /* .btn-group {
+          margin-bottom: 20px;
+        } */
+        .logo{
+          width:80px;
+          height: 80px;
+         
+        }
+        /* .store-location {
+          margin-bottom: 100px;
+        } */
+        header .navbar-brand {
+            max-width: 200px;
+        }
+
+
+        /* Header Search Bar */
+        .header-search input[type="text"] {
+            border: none;
+        }
+        .header-search .input-group-addon button {
+            color: #fff;
+            background: #ef2d2c;
+            padding: 10px 15px;
+            border: none;
+            font-size: 12px;
+        }
+        .select-style {
+            width: auto;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .select-style select {
+            width: 100%;
+            background: #efefef;
+            color: #000;
+            height: 38px;
+            padding: 0px 9px;
+            border: none;
+            outline: none;
+        }
+        .select-style select option.topshow {
+            padding: 10px 0;
+            position: relative;
+            top: 15px;
+        }
+        /* End Header Search Bar */
+
+
+        /* Header cart CSS */
+        header .cart a {
+            color: #fff;
+            text-decoration: none;
+        }
+        header .cart {
+            position: relative;
+            left: -15px;
+        }
+        header .cart a span.number {
+            position: relative;
+            left: 38px;
+            top: -4px;
+            color: #ef2d2c;
+        }
+        header .cart a span.number {
+            position: relative;
+            left: 38px;
+            top: -4px;
+            color: #ffffff;
+        }
+        header .cart a {
+            color: #fff;
+            text-decoration: none;
+        }
+        /* End Header cart CSS */
+
+
+        /* choose store checkbox CSS */
+        header [type="radio"]:checked + label,
+        header [type="radio"]:not(:checked) + label {
+            position: relative;
+            padding-left: 5px;
+            cursor: pointer;
+            line-height: 20px;
+            display: inline-block;
+            color: #fff;
+            font-family: "Conv_VisueltPro-Regular";
+            font-size: 14px;
+        }
+
+
+        /* Responsive CSS */
+        @media (max-width: 991px) {
+            header .cart a img {
+                width: 30px;
+                margin-left: 10px;
+            }
+            header .cart a span.number {
+                left: 40px;
+                top: -7px;
+                font-size: 14px;
+            }
+            header {
+                padding: 10px 0px;
+            }
+            .cart-login {
+                position: absolute;
+                right: 70px;
+            }
+            header .navbar-brand {
+                max-width: 150px;
+            }
+            .img-fluid{
+             width: 50px;
+             height: 50px;
+            }
+        }
 nav{
   width: 100%;
   height: 70px;
   background: rgb(253, 254, 255);
->>>>>>> 493c92663bd40bf79eb40bc56373b98149a46075
 }
 
 .img{
