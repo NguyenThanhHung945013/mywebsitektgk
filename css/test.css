@@ -150,7 +150,7 @@ header {
         }
 nav{
   width: 100%;
-  height: 70px;
+  height: 40px;
   background: rgb(253, 254, 255);
 }
 
@@ -256,12 +256,7 @@ nav{
 
 
 
-section{
-  height: 225px;
-  width: 80%;
-  margin-left: 10%;
-  border: 1px solid black;
-}
+
 
   
 
@@ -277,9 +272,10 @@ section{
 
 
 section{
-  height: 225px;
-  width: 80%;
-  margin-left: 10%;
+  height: 225px;  
+  width: 83%;
+  margin-left: 8.5%;
+  border: 1px solid black;
 }
 
 .main{
@@ -288,7 +284,7 @@ section{
   
 }
 aside{
-  margin-left:11.25%;
+  /* margin-left:11.25%; */
   margin-left:10%;
   width:55%;
   height: 500px;
@@ -355,10 +351,8 @@ aside{
     color: royalblue;
   }
   .left {
-     width:55%;
-    margin-left:11.23%;
-     width:700px;
-
+     width:60%;
+      margin-left:8.5%;
      height: 1000px;
      float:left;
    }
@@ -368,8 +362,11 @@ aside{
    
    .menu_left {
      float: left;
-     width: 25%;
-     padding: 3px;
+     width: 20%;
+     height: 250px;
+     padding: 0px 5px 0px 5px;
+     
+     /* padding: 3px; */
    }
    .menu_left a {
      font-size: 16px;
@@ -384,8 +381,9 @@ aside{
      border-radius: 10%;
    }
    #right{
-    margin-right: 10%;
-    width:300px;
+    /* margin-right: 5%; */
+    /* width:300px; */
+    width: 23%;
     height:600px;
     background-color: rgb(12, 179, 59);
     float:left;
