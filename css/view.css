@@ -1,0 +1,20 @@
+header{
+
+}
+nav{
+    
+}
+aside{
+    height: 500px;
+}
+article{
+    width:25%;
+    height:500px;
+    float:left;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+}
+footer{
+
+}
