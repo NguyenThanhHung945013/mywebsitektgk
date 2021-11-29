@@ -1,3 +1,11 @@
+.menu_left{
+  
+ 
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  
+}
 body{
   padding:0;
   margin: 0 auto;
@@ -76,7 +84,7 @@ header {
             position: relative;
             top: 15px;
         }
-nav{
+/* nav{
   width: 100%;
   height: 40px;
   background: rgb(253, 254, 255);
@@ -141,7 +149,10 @@ nav{
   padding: 16px;
   color: white;
 }
-
+h2 {
+  text-align:center;
+ 
+}
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
@@ -180,7 +191,7 @@ nav{
   display: table;
   clear: both;
 }
-
+ */
 
 
 
@@ -223,7 +234,7 @@ aside{
 #right{
   /* margin-right: 10%; */
   width:25%;
-  height:1550px;
+  height:1600px;
   background-color: rgb(12, 179, 59);
   float:left;
   overflow: hidden;
@@ -300,6 +311,8 @@ aside{
    }
    .menu_left a {
      font-size: 16px;
+     text-decoration: none;
+     
    }
    
    .left::after {
