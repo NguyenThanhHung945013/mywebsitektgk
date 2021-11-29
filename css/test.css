@@ -13,95 +13,274 @@ body{
   background-color: rgba(192, 186, 186, 0.2);
 
 }
-header {
-            background-color: #2196F3;
-            /* padding: 10px 15px; */
-            height: 120px;
-            background: rgb(150, 171, 169);
-        }
-      
-        header h1{
-          margin-left: 100px;
-          margin-top: 20px;
-        }
-        
-         .search-form{
-          margin-right: 50px;
-          margin-top: 40px;
-        }
-        .float-end{
-          margin-right: 30px;
-          float: left;
-          padding-bottom: 10px;
-        }
-        
-        .logo{
-          width:80px;
-          height: 60px;
-          float: left;
-         
-        } 
-        #hhh{
-          padding-bottom: 20px;
-        }
-        .store-location {
-          margin-bottom: 140px;
-        } 
-         header .navbar-brand {
-            max-width: 200px;
-        } 
-
-
-        /* Header Search Bar */
-        .header-search input[type="text"] {
-            border: none;
-        }
-        .header-search .input-group-addon button {
-            color: #fff;
-            background: #ef2d2c;
-            padding: 10px 15px;
-            border: none;
-            font-size: 12px;
-        }
-        .select-style {
-            width: auto;
-            padding: 0;
-            margin: 0;
-            display: inline-block;
-            vertical-align: middle;
-        }
-        .select-style select {
-            width: 100%;
-            background: #efefef;
-            color: #000;
-            height: 38px;
-            padding: 0px 9px;
-            border: none;
-            outline: none;
-        }
-        .select-style select option.topshow {
-            padding: 10px 0;
-            position: relative;
-            top: 15px;
-        }
- /* nav{
-  width: 100%;
-  height: 40px;
-  background: rgb(253, 254, 255);
-  margin-bottom: 5px;
-} */
-/*
-.img{
+.logo{
   float: left;
-  padding: 0px 10px 0px 10px;
+  width: 30%;
 }
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
+.login input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
-/* Links inside the navbar */
+/* Set a style for all buttons */
+.login button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+/* .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+} */
+
+/* Center the image and position the close button */
+.login .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.login img.avatar {
+  width: 50%;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.login .container {
+  padding: 16px;
+}
+
+.login span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/*  The Modal (background) */
+.login .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.login .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.login .close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.login .close:hover,
+.login .close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.login .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+   span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.search-container {
+  float: left;
+  /* border: 1px solid black; */
+  margin-right: 15%;
+  width: 40%;
+}
+.login{
+  float: left;
+ 
+} 
+.sign_up{
+  float: left;
+  
+}
+.sign_up input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+.sign_up input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+.sign_up button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.sign_up button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+/* .sign_up .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+} */
+
+/* Float cancel and signup buttons and add an equal width */
+.sign_up .cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+ .sign_up.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.sign_up .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.sign_up .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+.sign_up hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.sign_up .close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.sign_up.close:hover,
+.sign_up .close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.sign_up .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .sign_up .cancelbtn, .sign_up.signupbtn {
+     width: 100%;
+  }
+}
+
+input[type=text] {
+  padding: 6px ;
+  width: 88%;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.search-container button {
+  float: right;
+  padding: 6px 15px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+
+ header{
+   width: 100%;
+   height: 100px;
+   background-color: #ccc;
+ }
 .navbar a {
   float: left;
   font-size: 16px;
