@@ -127,9 +127,9 @@
     <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
     <nav style="height: 40px;">
         <div class="w3-bar w3-light-grey">
-          <a href="#" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 9%;">Home</a>
-          <a href="#" class="w3-bar-item w3-button" style="width: 9%;">Hot</a>
-          <a href="#" class="w3-bar-item w3-button" style="width: 9%;">Lịch sử</a> 
+          <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 9%;">Home</a>
+          <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 9%;">Hot</a>
+          <a href="index.php?page=lichsu" class="w3-bar-item w3-button" style="width: 9%;">Lịch sử</a> 
           
 
                 <div class="w3-dropdown-hover">
@@ -171,13 +171,14 @@
             </div>
           </div>
           <a href="#" class="w3-bar-item w3-button" style="width: 9%;">Tìm truyện</a> 
-          <a href="#" class="w3-bar-item w3-button" style="width: 9%;">Con gái</a> 
-          <a href="#" class="w3-bar-item w3-button" style="width: 9%;">Con trai</a> 
+          <a href="index.php?page=girl" class="w3-bar-item w3-button" style="width: 9%;">Con gái</a> 
+          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 9%;">Con trai</a> 
           <a href="#" class="w3-bar-item w3-button" style="width: 9%;">Grop</a> 
 
         </div>
       </div>
       </div>
+      
     </nav>
     <section class="section">
       <div class="w3-content w3-display-container">
@@ -226,161 +227,75 @@
         </script>
     </section>
     <div class="main">
-      <aside class="left">
-        <h1>Truyện Mới Cập Nhập</h2>
-        <!-- <div class="left"> -->
-          <div class="menu_left">
-            <img src="images/onepiece.png" alt=" "style="width:150px ;height:200px">
-            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">One piece</a></h2>
-          </div>
-          <div class="menu_left">
-            <img src="images/naruto.png" alt="" style="width:150px ;height:200px">
-            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Naruto</a></h2>
-          </div>
-          <div class="menu_left">
-            <img src="images/onepusman.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'" >One Punch Man</a></h2>
-          </div>
-          <div class="menu_left">
-            <img src="images/daragon.jpg" alt="" style="width:150px ;height:200px">
-            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">DragonBallZ</a></h2>
-          </div>
-          <div class="menu_left">
-            <img src="images/joker-trong-tre.jpg" alt="" style="width:150px ;height:200px">
-            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Joker</a></h2>
-          </div>
-          <div class="menu_left">
-            <img src="images/doraemon.png" alt="" style="width:150px ;height:200px">
-            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Doraemon</a></h2>
-          </div>
-          <div class="menu_left">
-            <img src="images/titan.png" alt="" style="width:150px ;height:200px">
-            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">titan</a></h2>
-          </div>
-          <div class="menu_left">
-            <img src="images/pokemon.png" alt="" style="width:150px ;height:200px">
-            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Pokemon</a></h2>
-          </div>
-          <div class="menu_left">
-            <img src="images/conan.png" alt="" style="width:150px ;height:200px">
-            <dic><h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'"> Thám Tử lừng danh Conan</a></h2>
-          </div>
-          <div class="menu_left">
-            <img src="images/KImetsu no YaiBa.png" alt="" style="width:150px ;height:200px">
-            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">KImetsu no YaiBa</a></h2>
-          </div>
-          <div class="menu_left">
-            <img src="images/Yugio.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Yugio</a></h2>
-          </div>
-          <div class="menu_left">
-            <img src="images/boruto.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Boruto</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/Aracane.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">lol Aracane</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/Torico.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Toriko</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/Shin.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Shin cậu bé bút Chì</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/minion.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">minion</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/1.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">fairy tail</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/ogy.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">oggy</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/xichum.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Xi Chum</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/dauladailuc.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="#" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Đấu la Đại Lục</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/Superden.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Naruto Superden</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/bleach.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Bleach</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/thanh-guom-diet-quy.jpg" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Thanh Gươm Duyệt Quỷ</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/Larva.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Larva</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/kaitokid.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Kaitokid</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/spider-man.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Spider Man</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/1.png" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Phá Bỏ Giới Hạn</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/ke-san-anh-hung.jpg" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Kẻ săn anh Hùng</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/pha-bo-gioi-han.jpg" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Phá Bỏ Giới Hạn</a></h2>
-          </div> 
-          <div class="menu_left">
-            <img src="images/nguyen-long.jpg" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">NGuyên Long</a></h2>
-          </div>  
-        <!-- </div> --> 
-      </aside>
+      
+      
+      <?php
+          if(isset($_GET['page'])){
+            // $currentPage = $_GET['page'];
+            // echo "<h1>{$currentPage}<h1>";
+            $pagePath = "./section/{$_GET['page']}.php";
+            // echo $pagePath;
+            include_once($pagePath);
+          }
+          else
+           include_once './section/home.php' ;
+        ?>
     
      
       <article id="right">
         <div class="menu_right">
-          <h3><i>Bảng Xếp Hạng All</i></h3>
-         <ul>
-           
-          <img src="images/vo-luyen-dinh-phong.jpg" alt="" style="width:60px ;height:55px">
-          <div><a href="">Võ Luyện Đỉnh Phong <br> <b> 789/???? Tập</b></a>
+        <h3><i>Bảng Xếp Hạng All</i></h3>
+           <ul>
+            <div class="r_c_wrap">
+              <span class="r_c"style="background-color: #d31a1a ">01</span>
+            </div>
+            <img src="images/pieceone.png" alt="" style="width:60px ;height:55px">
+            <div><a href=""> <b> One Piece<br> </b>Chapter 1033/???
+              <span>Lượt xem:2,7934</span></a>
+            </div>
+            <div class="r_c_wrap">
+              <span class="r_c"style="background-color: #37c21b ">02</span>
+            </div>
+            <img src="images/nguyen-long.jpg" alt=""  style="width:60px ;height:55px">
+            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
+            <div class="r_c_wrap">
+              <span class="r_c"style="background-color: #390f82 ">03</span>
+            </div>
+            <img src="images/pha-bo-gioi-han.jpg" alt=""  style="width:60px ;height:55px">
+            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
+            <div class="r_c_wrap">
+              <span class="r_c">04</span>
+            </div>
+            <img src="images/ta-la-chien-than-vo-song.jpg" alt=""  style="width:60px ;height:55px">
+            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
+            <div class="r_c_wrap">
+              <span class="r_c">05</span>
+            </div>
+            <img src="images/hoc-nhom.jpg" alt=""  style="width:60px ;height:55px">
+            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
             
+              <div class="r_c_wrap" >
+              <span class="r_c">06</span>
+            </div>
+            <img src="images/ke-san-anh-hung.jpg" alt=""  style="width:60px ;height:55px">
+            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
+            <div class="r_c_wrap">
+              <span class="r_c">07</span>
+            </div>
+            <img src="images/thanh-guom-diet-quy.jpg" alt="" style="width:60px ;height:55px">
+            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
+            <div class="r_c_wrap">
+              <span class="r_c">08</span>
+            </div>
+            <img src="images/lang-thien-than-de.jpg" alt=""  style="width:60px ;height:55px">
+            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
+            <div class="r_c_wrap">
+              <span class="r_c">09</span>
+            </div>
+            <img src="images/chien-hon-tuyet-the.jpg" alt=""  style="width:60px ;height:55px">
+            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
+            </ul>
           </div>
-
-          <img src="images/nguyen-long.jpg" alt=""  style="width:60px ;height:55px">
-          <div><a href="">Nguyên Long</a></div>
-          <img src="images/pha-bo-gioi-han.jpg" alt=""  style="width:60px ;height:55px">
-          <div><a href="">Phá Bỏ Giới Hạn</a></div>
-          <img src="images/ta-la-chien-than-vo-song.jpg" alt=""  style="width:60px ;height:55px">
-          <div><a href="">Ta Là Chiến Thần Vô Song</a></div>
-          <img src="images/hoc-nhom.jpg" alt=""  style="width:60px ;height:55px">
-          <div><a href="">Học Nhóm</a></div>
-          <img src="images/ke-san-anh-hung.jpg" alt=""  style="width:60px ;height:55px">
-          <div><a href="">Kẻ Săn Anh Hùng</a></div>
-          <img src="images/thanh-guom-diet-quy.jpg" alt="" style="width:60px ;height:55px">
-          <div><a href="">Lưỡi Gươm Diệt Qủy</a></div>
-          <img src="images/lang-thien-than-de.jpg" alt=""  style="width:60px ;height:55px">
-          <div><a href="">Lăng Thiên thần Đế</a></div>
-          <img src="images/chien-hon-tuyet-the.jpg" alt=""  style="width:60px ;height:55px">
-          <div><a href="">Chiến Hồn Tuyệt Thế </a></div>
-          </ul>
-        </div>
        
           <h2 >Bình Luận Mới</h2><hr>
         
