@@ -10,7 +10,7 @@
     <title>Anime</title>
     <link rel="stylesheet" type="text/css" href="./css/test.css">
     <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css" />
-    <link rel="icon" type="image/x-icon" href="./images/tym.jpg">
+    <link rel="icon" type="image/x-icon" href="./images/logoo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -22,9 +22,10 @@
     <body>
       <header>
         <div class="logo">
-          <h1>
-            <img  src="./images/" alt="">
-           WIBU.anime
+        <img  src="./images/icon123.png" alt="">
+        <h1>
+           
+            WIBU.anime 
          </h1>
         </div>
         <div class="search-container">
@@ -127,9 +128,9 @@
     <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
     <nav style="height: 40px;">
         <div class="w3-bar w3-light-grey">
-          <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 9%;">Home</a>
-          <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 9%;">Hot</a>
-          <a href="index.php?page=lichsu" class="w3-bar-item w3-button" style="width: 9%;">Lịch sử</a> 
+          <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%  background:blue;">HOME</a>
+          <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 9%;">ANIME HOT</a>
+          <a href="index.php?page=lichsu" class="w3-bar-item w3-button" style="width: 9%;">ANIME HAY</a> 
           
 
                 <div class="w3-dropdown-hover">
@@ -138,42 +139,43 @@
                  
                         <div class="dropdown-content">
                                   <div class="column">
-                                    <a href="#">Link 1</a>
-                                    <a href="#">Link 2</a>
-                                    <a href="#">Link 3</a>
-                                    <a href="#">Link 4</a>
+                                    <a href="#">MANGA</a>
+                                    <a href="#">PHIÊU LƯA</a>
+                                    <a href="#">HÀNH ĐỘNG</a>
+                                    <a href="#">GAME</a>
 
                                   </div>
                                   <div class="column">
-                                    <a href="#">Link 1</a>
-                                    <a href="#">Link 2</a>
-                                    <a href="#">Link 3</a>
-                                    <a href="#">Link 4</a>
+                                    <a href="#">TÌNH CẢM</a>
+                                    <a href="#">HAREM</a>
+                                    <a href="#">TUỔI 18</a>
+                                    <a href="#">CÔNG CHÚA</a>
 
                                   </div>
                                   <div class="column">
-                                    <a href="#">Link 1</a>
-                                    <a href="#">Link 2</a>
-                                    <a href="#">Link 3</a>
-                                    <a href="#">Link 4</a>
+                                    <a href="#">KINH DỊ</a>
+                                    <a href="#">VÕ THUẬT</a>
+                                    <a href="#">ANIME</a>
+                                    <a href="#">SHOUNEN</a>
 
                                   </div>
                           </div>
                   </div>
           
           <div class="w3-dropdown-hover">
-            <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">Xếp hạng</button>
+            <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">QUỐC GIA</button>
 
             <div class="w3-dropdown-content w3-card-4">
-                <a href="#" class="w3-bar-item w3-button">Link 4</a>
-                <a href="#" class="w3-bar-item w3-button">Link 5</a>
-                <a href="#" class="w3-bar-item w3-button">Link 6</a>
+                <a href="#" class="w3-bar-item w3-button">JAPAN</a>
+                <a href="#" class="w3-bar-item w3-button">CHINA</a>
+                <a href="#" class="w3-bar-item w3-button">KOREA</a>
             </div>
           </div>
-          <a href="#" class="w3-bar-item w3-button" style="width: 9%;">Tìm truyện</a> 
-          <a href="index.php?page=girl" class="w3-bar-item w3-button" style="width: 9%;">Con gái</a> 
-          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 9%;">Con trai</a> 
-          <a href="#" class="w3-bar-item w3-button" style="width: 9%;">Grop</a> 
+          <a href="#" class="w3-bar-item w3-button" style="width: %;">XẾP HẠNG</a> 
+          <a href="index.php?page=girl" class="w3-bar-item w3-button" style="width: 9%;">CON TRAI</a> 
+          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 9%">CON GÁI</a> 
+          <a href="#" class="w3-bar-item w3-button" style="width: 7%;">VIDEO</a> 
+          <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 7%;">GROUP</a> 
 
         </div>
       </div>
@@ -183,11 +185,13 @@
     <section class="section">
       <div class="w3-content w3-display-container">
         <img class="mySlides" src="./images/anime.jpg" style="width:100% ;height: 400px;">
-        <img class="mySlides" src="./images/tokyo2.jpg" style="width:100% ;height: 400px; ">
+        <img class="mySlides" src="./images/slide1.png" style="width:100% ;height: 400px; ">
         <img class="mySlides" src="./images/dragon-ball-super-21448-715x402.jpg" style="width:100% ;height: 400px;">
         <img class="mySlides" src="./images/slide.jpg" style="width:100% ;height: 400px; ">
         <img class="mySlides" src="./images/slideonepiece.jpg" style="width:100% ;height: 400px; ">
         <img class="mySlides" src="./images/borutoo.png" style="width:100% ;height: 400px; ">
+        <img class="mySlides" src="./images/10.png" style="width:100% ;height: 400px; ">
+        <img class="mySlides" src="./images/yaiba.png" style="width:100% ;height: 400px; ">
         
         
         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
