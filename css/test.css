@@ -441,7 +441,28 @@ aside{
   background-color: #f1f1f1;
   border: 1px solid black;
 }
-
+.r_c{
+  float:left;
+  margin-top:10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font: 14px/1.5 tahoma,arial,sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  height: 32px;
+  line-height: 32px;
+  
+  text-align: center;
+  width: 32px;
+  color: #fff;
+  -webkit-border-radius: 16px;
+  background-color: #f10b0b;
+}
 #right button {
   background-color: inherit;
   float: left;
