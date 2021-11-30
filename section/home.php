@@ -4,7 +4,7 @@
           <div class="menu_left">
             
             <img src="images/onepiece.png" alt=" "style="width:150px ;height:200px">
-            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">One piece</a></h2>
+            <h2><a href="./view/homeview.php"  onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">One piece</a></h2>
           </div>
           <div class="menu_left">
             <img src="images/naruto.png" alt="" style="width:150px ;height:200px">
