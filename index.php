@@ -130,7 +130,7 @@
         <div class="w3-bar w3-light-grey">
           <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%  background:blue;">HOME</a>
           <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 9%;">ANIME HOT</a>
-          <a href="index.php?page=lichsu" class="w3-bar-item w3-button" style="width: 9%;">ANIME HAY</a> 
+          <a href="index.php?page=hay" class="w3-bar-item w3-button" style="width: 9%;">ANIME HAY</a> 
           
 
                 <div class="w3-dropdown-hover">
@@ -172,8 +172,8 @@
             </div>
           </div>
           <a href="#" class="w3-bar-item w3-button" style="width: %;">XẾP HẠNG</a> 
-          <a href="index.php?page=girl" class="w3-bar-item w3-button" style="width: 9%;">CON TRAI</a> 
-          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 9%">CON GÁI</a> 
+          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 9%;">CON TRAI</a> 
+          <a href="index.php?page=girl" class="w3-bar-item w3-button" style="width: 9%">CON GÁI</a> 
           <a href="#" class="w3-bar-item w3-button" style="width: 7%;">VIDEO</a> 
           <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 7%;">GROUP</a> 
 

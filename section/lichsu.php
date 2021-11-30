@@ -1,3 +1,0 @@
-<aside>
-    <?="Lịch sử"?>
-</aside>
