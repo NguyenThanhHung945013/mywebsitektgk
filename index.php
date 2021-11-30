@@ -393,6 +393,11 @@
       </ul>
     </div> 
     <footer class="py-5">
+    <div>
+            <img src="./images/footer.png" alt="Avatar"  style="width:300px ;height:70px;float:right">
+
+
+            </div>
       <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
           <symbol id="bootstrap" viewBox="0 0 118 94">
             <title>Bootstrap</title>
@@ -411,39 +416,40 @@
       <div class="container">
           <div class="row">
             <div class="col-2">
-              <h5>Section</h5>
+              <h5>Wibu Anime</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">anime vietsub</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">anime new</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">anime hot</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">anime thịnh hành</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">anime ngôn tình</a></li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <h5>Bộ Truyện</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"> Truyện Hàn Quốc</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Truyện Nhật Bản</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Truyện Trung Quốc</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Phim Mỹ</a></li>
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
               </ul>
             </div>
             <div class="col-2">
-              <h5>Section</h5>
+              <h5>Thể loại hay</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hài hước</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kinh dị</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hoạt hình</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Video Anime</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ngôn Tình</a></li>
               </ul>
             </div>
-            <div class="col-2">
-              <h5>Section</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-              </ul>
-            </div>
+            
             <div class="col-4 offset-1">
               <form>
-                <h5>Subscribe to our newsletter</h5>
-                <p>Monthly digest of whats new and exciting from us.</p>
+                <h5>Đăng Ký</h5>
+                <p>Hãy để lại gmail của bạn để nhận phim mới nhất trong năm nay nhé</p>
                 <div class="d-flex w-100 gap-2">
                   <label for="newsletter1" class="visually-hidden">Email address</label>
                   <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
@@ -453,15 +459,15 @@
             </div>
           </div>
           <div class="d-flex justify-content-between py-4 my-4 border-top">
-            <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+            <p>&copy; Copyright © ANME.wibu.net</p>
             <ul class="list-unstyled d-flex">
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              <li class="ms-3"><a class="link-blue" href="#"><svg class="bi" width="24" height="26"><use xlink:href="#twitter"/></svg></a></li>
               <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
               <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
             </ul>
           </div>
       </div>
-
+      
 
    </footer>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
