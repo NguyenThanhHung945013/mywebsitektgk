@@ -624,10 +624,14 @@ aside{
 footer{
   position: relative;
   padding: 50px 100px;
-  background: rgb(240, 239, 239);
+  background: rgb(233, 228, 234);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   clear:both;
   border: 1px solid black;
+  color: #140acfe6;
+}
+.form {
+  float:left;
 }
