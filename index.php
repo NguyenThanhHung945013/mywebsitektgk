@@ -95,6 +95,7 @@
                 </div>
               </div>
             </form>
+            
           </div>
           
           
@@ -122,6 +123,24 @@
             }
         </script>
         </div>
+        <!-- Right Side -->
+        <div class="btn-group float-end">
+               
+                <i class="bi bi-person-circle"></i>
+                <span><button type="button" class="btn btn-outline-warning">Acount/PassWord</button></span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a href="#" class="dropdown-item"><i class="bi bi-lock-fill"></i> Change Password</a></li>
+                    <li><a href="#" class="dropdown-item"><i class="bi bi-gear-fill"></i> Admin Setion</a></li>
+                    <li><a href="#" class="dropdown-item"><i class="bi bi-gear-wide-connected"></i> IMAP Settings</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a href="#" class="dropdown-item"><i class="bi bi-box-arrow-right"></i> Sign out</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
       </header>
 
     
