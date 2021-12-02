@@ -115,8 +115,8 @@
            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Kẻ săn anh Hùng</a></h2>
           </div> 
           <div class="menu_left">
-            <img src="images/pha-bo-gioi-han.jpg" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Phá Bỏ Giới Hạn</a></h2>
+            <img src="images/Dororo.png" alt="" style="width:150px ;height:200px">
+           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Dororo</a></h2>
           </div> 
           <div class="menu_left">
             <img src="images/nguyen-long.jpg" alt="" style="width:150px ;height:200px">

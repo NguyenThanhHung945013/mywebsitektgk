@@ -42,7 +42,7 @@
             <form class="modal-content animate" action="/action_page.php" method="post">
               <div class="imgcontainer">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src="./images/tokyo.jpg" alt="Avatar" class="avatar">
+                <img src="./images/fb5.png" alt="Avatar" class="avatar">
               </div>
 
               <div class="container">
@@ -147,13 +147,13 @@
     <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
     <nav style="height: 40px;">
         <div class="w3-bar w3-light-grey">
-          <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%  background:blue;">HOME</a>
-          <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 9%;">ANIME HOT</a>
-          <a href="index.php?page=hay" class="w3-bar-item w3-button" style="width: 9%;">ANIME HAY</a> 
+          <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"><strong>HOME</a>
+          <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 8%;">ANIME HOT</a>
+          <a href="index.php?page=hay" class="w3-bar-item w3-button" style="width: 8%;">ANIME HAY</a> 
           
 
                 <div class="w3-dropdown-hover">
-                  <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">Thể loại</button>
+                  <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">THỂ LOẠI</button>
                   
                  
                         <div class="dropdown-content">
@@ -176,7 +176,7 @@
                                     <a href="#">VÕ THUẬT</a>
                                     <a href="#">ANIME</a>
                                     <a href="#">SHOUNEN</a>
-
+          
                                   </div>
                           </div>
                   </div>
@@ -190,12 +190,12 @@
                 <a href="#" class="w3-bar-item w3-button">KOREA</a>
             </div>
           </div>
-          <a href="#" class="w3-bar-item w3-button" style="width: %;">XẾP HẠNG</a> 
-          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 9%;">CON TRAI</a> 
-          <a href="index.php?page=girl" class="w3-bar-item w3-button" style="width: 9%">CON GÁI</a> 
+          <a href="#" class="w3-bar-item w3-button" style="width: 8%;">XẾP HẠNG</a> 
+          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 8%;">CON TRAI</a> 
+          <a href="index.php?page=girl" class="w3-bar-item w3-button" style="width: 8%">CON GÁI</a> 
           <a href="#" class="w3-bar-item w3-button" style="width: 7%;">VIDEO</a> 
-          <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 7%;">GROUP</a> 
-
+          <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 8%;">GROUP</a> 
+          </strong>
         </div>
       </div>
       </div>
@@ -267,56 +267,43 @@
      
       <article id="right">
         <div class="menu_right">
-        <h3><i>Bảng Xếp Hạng All</i></h3>
+        <h3><i><strong>Bảng Xếp Hạng All</strong></i></h3>
            <ul>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #d31a1a ">01</span>
             </div>
-            <img src="images/pieceone.png" alt="" style="width:60px ;height:55px">
+            <img src="images/onepiece.png" alt="" style="width:60px ;">
             <div><a href=""> <b> One Piece<br> </b>Chapter 1033/???
-              <span>Lượt xem:2,7934</span></a>
+              <span><br>Lượt xem:2,7934</span></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #37c21b ">02</span>
             </div>
-            <img src="images/nguyen-long.jpg" alt=""  style="width:60px ;height:55px">
-            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
+            <img src="images/daragon.jpg" alt=""  style="width:60px ;">
+            <div><a href=""><b> Boruto</b><br>Chapter 1033</a></div>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #390f82 ">03</span>
             </div>
-            <img src="images/pha-bo-gioi-han.jpg" alt=""  style="width:60px ;height:55px">
-            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
-            <div class="r_c_wrap">
-              <span class="r_c">04</span>
-            </div>
-            <img src="images/ta-la-chien-than-vo-song.jpg" alt=""  style="width:60px ;height:55px">
-            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
-            <div class="r_c_wrap">
-              <span class="r_c">05</span>
-            </div>
-            <img src="images/hoc-nhom.jpg" alt=""  style="width:60px ;height:55px">
-            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
+            <img src="images/onepusman.png" alt=""  style="width:60px ;">
+            <div><a href=""><b> One Piece</b> <br>Chapter 1033</a></div>
             
               <div class="r_c_wrap" >
               <span class="r_c">06</span>
             </div>
-            <img src="images/ke-san-anh-hung.jpg" alt=""  style="width:60px ;height:55px">
-            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
-            <div class="r_c_wrap">
-              <span class="r_c">07</span>
-            </div>
-            <img src="images/thanh-guom-diet-quy.jpg" alt="" style="width:60px ;height:55px">
-            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
+            <img src="images/naruto.png" alt=""  style="width:60px ;">
+            <div><a href=""><b> One Piece </b><br>Chapter 1033</a></div>
+           
             <div class="r_c_wrap">
               <span class="r_c">08</span>
             </div>
-            <img src="images/lang-thien-than-de.jpg" alt=""  style="width:60px ;height:55px">
-            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
+            <img src="images/pokemon.png" alt=""  style="width:60px ;">
+            <div><a href=""><b> One Piece</b> <br>Chapter 1033</a></div>
             <div class="r_c_wrap">
-              <span class="r_c">09</span>
+              <span class="r_c">07</span>
             </div>
-            <img src="images/chien-hon-tuyet-the.jpg" alt=""  style="width:60px ;height:55px">
-            <div><a href=""><b> One Piece <br>Chapter 1033</b></a></div>
+            <img src="images/doraemon.png" alt="" style="width:60px ;">
+            <div><a href=""><b> Doramon</b> <br>Chapter 1033</a></div>
+          
             </ul>
           </div>
        
@@ -379,8 +366,10 @@
       </article>
      
     </div>
+    <strong>
     <div aria-label="Page navigation example" style="margin-left: 35%;  margin-top:15px;">
       <ul class="pagination">
+        
         <li class="page-item"><a class="page-link" href="#">Previous</a></li>
         <li class="page-item"><a class="page-link" href="#">1</a></li>
         <li class="page-item"><a class="page-link" href="#">2</a></li>
@@ -393,11 +382,11 @@
       </ul>
     </div> 
     <footer class="py-5">
-    <div>
-            <img src="./images/footer.png" alt="Avatar"  style="width:300px ;height:70px;float:right">
+    <img src="./images/footer.png" alt="Avatar"  style="width:200px ;height:70px;float:right">
 
 
-            </div>
+</div>
+    
       <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
           <symbol id="bootstrap" viewBox="0 0 118 94">
             <title>Bootstrap</title>
@@ -447,6 +436,8 @@
             </div>
             
             <div class="col-4 offset-1">
+            <div>
+            
               <form>
                 <h5>Đăng Ký</h5>
                 <p>Hãy để lại gmail của bạn để nhận phim mới nhất trong năm nay nhé</p>
