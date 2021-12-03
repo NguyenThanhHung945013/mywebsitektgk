@@ -124,7 +124,7 @@
         </script>
         </div>
         <!-- Right Side -->
-        <div class="btn-group float-end">
+        <!-- <div class="btn-group float-end">
                
                 <i class="bi bi-person-circle"></i>
                 <span><button type="button" class="btn btn-outline-warning">Acount/PassWord</button></span>
@@ -140,7 +140,30 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
+    <div class="w3-dropdown-hover">
+           <strong>
+            <button type="button" class="btn btn-outline-danger">Setting</button>
+
+            <div class="w3-dropdown-content w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Acount</a>
+                <a href="#" class="w3-bar-item w3-button">Change Password</a>
+                <a href="#" class="w3-bar-item w3-button">Tải xuống</a>
+                <a href="#" class="w3-bar-item w3-button">Lịch sử</a>
+                <a href="#" class="w3-bar-item w3-button">log out</a>
+            </div>
+          </strong>
+            <!-- <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div> -->
+</div>
+  
       </header>
 
     
@@ -263,7 +286,7 @@
           else
            include_once './section/home.php' ;
         ?>
-    
+   
      
       <article id="right">
         <div class="menu_right">
@@ -273,7 +296,7 @@
               <span class="r_c"style="background-color: #d31a1a ">01</span>
             </div>
             <img src="images/onepiece.png" alt="" style="width:60px ;">
-            <div><a href=""> <b> One Piece<br> </b>Chapter 1033/???
+            <div ><a href=""> <b> One Piece<br> </b>Chapter 1033/???
               <span><br>Lượt xem:2,7934</span></a>
             </div>
             <div class="r_c_wrap">
@@ -310,8 +333,8 @@
           <h2 >Bình Luận Mới</h2><hr>
         
         <div class="container" >
-          <img src="./images/ricardo.png" alt="Avatar" class="right" style="width:40px ;height:40px" > <span class="time-right">11:00</span>>
-          Ricardo Milos
+          <img src="./images/ricardo.png" alt="Avatar" class="right" style="width:40px ;height:40px" >>
+          Ricardo Milos 09:15
           <p>Nhanh Ra tập mới chờ lâu quá ??????<br>
           Cảm ơn Admin</p>
         
@@ -326,38 +349,38 @@
         <hr>
         <div class="container">
           <img src="images/fb1.png" alt="Avatar"  class="right" style="width:40px ;height:40px">
-          Vũ Văn Duy
-          <p>Hay quá đê, một lúc nào đó đi okinawa mới được :)) gặp lại mấy mén này ở phần 3 thôi<span class="time-right">11:02</span> </p>
+          Vũ Văn Duy 23:12
+          <p>Hay quá đê, một lúc nào đó đi okinawa mới được :)) gặp lại mấy mén này ở phần 3 thôi</p>
           
         </div>
         <hr>
         <div class="container darker">
           <img src="./images/fb4.png" alt="Avatar" class="right" style="width:40px ;height:40px">
-          Thành Hưng
-          <p>nghe đâu tháng 12 chuẩn bị delay thêm 1 tập nữa     <span class="time-left">11:05</span> </p>
+          Thành Hưng 03:26
+          <p>nghe đâu tháng 12 chuẩn bị delay thêm 1 tập nữa     </p>
           
         </div><hr>
         <div class="container">
-          <img src="./images/fb2.png" alt="Avatar"  class="right" style="width:40px ;height:40px"> Thành Hưng Nguyễn<br>
+          <img src="./images/fb2.png" alt="Avatar"  class="right" style="width:40px ;height:40px"> Thành Hưng Nguyễn  13:24<br>
           
           <p>bao tuần rồi mà chưa có tập mới<img src="./images/111.png" alt="Avatar"  class="right" style="width:40px ;height:40px">  </p>
          
         </div><hr>
         <div class="container">
           <img src="./images/tym.jpg" alt="Avatar"  class="right" style="width:40px ;height:40px">
-           Người Dùng FaceBook
-          <p>Trầm cảm main bá quá buff  như hack<span class="time-right">11:02</span> </p>
+           Người Dùng FaceBook 23:59
+          <p>Trầm cảm main bá quá buff  như hack </p>
           
         </div><hr>
         <div class="container">
           <img src="./images/fb5.png" alt="Avatar"  class="right" style="width:40px ;height:40px">
-           Người Dùng FaceBook
+           Người Dùng FaceBook 00:15
           <p>như hạch đợi 1 tuần lễ coi recap má <img src="./images/000.png" alt="Avatar"  class="right" style="width:40px ;height:40px"></p>
           
         </div><hr>
         <div class="container">
           <img src="./images/itachi.png" alt="Avatar"  class="right" style="width:40px ;height:40px">
-            Uchiha Itachi 
+            Uchiha Itachi 00:01
           <p>đợi cả tuần để xem 86 với phim này rồi nhận được là 2 tập 7,5  <img src="./images/mophat.png" alt="Avatar"  class="right" style="width:40px ;height:40px"> </p>
           
          

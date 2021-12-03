@@ -51,7 +51,7 @@
            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Boruto</a></h2>
           </div> 
           <div class="menu_left">
-            <img src="images/Aracane.png" alt="" style="width:150px ;height:200px">
+            <img src="images/arcane.png" alt="" style="width:150px ;height:200px">
            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">lol Aracane</a></h2>
           </div> 
           <div class="menu_left">
@@ -111,16 +111,16 @@
            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Phá Bỏ Giới Hạn</a></h2>
           </div> 
           <div class="menu_left">
-            <img src="images/ke-san-anh-hung.jpg" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Kẻ săn anh Hùng</a></h2>
+            <img src="images/JoJo no Kimyou na Bouken ss6.png" alt="" style="width:150px ;height:200px">
+           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">JoJo no Kimyou </a></h2>
           </div> 
           <div class="menu_left">
             <img src="images/Dororo.png" alt="" style="width:150px ;height:200px">
            <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Dororo</a></h2>
           </div> 
           <div class="menu_left">
-            <img src="images/nguyen-long.jpg" alt="" style="width:150px ;height:200px">
-           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">NGuyên Long</a></h2>
+            <img src="images/Hanma Baki.png" alt="" style="width:150px ;height:200px">
+           <h2><a href="" target="_blank" onmouseover="this.style.color = 'red'" onmouseout="this.style.color = 'blue'">Hanma Baki</a></h2>
           </div>  
          
       </aside>

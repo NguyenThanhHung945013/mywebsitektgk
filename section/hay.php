@@ -1,5 +1,5 @@
 <aside class="left">
-        <h1>Truyện Mới Cập Nhập</h2>
+        <h1>Truyện Anime Hay</h2>
         <!-- <div class="left"> -->
           <div class="menu_left">
             
