@@ -247,7 +247,7 @@
           }
         </script>
     </section>
-    <div class="main" style="height: 1080px;>">
+    <div class="main" style="height: 850px;>">
       
       
       <?php
@@ -265,7 +265,7 @@
         ?>
    
      
-      <article id="right" style='height: 1080px'>">
+      <article id="right" style='height: 850px;'>
         <div class="menu_right">
         <h3><i><strong>Bảng Xếp Hạng All</strong></i></h3>
            <ul>

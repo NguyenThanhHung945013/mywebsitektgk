@@ -10,7 +10,7 @@
   $records_per_page = 15;
   $from_record_num = ($records_per_page * $page) - $records_per_page;
   $stmt = $story->readAll($from_record_num, $records_per_page);
-  echo "<aside class='left' style='height: 1080px'>";
+  echo "<aside class='left' style='height: 850px ; '>";
   echo "<h1>Truyện Mới Cập Nhập</h1>";
   while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
       extract($row);
