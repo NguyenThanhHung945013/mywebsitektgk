@@ -13,11 +13,16 @@
             $this->conn = $db ;
         }
         function readALL($from_record_num,$records_per_page){
-            $query="SELECT id,name,view,images,link,category_id FROM ".$this->table_name . " ORDER BY  name ASC LIMIT {$from_record_num},{$records_per_page}";
+            $query="SELECT id,name,view,images,link,category_id FROM ".$this->table_name . " LIMIT {$from_record_num},{$records_per_page}";
             $stmt=$this->conn->prepare($query);
             $stmt->execute();
             return $stmt;
         }
-        
+        function hot($from_record_num,$records_per_page){
+            $query="SELECT id,name,view,images,link,category_id FROM ".$this->table_name . " ORDER BY  modified DESC LIMIT {$from_record_num},{$records_per_page}";
+            $stmt=$this->conn->prepare($query);
+            $stmt->execute();
+            return $stmt;
+        }
     }
 ?>

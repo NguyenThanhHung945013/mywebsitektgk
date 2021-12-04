@@ -8,10 +8,12 @@
   $category = new Category($db);
   $page = isset($_GET['pa']) ? $_GET['pa'] : 1;
   $records_per_page = 15;
+  $total_rows = 60;
+  $page_title = "Truyện nổi bật";
   $from_record_num = ($records_per_page * $page) - $records_per_page;
   $stmt = $story->readAll($from_record_num, $records_per_page);
   echo "<aside class='left' style='height: 850px ; '>";
-  echo "<h1>Truyện Mới Cập Nhập</h1>";
+  echo "<h1>{$page_title}</h1>";
   while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
       extract($row);
       echo "<div class='menu_left'>";
