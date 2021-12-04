@@ -28,13 +28,13 @@ for ($x=$initial_num; $x<$condition_limit_num; $x++) {
     }
     // not current page
     else {
-    echo "<li><a href='{$page_url}pa=$x'>$x</a></li>";
+    echo "<li><a href='{$page_url}&pa=$x'>$x</a></li>";
     }
     }
     }
     // button for last page
     if($page<$total_pages){
-    echo "<li><a href='" .$page_url. "pa={$total_pages}' title='Last
+    echo "<li><a href='" .$page_url."&pa={$total_pages}' title='Last
     page is {$total_pages}.'>";
     echo "Last";
     echo "</a></li>";

@@ -251,8 +251,6 @@
       
       
       <?php
-          
-
           if(isset($_GET['page'])){
             // $currentPage = $_GET['page'];
             // echo "<h1>{$currentPage}<h1>";
@@ -334,10 +332,10 @@
      
     </div>
     <?php
-      $page_url = "index.php?";
-      $total_rows = 60;
+      $page_url = "index.php?page={$_GET['page']}";
+     
       // $total_rows = 50;
-      include_once './models/page.php';
+      include_once "./models/page.php";
     ?>
     <footer class="py-5">
     
