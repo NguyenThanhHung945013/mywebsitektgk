@@ -280,30 +280,51 @@
               <span class="r_c"style="background-color: #37c21b ">02</span>
             </div>
             <img src="images/daragon.jpg" alt=""  style="width:60px ;">
-            <div><a href=""><b> Boruto</b><br>Chapter 1033</a></div>
+            <div><a href=""><b>Dragon ball</b><br>Chapter 176/???
+            <span><br>Lượt xem:2,7934</span></a>
+            </div>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #390f82 ">03</span>
             </div>
             <img src="images/onepusman.png" alt=""  style="width:60px ;">
-            <div><a href=""><b> One Piece</b> <br>Chapter 1033</a></div>
-            
+            <div><a href=""><b> One punch man</b> <br>Chapter 201/???
+            <span><br>Lượt xem:2,7934</span></a>
+            </div>
               <div class="r_c_wrap" >
-              <span class="r_c">06</span>
+              <span class="r_c">04</span>
             </div>
             <img src="images/naruto.png" alt=""  style="width:60px ;">
-            <div><a href=""><b> One Piece </b><br>Chapter 1033</a></div>
-           
+            <div><a href=""><b> Naruto </b><br>Chapter 347
+            <span><br>Lượt xem:2,7934</span></a>
+            </div>
             <div class="r_c_wrap">
-              <span class="r_c">08</span>
+              <span class="r_c">05</span>
             </div>
             <img src="images/pokemon.png" alt=""  style="width:60px ;">
-            <div><a href=""><b> One Piece</b> <br>Chapter 1033</a></div>
+            <div><a href=""><b>pokemon</b> <br>Chapter 1000/???
+            <span><br>Lượt xem:2,7934</span></a>
+            </div>
             <div class="r_c_wrap">
-              <span class="r_c">07</span>
+              <span class="r_c">06</span>
             </div>
             <img src="images/doraemon.png" alt="" style="width:60px ;">
-            <div><a href=""><b> Doramon</b> <br>Chapter 1033</a></div>
-          
+            <div><a href=""><b> Doramon</b> <br>Chapter 156/???
+            <span><br>Lượt xem:2,7934</span></a>
+            </div>
+            <div class="r_c_wrap">
+              <span class="r_c"style="background-color: #d31a1a ">07</span>
+            </div>
+            <img src="images/tientonlacvocuc.jpg" alt="" style="width:60px ;">
+            <div ><a href=""> <b>Tiên tôn lạc vô cực<br> </b>Chapter 77/???
+              <span><br>Lượt xem:2,7934</span></a>
+            </div>
+            <div class="r_c_wrap">
+              <span class="r_c"style="background-color: #d31a1a ">08</span>
+            </div>
+            <img src="images/sololevening2.jpg" alt="" style="width:60px ;">
+            <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???
+              <span><br>Lượt xem:2,7934</span></a>
+            </div>
             </ul>
           </div>
        
