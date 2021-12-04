@@ -123,24 +123,7 @@
             }
         </script>
         </div>
-        <!-- Right Side -->
-        <!-- <div class="btn-group float-end">
-               
-                <i class="bi bi-person-circle"></i>
-                <span><button type="button" class="btn btn-outline-warning">Acount/PassWord</button></span>
-                </a>
-                <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a href="#" class="dropdown-item"><i class="bi bi-lock-fill"></i> Change Password</a></li>
-                    <li><a href="#" class="dropdown-item"><i class="bi bi-gear-fill"></i> Admin Setion</a></li>
-                    <li><a href="#" class="dropdown-item"><i class="bi bi-gear-wide-connected"></i> IMAP Settings</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a href="#" class="dropdown-item"><i class="bi bi-box-arrow-right"></i> Sign out</a></li>
-                </ul>
-            </div>
-        </div>
-    </div> -->
+        
     <div class="w3-dropdown-hover">
            <strong>
             <button type="button" class="btn btn-outline-danger">Setting</button>
@@ -153,15 +136,7 @@
                 <a href="#" class="w3-bar-item w3-button">log out</a>
             </div>
           </strong>
-            <!-- <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown button
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div> -->
+       
 </div>
   
       </header>
