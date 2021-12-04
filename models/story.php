@@ -18,6 +18,11 @@
             $stmt->execute();
             return $stmt;
         }
-        
+        function hot($from_record_num,$records_per_page){
+            $query="SELECT id,name,view,images,link,category_id,timestamp FROM ".$this->table_name . " ORDER BY timestamp  LIMIT {$from_record_num},{$records_per_page}";
+            $stmt=$this->conn->prepare($query);
+            $stmt->execute();
+            return $stmt;
+        }
     }
 ?>
