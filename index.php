@@ -272,10 +272,12 @@
           }
         </script>
     </section>
-    <div class="main">
+    <div class="main" style="height: 1080px;>">
       
       
       <?php
+          
+
           if(isset($_GET['page'])){
             // $currentPage = $_GET['page'];
             // echo "<h1>{$currentPage}<h1>";
@@ -288,7 +290,7 @@
         ?>
    
      
-      <article id="right">
+      <article id="right" style='height: 1080px'>">
         <div class="menu_right">
         <h3><i><strong>Bảng Xếp Hạng All</strong></i></h3>
            <ul>
@@ -330,81 +332,19 @@
             </ul>
           </div>
        
-          <h2 >Bình Luận Mới</h2><hr>
-        
-        <div class="container" >
-          <img src="./images/ricardo.png" alt="Avatar" class="right" style="width:40px ;height:40px" >>
-          Ricardo Milos 09:15
-          <p>Nhanh Ra tập mới chờ lâu quá ??????<br>
-          Cảm ơn Admin</p>
-        
-        </div>
-        <hr>
-        <div class="container darker">
-          <img src="images/fb.png" alt="Avatar" class="right" style="width:40px ;height:40px">
-          Bùi Tiến 12:30
-          <p>Hay vl<img src="./images/icon.png" alt="Avatar"  class="right" style="width:40px ;height:40px"></p>
           
-        </div>
-        <hr>
-        <div class="container">
-          <img src="images/fb1.png" alt="Avatar"  class="right" style="width:40px ;height:40px">
-          Vũ Văn Duy 23:12
-          <p>Hay quá đê, một lúc nào đó đi okinawa mới được :)) gặp lại mấy mén này ở phần 3 thôi</p>
-          
-        </div>
-        <hr>
-        <div class="container darker">
-          <img src="./images/fb4.png" alt="Avatar" class="right" style="width:40px ;height:40px">
-          Thành Hưng 03:26
-          <p>nghe đâu tháng 12 chuẩn bị delay thêm 1 tập nữa     </p>
-          
-        </div><hr>
-        <div class="container">
-          <img src="./images/fb2.png" alt="Avatar"  class="right" style="width:40px ;height:40px"> Thành Hưng Nguyễn  13:24<br>
-          
-          <p>bao tuần rồi mà chưa có tập mới<img src="./images/111.png" alt="Avatar"  class="right" style="width:40px ;height:40px">  </p>
-         
-        </div><hr>
-        <div class="container">
-          <img src="./images/tym.jpg" alt="Avatar"  class="right" style="width:40px ;height:40px">
-           Người Dùng FaceBook 23:59
-          <p>Trầm cảm main bá quá buff  như hack </p>
-          
-        </div><hr>
-        <div class="container">
-          <img src="./images/fb5.png" alt="Avatar"  class="right" style="width:40px ;height:40px">
-           Người Dùng FaceBook 00:15
-          <p>như hạch đợi 1 tuần lễ coi recap má <img src="./images/000.png" alt="Avatar"  class="right" style="width:40px ;height:40px"></p>
-          
-        </div><hr>
-        <div class="container">
-          <img src="./images/itachi.png" alt="Avatar"  class="right" style="width:40px ;height:40px">
-            Uchiha Itachi 00:01
-          <p>đợi cả tuần để xem 86 với phim này rồi nhận được là 2 tập 7,5  <img src="./images/mophat.png" alt="Avatar"  class="right" style="width:40px ;height:40px"> </p>
-          
-         
-        </div>
 
       </article>
      
     </div>
-    <strong>
-    <div aria-label="Page navigation example" style="margin-left: 35%;  margin-top:15px;">
-      <ul class="pagination">
-        
-        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item"><a class="page-link" href="#">4</a></li>
-        <li class="page-item"><a class="page-link" href="#">....</a></li>
-        <li class="page-item"><a class="page-link" href="#">55</a></li>
-        <li class="page-item"><a class="page-link" href="#">66</a></li>
-        <li class="page-item"><a class="page-link" href="#">Next</a></li>
-      </ul>
-    </div> 
+    <?php
+      $page_url = "index.php?";
+      $total_rows = 60;
+      // $total_rows = 50;
+      include_once './models/page.php';
+    ?>
     <footer class="py-5">
+    
     <img src="./images/footer.png" alt="Avatar"  style="width:200px ;height:70px;float:right">
 
 
