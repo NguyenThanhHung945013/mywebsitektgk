@@ -12,8 +12,8 @@
         public function __construct($db){
             $this->conn = $db ;
         }
-        function readALL(){
-            $query="SELECT id,name,view,images,link FROM ".$this->table_name . " ORDER BY  name ASC ";
+        function readALL($from_record_num,$records_per_page){
+            $query="SELECT id,name,view,images,link,category_id FROM ".$this->table_name . " ORDER BY  name ASC LIMIT {$from_record_num},{$records_per_page}";
             $stmt=$this->conn->prepare($query);
             $stmt->execute();
             return $stmt;
