@@ -265,7 +265,7 @@
         ?>
    
      
-      <article id="right" style='height: 850px;'>
+      <article id="right" style='height: 830px;'>
         <div class="menu_right">
         <h3><i><strong>Bảng Xếp Hạng All</strong></i></h3>
            <ul>
@@ -274,7 +274,7 @@
             </div>
             <img src="images/onepiece.png" alt="" style="width:60px ;">
             <div ><a href=""> <b> One Piece<br> </b>Chapter 1033/???
-              <span><br>Lượt xem:2,7934</span></a>
+              <span ><br>Lượt xem:2,7934</span></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #37c21b ">02</span>
@@ -312,14 +312,14 @@
             <span><br>Lượt xem:2,7934</span></a>
             </div>
             <div class="r_c_wrap">
-              <span class="r_c"style="background-color: #d31a1a ">07</span>
+              <span class="r_c">07</span>
             </div>
             <img src="images/tientonlacvocuc.jpg" alt="" style="width:60px ;">
             <div ><a href=""> <b>Tiên tôn lạc vô cực<br> </b>Chapter 77/???
               <span><br>Lượt xem:2,7934</span></a>
             </div>
             <div class="r_c_wrap">
-              <span class="r_c"style="background-color: #d31a1a ">08</span>
+              <span class="r_c">08</span>
             </div>
             <img src="images/sololevening2.jpg" alt="" style="width:60px ;">
             <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???
