@@ -9,8 +9,7 @@
      <meta name="viewport" container="width=device-width, initial-scale=1.0"> 
     <title>Anime</title>
     <link rel="stylesheet" type="text/css" href="./css/test.css">
-    <link rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css" />
     <link rel="icon" type="image/x-icon" href="./images/logoo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -148,8 +147,8 @@
     <nav style="height: 40px;">
         <div class="w3-bar w3-light-grey">
           <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"><strong>HOME</a>
-          <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 8%;">ANIME HOT</a>
-          <a href="index.php?page=hay" class="w3-bar-item w3-button" style="width: 8%;">ANIME HAY</a> 
+          <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 9%;">ANIME HOT</a>
+          <a href="index.php?page=hay" class="w3-bar-item w3-button" style="width: 9%;">ANIME HAY</a> 
           
 
                 <div class="w3-dropdown-hover">
