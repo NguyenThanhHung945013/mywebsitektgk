@@ -9,6 +9,8 @@
      <meta name="viewport" container="width=device-width, initial-scale=1.0"> 
     <title>Anime</title>
     <link rel="stylesheet" type="text/css" href="./css/test.css">
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css" />
     <link rel="icon" type="image/x-icon" href="./images/logoo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
