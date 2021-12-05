@@ -6,6 +6,9 @@
   height: 200px;
   
 }
+.active{
+  margin-left: 40;
+}
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -424,6 +427,9 @@ aside{
   margin-left: 7.5%;
   border: 1px solid bisque;
 }
+ /* .article{
+  margin-right:8% ;
+}  */
 #right{
   width: 25%;
   float: left;
