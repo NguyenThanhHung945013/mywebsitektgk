@@ -415,18 +415,19 @@ h2 {
 aside{
   float : left ;
   width: 60%;
-  margin-left: 10%;
+ 
   border: 1px solid bisque;
 }
 .left{
   float : left ;
   width: 60%;
-  margin-left: 10%;
+  margin-left: 7.5%;
   border: 1px solid bisque;
 }
 #right{
   width: 25%;
   float: left;
+  margin-right: 7.5%;
   border: 1px solid bisque;
 }
 .r_c{
