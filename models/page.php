@@ -1,5 +1,5 @@
 <?php
-echo "<ul class='pagination'>";
+echo "<ul class='pagination' style='margin-left:40%;'>";
 
 // button for first page
 if($page>1){
