@@ -179,7 +179,7 @@
                           </div>
                   </div>
           
-          <div class="w3-dropdown-hover">
+          <!-- <div class="w3-dropdown-hover">
             <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">QUỐC GIA</button>
 
             <div class="w3-dropdown-content w3-card-4">
@@ -187,11 +187,11 @@
                 <a href="#" class="w3-bar-item w3-button">CHINA</a>
                 <a href="#" class="w3-bar-item w3-button">KOREA</a>
             </div>
-          </div>
+          </div> -->
+          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 8%;">JAPAN</a> 
+          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
+          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 8%;">KOREA</a> 
           <a href="#" class="w3-bar-item w3-button" style="width: 8%;">XẾP HẠNG</a> 
-          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 8%;">CON TRAI</a> 
-          <a href="index.php?page=girl" class="w3-bar-item w3-button" style="width: 8%">CON GÁI</a> 
-          <a href="#" class="w3-bar-item w3-button" style="width: 7%;">VIDEO</a> 
           <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 8%;">GROUP</a> 
           </strong>
         </div>
@@ -332,6 +332,9 @@
      
     </div>
     <?php
+      if(!isset($_GET['page'])){
+          $_GET['page'] = "home" ;
+      }
       $page_url = "index.php?page={$_GET['page']}";
      
       // $total_rows = 50;
