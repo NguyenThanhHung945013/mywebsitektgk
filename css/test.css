@@ -7,6 +7,9 @@
   height: 200px;
   
 }
+.active{
+  margin-left: 40;
+}
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -419,12 +422,16 @@ aside{
  
   border: 1px solid bisque;
 }
+
 .left{
   float : left ;
   width: 60%;
   margin-left: 7.5%;
   border: 1px solid bisque;
 }
+ .article{
+  margin-left:8% ;
+}  
 #right{
   width: 25%;
   float: left;
@@ -501,6 +508,10 @@ aside{
   float: left;
  margin:1px 1px 1px 0px ;
  height: 100%;
+  }
+  #right .menu_right a span{
+    color: rgb(250, 217, 71);
+    
   }
   
    * {

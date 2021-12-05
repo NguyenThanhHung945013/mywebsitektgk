@@ -245,14 +245,14 @@
           }
         </script>
     </section> -->
-    <div class="main">
+    <div class="main"style="margin-left:12%">
       
       
       <aside>
         <strong>
       
 
-          <nav aria-label="breadcrumb">
+          <nav aria-label="breadcrumb" >
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="./view/index.php">Home</a></li>
               <li class="breadcrumb-item"><a href="#">Đọc Truyện</a></li>
@@ -267,7 +267,7 @@
         <div class="imggg">
          <img src="../images/onepiece.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;">
         </div>
-        <div class="content">
+        <div class="content" >
           <div class="h1">
             <h1  >
               One Piece - Stampe
@@ -276,12 +276,12 @@
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
              <h5>Tác giả :  ERichi Oda</h5>
-             <h5>Thể loại: Phiêu Lưu, Phép Thuật, Hoạt hình Trung Quốc</h5>
-             <h5>Dạng Anime: TV Series </h5>
-             <h5>Season: Đang cập nhật</h5>
+             <h5>Thể loại: Phiêu Lưu, kho baus, Hoạt hình Japan</h5>
+             <h5>Dạng Anime: Chapter Series </h5>
+             <h5>Season: 2022</h5>
              <h5>Lượt Xem: 5.644567</h5>
           </div>
-          <div>
+          <div >
           <button type="button" class="btn btn-success">Fllow</button>
           <h5> 456 Người đang theo dõi</h5>
           </div>
@@ -297,32 +297,30 @@
             <button type="button" class="btn btn-secondary">1032</button>
             <button type="button" class="btn btn-secondary">1031</button>
             <button type="button" class="btn btn-secondary">1030</button>
-            <button type="button" class="btn btn-secondary">1030</button>
-            <button type="button" class="btn btn-secondary">1030</button>
-            <button type="button" class="btn btn-secondary">1030</button>
-            <button type="button" class="btn btn-secondary">1030</button>
-            <button type="button" class="btn btn-secondary">1030</button>
+            <button type="button" class="btn btn-secondary">1029</button>
+            <button type="button" class="btn btn-secondary">1028</button>
+            <button type="button" class="btn btn-secondary">1027</button>
+            <button type="button" class="btn btn-secondary">1026</button>
+            <button type="button" class="btn btn-secondary">1025</button>
           
            
           </div>
           <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
           <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">1033</button>
-            <button type="button" class="btn btn-secondary">1032</button>
-            <button type="button" class="btn btn-secondary">1031</button>
-            <button type="button" class="btn btn-secondary">1030</button>
-            <button type="button" class="btn btn-secondary">1030</button>
-            <button type="button" class="btn btn-secondary">1030</button>
-            <button type="button" class="btn btn-secondary">1030</button>
-            <button type="button" class="btn btn-secondary">1030</button>
-            <button type="button" class="btn btn-secondary">1030</button>
-          
-           
-          </div>
-          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">1033</button>
+            <button type="button" class="btn btn-secondary">1024</button>
+            <button type="button" class="btn btn-secondary">1023</button>
+            <button type="button" class="btn btn-secondary">1022</button>
+            <button type="button" class="btn btn-secondary">1021</button>
+            <button type="button" class="btn btn-secondary">1020</button>
+            <button type="button" class="btn btn-secondary">1019</button>
+            <button type="button" class="btn btn-secondary">1018</button>
+            <button type="button" class="btn btn-secondary">1017</button>
             <button type="button" class="btn btn-secondary">1016</button>
+          
+           
+          </div>
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group mr-2" role="group" aria-label="First group">
             <button type="button" class="btn btn-secondary">1015</button>
             <button type="button" class="btn btn-secondary">1014</button>
             <button type="button" class="btn btn-secondary">1013</button>
@@ -330,12 +328,13 @@
             <button type="button" class="btn btn-secondary">1011</button>
             <button type="button" class="btn btn-secondary">1010</button>
             <button type="button" class="btn btn-secondary">1009</button>
+            <button type="button" class="btn btn-secondary">1008</button>
+            <button type="button" class="btn btn-secondary">1007</button>
           
            
           </div><div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
           <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">1008</button>
-            <button type="button" class="btn btn-secondary">1007</button>
+            
             <button type="button" class="btn btn-secondary">1006</button>
             <button type="button" class="btn btn-secondary">1005</button>
             <button type="button" class="btn btn-secondary">1004</button>
@@ -343,11 +342,17 @@
             <button type="button" class="btn btn-secondary">1003</button>
             <button type="button" class="btn btn-secondary">1002</button>
             <button type="button" class="btn btn-secondary">1000</button>
+            <button type="button" class="btn btn-secondary">999</button>
+            <button type="button" class="btn btn-secondary">998</button>
+            
+           
           
            
           </div>
           <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
           <div class="btn-group mr-2" role="group" aria-label="First group">
+          <button type="button" class="btn btn-secondary">989</button>
+            <button type="button" class="btn btn-secondary">990</button>
             <button type="button" class="btn btn-secondary">991</button>
             <button type="button" class="btn btn-secondary">992</button>
             <button type="button" class="btn btn-secondary">993</button>
@@ -355,8 +360,7 @@
             <button type="button" class="btn btn-secondary">995</button>
             <button type="button" class="btn btn-secondary">996</button>
             <button type="button" class="btn btn-secondary">997</button>
-            <button type="button" class="btn btn-secondary">998</button>
-            <button type="button" class="btn btn-secondary">999</button>
+            
           
            
           </div>

@@ -9,7 +9,8 @@
      <meta name="viewport" container="width=device-width, initial-scale=1.0"> 
     <title>Anime</title>
     <link rel="stylesheet" type="text/css" href="./css/test.css">
-    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css" />
     <link rel="icon" type="image/x-icon" href="./images/logoo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -147,8 +148,8 @@
     <nav style="height: 40px;">
         <div class="w3-bar w3-light-grey">
           <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"><strong>HOME</a>
-          <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 9%;">ANIME HOT</a>
-          <a href="index.php?page=hay" class="w3-bar-item w3-button" style="width: 9%;">ANIME HAY</a> 
+          <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
+          <a href="index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
           
 
                 <div class="w3-dropdown-hover">
@@ -189,12 +190,19 @@
                 <a href="#" class="w3-bar-item w3-button">KOREA</a>
             </div>
           </div> -->
+<<<<<<< HEAD
 
           <a href="index.php?page=japan" class="w3-bar-item w3-button" style="width: 8%;">JAPAN</a> 
           <a href="index.php?page=china" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
           <a href="index.php?page=korea" class="w3-bar-item w3-button" style="width: 8%;">KOREA</a> 
           <a href="index.php?page=american" class="w3-bar-item w3-button" style="width: 8%;">AMERICAN</a> 
           <a href="index.php?page=xephang" class="w3-bar-item w3-button" style="width: 8%;">XẾP HẠNG</a> 
+=======
+          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 9%;">JAPAN</a> 
+          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 9%;">CHINA</a> 
+          <a href="index.php?page=boy" class="w3-bar-item w3-button" style="width: 9%;">KOREA</a> 
+          <a href="#" class="w3-bar-item w3-button" style="width: 9%;">XẾP HẠNG</a> 
+>>>>>>> 4cd1f2b30500945ee3099484ec1bc3be0a7e5648
           <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 8%;">GROUP</a> 
           </strong>
         </div>
@@ -266,7 +274,7 @@
         ?>
    
      
-      <article id="right" style='height: 850px;'>
+      <article id="right" style='height: 830px;'>
         <div class="menu_right">
         <h3><i><strong>Bảng Xếp Hạng All</strong></i></h3>
            <ul>
@@ -275,7 +283,7 @@
             </div>
             <img src="images/onepiece.png" alt="" style="width:60px ;">
             <div ><a href=""> <b> One Piece<br> </b>Chapter 1033/???
-              <span><br>Lượt xem:2,7934</span></a>
+              <span ><br>Lượt xem:2,7934</span></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #37c21b ">02</span>
@@ -313,14 +321,14 @@
             <span><br>Lượt xem:2,7934</span></a>
             </div>
             <div class="r_c_wrap">
-              <span class="r_c"style="background-color: #d31a1a ">07</span>
+              <span class="r_c">07</span>
             </div>
             <img src="images/tientonlacvocuc.jpg" alt="" style="width:60px ;">
             <div ><a href=""> <b>Tiên tôn lạc vô cực<br> </b>Chapter 77/???
               <span><br>Lượt xem:2,7934</span></a>
             </div>
             <div class="r_c_wrap">
-              <span class="r_c"style="background-color: #d31a1a ">08</span>
+              <span class="r_c">08</span>
             </div>
             <img src="images/sololevening2.jpg" alt="" style="width:60px ;">
             <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???

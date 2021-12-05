@@ -4,6 +4,7 @@
 }
 aside{
     height: 590px;
+    margin-left: 10%;
 }
 .menu_right{
     width: 100%;
@@ -15,6 +16,10 @@ aside{
 }
 #right{
     height:590px;
+
+}
+.content{
+    margin-left:15%;
 }
 
  
