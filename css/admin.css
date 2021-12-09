@@ -22,17 +22,18 @@ header img{
     float :left;
 }
 form{
-    margin: 10% 20% 10% 20% ;
+    margin: 10% 20% 8% 20% ;
     border: 1px solid snow;
-    background-color :rgba(53, 52, 52, 0.2);
+    background-color :rgba(250, 245, 245, 0.5);
     padding: 10px 5% 10px 5%;
-    color:whitesmoke;
+    color:black;
 }
 
 .head_left{
     width: 25%;
     float :left;
     margin-top: 8px;
+    
 }
 nav{
     height: 50px;

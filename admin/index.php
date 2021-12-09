@@ -1,3 +1,13 @@
+<?php
+   session_start();
+  if(!isset($_GET['acc'])){
+    $_SESSION['acc'] = "none" ;
+  }
+  else {
+    $_SESSION['acc'] = "block";
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,23 +24,24 @@
     <form action="main.php" class="was-validated" method="POST">
         <div class="mb-3 mt-3">
           <label for="uname" class="form-label">Email:</label>
-          <input type="email" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
-          <div class="valid-feedback">Valid.</div>
-          <div class="invalid-feedback">Please fill out this field.</div>
+          <input type="email" class="form-control" id="uname" placeholder="Enter username" name="email" required>
+          <div class="valid-feedback"><b>Valid.</b></div>
+          <div class="invalid-feedback"><b>Please fill out this field.</b></div>
         </div>
         <div class="mb-3">
           <label for="pwd" class="form-label">Password:</label>
-          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
-          <div class="valid-feedback">Valid.</div>
-          <div class="invalid-feedback">Please fill out this field.</div>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password" required>
+          <div class="valid-feedback"><b>Valid.</b></div>
+          <div class="invalid-feedback"><b>Please fill out this field.</b></div>
         </div>
-        <div class="form-check mb-3">
+        <div class="invalid-feedback" style="display:<?=$_SESSION['acc'] ?> ;" ><b>Email hoặc mật khẩu không đúng<b></div>
+        <!-- <div class="form-check mb-3">
           <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
-          <label class="form-check-label" for="myCheck">I agree on blabla.</label>
-          <div class="valid-feedback">Valid.</div>
-          <div class="invalid-feedback">Check this checkbox to continue.</div>
-        </div>
-      <button type="submit" class="btn btn-success">Submit</button>
+          <label class="form-check-label" for="myCheck"><b>I agree on blabla.</b></label>
+          <div class="valid-feedback"><b>Valid.</b></div>
+          <div class="invalid-feedback"><b>Check this checkbox to continue.<b></div>
+        </div> -->
+      <button type="submit" name="login" class="btn btn-success">Submit</button>
     </form>
 </body>
 </html>

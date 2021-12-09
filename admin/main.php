@@ -1,4 +1,5 @@
 <?php
+  session_start();
   include_once '../config/database.php' ;
   include_once '../models/story.php' ;
   include_once '../admin/admin.php' ;
@@ -6,7 +7,31 @@
   $db = $database->getConnection();
   $admin = new Admin($db);
   $story = new Story($db);
+  if(!isset($_POST['login']) && !isset($_GET['pa']))
+    header('location:index.php');
+  if(!isset($_GET['pa']))
+    $_GET['pa'] = 1 ;
+  if(!isset($_SESSION['id']))
+    $_SESSION['id'] = 1 ;
+  if(isset($_POST['login'])){
+    $acc = false ;
+    $em = $_POST['email'];
+    $pass = $_POST['password'];
+    $stmt = $admin->ConnectAccount();
+    while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
+      extract($row);
+      if($email=== $em && $pass === $password){
+        $acc = true ;
+        $_SESSION['id'] = $id ;
+      }
+    }
+    if($acc==false)
+      header('location:index.php?acc=false');
+  }
   
+  $stmt=$admin->Account($_SESSION['id']);
+  $row = $stmt->fetch(PDO::FETCH_ASSOC);
+  extract($row);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,9 +50,9 @@
             <h1></h1>
         </div>
         <div class="head_left">
-            <img src="../images/conan.png">
-            <i>Duy Vũ Văn</i>
-            <button class="btn btn-primary">Logout</button>
+            <img src="<?=$avatar?>">
+            <i><?=$name?></i>
+            <button class="btn btn-primary"><a href="logout.php">Logout</a></button>
         </div>
     </header>
     <nav>
@@ -69,11 +94,7 @@
                 </td>
              </tr>";
               }
-            
-
-            
-            
-             
+      
           echo "</table>
     </div>" ;
     
@@ -84,7 +105,7 @@
         $page_url = "main.php" ;
         // button for first page
         if($page>1){
-          echo "<li><a href='{$page_url}' title='Go to the first
+          echo "<li><a href='{$page_url}?pa=1' title='Go to the first
           page.'>";
           echo "First";
           echo "</a></li>";
