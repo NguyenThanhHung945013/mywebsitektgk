@@ -44,5 +44,22 @@
             $stmt->execute();
             return $stmt;
         }
+        function update($id_){
+            $this->timestamp = date('Y-m-d H:i:s');
+            $query = "UPDATE ".$this->table_name."SET name={$this->name},images={$images},link={$link} nation={$this->nation},category={$category_id},modified={$timestamp} WHERE id='$id_'";
+            $stmt = $this->conn->prepare($query);
+            if($stmt->execute()){
+                return true;
+            }else{
+                return false;
+            }
+            
+        }
+        function delete($id_){
+            $query = "DELETE FROM products WHERE id='$id_'";
+            $stmt=$this->conn->prepare($query);
+            $stmt->execute();
+            header('location:./main.php');
+        }
     }
 ?>

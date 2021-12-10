@@ -33,6 +33,18 @@
           <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password" required>
           <div class="valid-feedback"><b>Valid.</b></div>
           <div class="invalid-feedback"><b>Please fill out this field.</b></div>
+          <input type="checkbox" onclick="myFunction()">Show Password
+
+          <script>
+          function myFunction() {
+            var x = document.getElementById("pwd");
+            if (x.type === "password") {
+              x.type = "text";
+            } else {
+              x.type = "password";
+            }
+          }
+          </script>
         </div>
         <div class="invalid-feedback" style="display:<?=$_SESSION['acc'] ?> ;" ><b>Email hoặc mật khẩu không đúng<b></div>
         <!-- <div class="form-check mb-3">

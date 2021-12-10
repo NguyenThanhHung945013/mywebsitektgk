@@ -7,6 +7,15 @@ body{
     background-size: cover;
     color:whitesmoke;
 }
+a{
+    color: white;
+}
+main{
+    margin: 0% 15% 0% 15%;
+    height: 450px;
+    color: black;
+    border: 1px solid whitesmoke;
+}
 header{
     width: 100%;
     height: 70px;
@@ -16,13 +25,15 @@ header{
 header img{
     width: 40px;
     height: 40px;
+    border-radius: 16px;
 }
 .head_right{
     width: 75%;
     float :left;
 }
 form{
-    margin: 10% 20% 8% 20% ;
+    margin: 5% 20% 0% 20% ;
+    
     border: 1px solid snow;
     background-color :rgba(250, 245, 245, 0.5);
     padding: 10px 5% 10px 5%;
