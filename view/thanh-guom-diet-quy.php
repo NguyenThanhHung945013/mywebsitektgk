@@ -294,7 +294,7 @@
           <button type="button" class="btn btn-primary">Đọc mới Nhất</button>
           </div>
           <h3>Nội Dung</h3>
-          Kimetsu no Yaiba  Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+          Kimetsu no Yaiba  Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau.
           <h4>Chapter</h4>
        
          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
