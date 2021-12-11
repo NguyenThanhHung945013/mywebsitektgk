@@ -9,8 +9,8 @@
   $admin = new Admin($db);
   $story = new Story($db);
   $category = new Category($db);
-  if(!isset($_POST['login']) && !isset($_GET['pa']))
-    header('location:index.php');
+  // if(!isset($_POST['login']) && !isset($_GET['pa']))
+  //   header('location:index.php');
   if(!isset($_GET['pa']))
     $_GET['pa'] = 1 ;
   if(!isset($_SESSION['id']))
@@ -98,7 +98,7 @@
                 <td>{$nation}</td>
                 <td>
                   <button class='btn btn-primary'>Read</button>
-                  <button class='btn btn-success'><a herf='update.php?id={$id}'>Update</a></button>
+                  <button class='btn btn-success'><a href='update.php?id={$id}'>Update</a></button>
                   <button class='btn btn-danger'onclick='delete_story({$id})'>Delete</button>
                 </td>
              </tr>";

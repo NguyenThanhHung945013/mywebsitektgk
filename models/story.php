@@ -1,6 +1,6 @@
 <?php
     class Story {
-        private $conn ;
+        public $conn ;
         private $table_name = "list" ;
         public $id ;
         public $name ;
@@ -45,14 +45,33 @@
             return $stmt;
         }
         function update($id_){
-            $this->timestamp = date('Y-m-d H:i:s');
-            $query = "UPDATE ".$this->table_name."SET name={$this->name},images={$images},link={$link} nation={$this->nation},category={$category_id},modified={$timestamp} WHERE id='$id_'";
-            $stmt = $this->conn->prepare($query);
-            if($stmt->execute()){
-                return true;
-            }else{
-                return false;
-            }
+            $query = "UPDATE 
+                " . $this->table_name . "
+                SET
+                name=:name, link=:link, images=:images,nation=:nation,
+                category_id=:category_id, modified=:modified WHERE id='$id_'";
+                $stmt = $this->conn->prepare($query);
+        
+
+                $this->name=htmlspecialchars(strip_tags($this->name));
+                $this->link=htmlspecialchars(strip_tags($this->link));
+                $this->images=htmlspecialchars(strip_tags($this->images));
+                $this->nation=htmlspecialchars(strip_tags($this->nation));
+                $this->category_id=htmlspecialchars(strip_tags($this->category_id));
+                $this->timestamp = date('Y-m-d H:i:s');
+            
+               
+                $stmt->bindParam(":name", $this->name);
+                $stmt->bindParam(":link", $this->link);
+                $stmt->bindParam(":images", $this->images);
+                $stmt->bindParam(":nation", $this->nation);
+                $stmt->bindParam(":category_id", $this->category_id);
+                $stmt->bindParam(":modified", $this->timestamp);
+                if($stmt->execute()){
+                    return true;
+                }else{
+                    return false;
+                }
             
         }
         function insert($id_){

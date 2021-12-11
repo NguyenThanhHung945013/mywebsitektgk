@@ -15,5 +15,11 @@
             $row = $stmt->fetch(PDO::FETCH_ASSOC);
             $this->name = $row['name'];
         }
+        function read(){
+            $query = "SELECT id, name FROM " .$this->table_name ." ORDER BY name" ;
+            $stml = $this->conn->prepare($query);
+            $stml->execute() ;
+            return $stml ;
+        }
     }
 ?>
