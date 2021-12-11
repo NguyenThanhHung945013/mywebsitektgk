@@ -73,7 +73,7 @@
     $num = $stmt->rowCount();
 
     echo "<div class='main'>
-        <button class='btn btn-danger'>Create</button>
+        <button class='btn btn-danger'><a herf='add.php'>Creat</a></button>
         <table class='table table-dark table-bordered'>
             <thead>
               <tr>
@@ -98,7 +98,7 @@
                 <td>{$nation}</td>
                 <td>
                   <button class='btn btn-primary'>Read</button>
-                  <button class='btn btn-success'>Update</button>
+                  <button class='btn btn-success'><a herf='update.php?id={$id}'>Update</a></button>
                   <button class='btn btn-danger'onclick='delete_story({$id})'>Delete</button>
                 </td>
              </tr>";

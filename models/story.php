@@ -55,6 +55,17 @@
             }
             
         }
+        function insert($id_){
+            $this->timestamp = date('Y-m-d H:i:s');
+            $query = "INSERT INTO ".$this->table_name."VALUE name={$this->name},images={$images},link={$link} nation={$this->nation},category={$category_id},created={$timestamp}";
+            $stmt = $this->conn->prepare($query);
+            if($stmt->execute()){
+                return true;
+            }else{
+                return false;
+            }
+            
+        }
         function delete($id_){
             $query = "DELETE FROM products WHERE id='$id_'";
             $stmt=$this->conn->prepare($query);
