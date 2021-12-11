@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,25 +17,25 @@
     <form action="/action_page.php" class="was-validated" method="POSTs">
         <div class="mb-3 mt-3">
           <label for="uname" class="form-label">Name:</label>
-          <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+          <input type="text" class="form-control" id="uname" placeholder="Enter username" name="name" required>
           <div class="valid-feedback">Valid.</div>
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3 mt-3">
             <label for="myfile">Link:</label>
-            <input type="file" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+            <input type="file" class="form-control" id="uname" placeholder="Enter username" name="link" required>
             <div class="valid-feedback">Valid.</div>
             <div class="invalid-feedback">Please fill out this field.</div>
           </div>
           <div class="mb-3">
             <label for="myfile">Images:</label>
-            <input type="file" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+            <input type="file" class="form-control" id="uname" placeholder="Enter username" name="images" required>
             <div class="valid-feedback">Valid.</div>
             <div class="invalid-feedback">Please fill out this field.</div>
           </div>
           <div class="mb-3">
             <label for="pwd" class="form-label">Nation:</label>
-            <select class="form-control" id="sel1" name="sellist">
+            <select class="form-control" id="sel1" name="nation">
                 <option>Japan</option>
                 <option>China</option>
                 <option>Korea</option>
@@ -45,7 +46,7 @@
           </div>
           <div class="mb-3">
             <label for="pwd" class="form-label">Type:</label>
-            <select class="form-control" id="sel1" name="sellist">
+            <select class="form-control" id="sel1" name="catagory">
                 <option>Anime</option>
                 <option>Manga</option>
                 <option>Trinh thám</option>
@@ -60,7 +61,20 @@
           <div class="valid-feedback">Valid.</div>
           <div class="invalid-feedback">Check this checkbox to continue.</div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary" name="update" >Submit</button>
     </form>
 </body>
 </html>
+<?php
+  include_once '../config/database.php' ;
+  include_once '../models/product.php';
+  // instantiate database and objects
+  $database = new Database();
+  $db = $database->getConnection();
+  $product = new Product($db);
+  $id = $_GET['id']; 
+  if(isset($_POST['update'])){
+
+  }
+
+?>
