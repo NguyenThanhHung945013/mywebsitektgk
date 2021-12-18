@@ -143,9 +143,9 @@
 <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
 <nav style="height: 40px;">
         <div class="w3-bar w3-light-grey">
-          <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"><strong>HOME</a>
-          <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
-          <a href="index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
+          <a href="../index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"><strong>HOME</a>
+          <a href="../index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
+          <a href="../index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
           
 
                 <div class="w3-dropdown-hover">
@@ -188,11 +188,11 @@
           </div> -->
 
 
-          <a href="index.php?page=japan" class="w3-bar-item w3-button" style="width: 8%;">JAPAN</a> 
-          <a href="index.php?page=china" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
-          <a href="index.php?page=korea" class="w3-bar-item w3-button" style="width: 8%;">KOREA</a> 
-          <a href="index.php?page=american" class="w3-bar-item w3-button" style="width: 8%;">AMERICAN</a> 
-          <a href="index.php?page=xephang" class="w3-bar-item w3-button" style="width: 8%;">XẾP HẠNG</a> 
+          <a href="../index.php?page=japan" class="w3-bar-item w3-button" style="width: 8%;">JAPAN</a> 
+          <a href="../index.php?page=china" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
+          <a href="../index.php?page=korea" class="w3-bar-item w3-button" style="width: 8%;">KOREA</a> 
+          <a href="../index.php?page=american" class="w3-bar-item w3-button" style="width: 8%;">AMERICAN</a> 
+          <a href="../index.php?page=xephang" class="w3-bar-item w3-button" style="width: 8%;">XẾP HẠNG</a> 
 
           <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 8%;">GROUP</a> 
           </strong>

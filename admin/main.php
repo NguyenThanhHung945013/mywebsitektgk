@@ -56,13 +56,13 @@
             <a href="information.php"><img src="<?=$avatar?>" alt="Logo" style="width:40px;" class="rounded-pill"></a>
         
             <i><?=$name?></i>
-            <button class="btn btn-primary"><a href="logout.php">Logout</a></button>
+            <a href="logout.php" class='btn btn-info left-margin'>Logout</a>
         </div>
     </header>
-    <nav>
-        <button class="btn btn-primary">Tất cả</button>
-        <button class="btn btn-success">Quốc gia</button>
-        <button class="btn btn-danger">Thể loại</button>
+    <nav>  
+        <a href='main.php' class="btn btn-info left-margin">Tất cả</a>
+        <a href='main.php' class="btn btn-success left-margin">Quốc gia</a>
+        <a href='main.php' class="btn btn-danger left-margin">Thể loại</a>
     </nav>
     <?php 
     $page = isset($_GET['pa']) ? $_GET['pa'] : 1;
@@ -73,7 +73,7 @@
     $num = $stmt->rowCount();
 
     echo "<div class='main'>
-        <button class='btn btn-danger'><a herf='add.php'>Creat</a></button>
+        <a href='add.php' class='btn btn-info left-margin'>Creat</a>
         <table class='table table-dark table-bordered'>
             <thead>
               <tr>
@@ -97,10 +97,9 @@
                 echo "</td>
                 <td>{$nation}</td>
                 <td>
-                  <button class='btn btn-primary'>Read</button>
-                  <button class='btn btn-success'><a href='update.php?id={$id}'>Update</a></button>
-                  <button class='btn btn-danger'onclick='delete_story({$id})'>Delete</button>
-                </td>
+                  <button class='btn btn-info left-margin' left-margin'>Read</button>
+                  <a href='update.php?id={$id}' class='btn btn-info left-margin'>Update</a>
+                  <button class='btn btn-info left-margin' onclick='delete_story({$id})'>Delete</button>                </td>
              </tr>";
               }
       
@@ -155,19 +154,24 @@
     </footer>
 </body>
 </html>
-<script>
-    function delete_story(id) {
-			option = confirm('Bạn có muốn xoá sản phẩm này không')
-			if(!option) {
-				return;
-			}
-			// console.log(id)
-			$.post('delete.php', {
-				'id': id
-			}, function(data) {
-				location.reload()
-			})
+<script language="javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+<script language="javascript">
+		function delete_story(id) {
+			option = confirm('Bạn có muốn xoá loại truyện này không')
+          if(!option) {
+            return;
+          }
+          $.ajax({
+            url : "delete.php",
+            type : "post",
+            dataType:"text",
+            data : {
+                 'id' : id
+              },
+              success : function (result){
+				        location.reload()
+            }
+          });
 		}
-
-
-</script>
+		
+    </script>

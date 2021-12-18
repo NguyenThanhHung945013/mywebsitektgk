@@ -74,19 +74,37 @@
                 }
             
         }
-        function insert($id_){
-            $this->timestamp = date('Y-m-d H:i:s');
-            $query = "INSERT INTO ".$this->table_name."VALUE name={$this->name},images={$images},link={$link} nation={$this->nation},category={$category_id},created={$timestamp}";
-            $stmt = $this->conn->prepare($query);
-            if($stmt->execute()){
-                return true;
-            }else{
-                return false;
-            }
+        function insert(){
+            $query = "INSERT INTO 
+                " . $this->table_name . "
+                SET
+                name=:name, link=:link, images=:images,nation=:nation,
+                category_id=:category_id, created=:created ";
+                $stmt = $this->conn->prepare($query);
+        
+
+                $this->name=htmlspecialchars(strip_tags($this->name));
+                $this->link=htmlspecialchars(strip_tags($this->link));
+                $this->images=htmlspecialchars(strip_tags($this->images));
+                $this->nation=htmlspecialchars(strip_tags($this->nation));
+                $this->category_id=htmlspecialchars(strip_tags($this->category_id));
+                $this->timestamp = date('Y-m-d H:i:s');
             
+               
+                $stmt->bindParam(":name", $this->name);
+                $stmt->bindParam(":link", $this->link);
+                $stmt->bindParam(":images", $this->images);
+                $stmt->bindParam(":nation", $this->nation);
+                $stmt->bindParam(":category_id", $this->category_id);
+                $stmt->bindParam(":created", $this->timestamp);
+                if($stmt->execute()){
+                    return true;
+                }else{
+                    return false;
+                }
         }
         function delete($id_){
-            $query = "DELETE FROM products WHERE id='$id_'";
+            $query = "DELETE FROM list WHERE id='$id_'";
             $stmt=$this->conn->prepare($query);
             $stmt->execute();
             header('location:./main.php');
