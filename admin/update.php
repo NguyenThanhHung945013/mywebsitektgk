@@ -53,15 +53,19 @@ echo "<!DOCTYPE html>
             <div class='invalid-feedback'>Please fill out this field.</div>
           </div>
           <div class='mb-3'>
-            <label for='pwd' class='form-label'>Nation:</label>
-            <select class='form-control' id='sel1' name='nation'>
-                <option value='{$nation}'>{$nation}</option>";
-                echo"<option value='Japan'>Japan</option>";
-                echo"<option value='China'>China</option>";
-                echo"<option value='Korea'>Korea</option>";
-                echo"<option value='American'>American</option>";
-          echo"</select>
-            <div class='valid-feedback'>Valid.</div>
+            <label for='pwd' class='form-label'>Nation:</label>";
+
+            $arr = array('Japan', 'China', 'Korea','American');
+          echo" <select class='form-control' id='sel1' name='nation'>";
+          echo" <option value='{$nation}'>{$nation}</option>";
+          foreach($arr as $key=>$value){
+            if($nation==$value)
+              continue;
+            echo"<option value='{$value}'>{$value}</option>";
+          }
+                
+          echo"</select>";
+            echo"<div class='valid-feedback'>Valid.</div>
             <div class='invalid-feedback'>Please fill out this field.</div>
           </div>
           <div class='mb-3'>";
