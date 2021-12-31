@@ -9,7 +9,7 @@
      <meta name="viewport" container="width=device-width, initial-scale=1.0"> 
     <title>Anime</title>
     <link rel="stylesheet" type="text/css" href="../css/test.css">
-    <link rel="stylesheet" type="text/css" href="../css/view.css">    
+     <link rel="stylesheet" type="text/css" href="../css/view.css">     
     <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css" />
     <link rel="icon" type="image/x-icon" href="../images/logoo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -192,7 +192,7 @@
           <a href="../index.php?page=china" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
           <a href="../index.php?page=korea" class="w3-bar-item w3-button" style="width: 8%;">KOREA</a> 
           <a href="../index.php?page=american" class="w3-bar-item w3-button" style="width: 8%;">AMERICAN</a> 
-          <a href="../index.php?page=xephang" class="w3-bar-item w3-button" style="width: 8%;">XẾP HẠNG</a> 
+          <a href="../index.php?page=xephang" class="w3-bar-item w3-button" style="width: 9%;">XẾP HẠNG</a> 
 
           <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 8%;">GROUP</a> 
           </strong>
@@ -258,7 +258,7 @@
 
           <nav aria-label="breadcrumb" >
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="./view/index.php">Home</a></li>
+              <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
               <li class="breadcrumb-item"><a href="#">Đọc Truyện</a></li>
               <li class="breadcrumb-item active" aria-current="page">One piece</li>
             </ol>
@@ -290,86 +290,111 @@
           <h5> 456 Người đang theo dõi</h5>
           </div>
           <div>
-          <button type="button" class="btn btn-primary">Đọc Từ Đầu</button>
-          <button type="button" class="btn btn-primary">Đọc mới Nhất</button>
+          <button type="button" class="btn btn-outline-success"><a href="./read3.php">Đọc Từ Đầu</a></button>
+          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
           </div>
           <h3>Nội Dung</h3>
-          Câu chuyện kể về Monkey D. Luffy, một chàng trai trẻ tuổi, được thần tượng thời thơ ấu của mình là Shanks "Tóc Đỏ" truyền cảm hứng trở thành một hải tặc, bắt đầu cuộc hành trình tại East Blue tìm kiếm kho báu danh giá và trở thành Tân Vua Hải Tặc.
+          One Piece xoay quanh 1 nhóm cướp biển được gọi là Băng Hải tặc Mũ Rơm - Straw Hat Pirates - được thành lập và lãnh đạo bởi thuyền trưởng Monkey D. Luffy. Cậu bé Luffy có ước mơ tìm thấy kho báu vĩ đại nhất, One Piece, của Vua Hải Tặc đời trước Gold D. Roger và trở thành Vua Hải Tặc đời kế tiếp. Ở Việt Nam hiện nay, truyện đang được Nhà xuất bản Thanh Hóa xuất bản nhưng không có bản quyền, với tên gọi là Đảo Hải tặc Cốt truyện: Monkey D. Luffy, 1 cậu bé rất thích hải tặc có ước mơ tìm được kho báu One Piece và trở thành Vua hải tặc - Pirate King. Lúc nhỏ, Luffy tình cờ ăn phải trái quỉ (Devil Fruit) Gomu Gomu, nó cho cơ thể cậu khả năng co dãn đàn hồi như cao su nhưng đổi lại cậu sẽ không bao giờ biết bơi. Sau đó Luffy lại được Shank cứu thoát tuy nhiên ông ta bị mất 1 cánh tay. Sau đấy Shank chia tay Luffy và để lại cho cậu cái mũ rơm (Straw Hat) và nói rằng: "Sau này bao giờ thành cướp biển hãy gặp ta và trả lại nó". Chính lời nói này đã thúc đầy Luffy trở thành 1 cướp biển thật sự...............................................................................
           <h4>Chapter</h4>
        
-         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary"><a href="./read.php">1033</a></button>
-            <button type="button" class="btn btn-secondary">1032</button>
-            <button type="button" class="btn btn-secondary">1031</button>
-            <button type="button" class="btn btn-secondary">1030</button>
-            <button type="button" class="btn btn-secondary">1029</button>
-            <button type="button" class="btn btn-secondary">1028</button>
-            <button type="button" class="btn btn-secondary">1027</button>
-            <button type="button" class="btn btn-secondary">1026</button>
-            <button type="button" class="btn btn-secondary">1025</button>
-          </div>
-
-           <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">1024</button>
-            <button type="button" class="btn btn-secondary">1023</button>
-            <button type="button" class="btn btn-secondary">1022</button>
-            <button type="button" class="btn btn-secondary">1021</button>
-            <button type="button" class="btn btn-secondary">1020</button>
-            <button type="button" class="btn btn-secondary">1019</button>
-            <button type="button" class="btn btn-secondary">1018</button>
-            <button type="button" class="btn btn-secondary">1017</button>
-            <button type="button" class="btn btn-secondary">1016</button>
-          
-           
-          </div>
-          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">1015</button>
-            <button type="button" class="btn btn-secondary">1014</button>
-            <button type="button" class="btn btn-secondary">1013</button>
-            <button type="button" class="btn btn-secondary">1012</button>
-            <button type="button" class="btn btn-secondary">1011</button>
-            <button type="button" class="btn btn-secondary">1010</button>
-            <button type="button" class="btn btn-secondary">1009</button>
-            <button type="button" class="btn btn-secondary">1008</button>
-            <button type="button" class="btn btn-secondary">1007</button>
-          
-           
-          </div><div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            
-            <button type="button" class="btn btn-secondary">1006</button>
-            <button type="button" class="btn btn-secondary">1005</button>
-            <button type="button" class="btn btn-secondary">1004</button>
-            <button type="button" class="btn btn-secondary">1003</button>
-            <button type="button" class="btn btn-secondary">1003</button>
-            <button type="button" class="btn btn-secondary">1002</button>
-            <button type="button" class="btn btn-secondary">1000</button>
-            <button type="button" class="btn btn-secondary">999</button>
-            <button type="button" class="btn btn-secondary">998</button>
-            
-           
-          
-           
-          </div>
-          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-          <button type="button" class="btn btn-secondary">989</button>
-            <button type="button" class="btn btn-secondary">990</button>
-            <button type="button" class="btn btn-secondary">991</button>
-            <button type="button" class="btn btn-secondary">992</button>
-            <button type="button" class="btn btn-secondary">993</button>
-            <button type="button" class="btn btn-secondary">994</button>
-            <button type="button" class="btn btn-secondary">995</button>
-            <button type="button" class="btn btn-secondary">996</button>
-            <button type="button" class="btn btn-secondary">997</button>
-            
-          
-           
-          </div> 
         
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group mr-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-secondary"><a href="./read.php">44</a></button>
+            <button type="button" class="btn btn-secondary"><a href="./read2.php">43</a></button>
+            <button type="button" class="btn btn-secondary">42</button>
+            <button type="button" class="btn btn-secondary">41</button>
+            <button type="button" class="btn btn-secondary">40</button>
+            <button type="button" class="btn btn-secondary">39</button>
+            <button type="button" class="btn btn-secondary">38</button>
+            <button type="button" class="btn btn-secondary">37</button>
+            <button type="button" class="btn btn-secondary">36</button>
+            <button type="button" class="btn btn-secondary">35</button>
+            <button type="button" class="btn btn-secondary">34</button>
+            <button type="button" class="btn btn-secondary">33</button>
+            <button type="button" class="btn btn-secondary">32</button>
+            <button type="button" class="btn btn-secondary">31</button>
+            <button type="button" class="btn btn-secondary">30</button>
+            <button type="button" class="btn btn-secondary">29</button>
+            <button type="button" class="btn btn-secondary">28</button>
+            <button type="button" class="btn btn-secondary">27</button>
+          </div> 
+          </div>
+          <!-- <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group mr-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-secondary">35</button>
+            <button type="button" class="btn btn-secondary">34</button>
+            <button type="button" class="btn btn-secondary">33</button>
+            <button type="button" class="btn btn-secondary">32</button>
+            <button type="button" class="btn btn-secondary">31</button>
+            <button type="button" class="btn btn-secondary">30</button>
+            <button type="button" class="btn btn-secondary">29</button>
+            <button type="button" class="btn btn-secondary">28</button>
+            <button type="button" class="btn btn-secondary">27</button>
+          </div>
+          </div> -->
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group mr-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-secondary">26</button>
+            <button type="button" class="btn btn-secondary">25</button>
+            <button type="button" class="btn btn-secondary">24</button>
+            <button type="button" class="btn btn-secondary">23</button>
+            <button type="button" class="btn btn-secondary">22</button>
+            <button type="button" class="btn btn-secondary">21</button>
+            <button type="button" class="btn btn-secondary">20</button>
+            <button type="button" class="btn btn-secondary">19</button>
+            <button type="button" class="btn btn-secondary">18</button>
+            <button type="button" class="btn btn-secondary">17</button>
+            <button type="button" class="btn btn-secondary">16</button>
+            <button type="button" class="btn btn-secondary">15</button>
+            <button type="button" class="btn btn-secondary">14</button>
+            <button type="button" class="btn btn-secondary">13</button>
+            <button type="button" class="btn btn-secondary">12</button>
+            <button type="button" class="btn btn-secondary">11</button>
+            <button type="button" class="btn btn-secondary">10</button>
+            <button type="button" class="btn btn-secondary">09</button>
+          
+            </div> 
+            </div>
+          <!-- <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group mr-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-secondary">17</button>
+            <button type="button" class="btn btn-secondary">16</button>
+            <button type="button" class="btn btn-secondary">15</button>
+            <button type="button" class="btn btn-secondary">14</button>
+            <button type="button" class="btn btn-secondary">13</button>
+            <button type="button" class="btn btn-secondary">12</button>
+            <button type="button" class="btn btn-secondary">11</button>
+            <button type="button" class="btn btn-secondary">10</button>
+            <button type="button" class="btn btn-secondary">09</button>
+            </div> 
+            </div> -->
+         
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group mr-2" role="group" aria-label="First group">
+          <button type="button" class="btn btn-secondary">17</button>
+            <button type="button" class="btn btn-secondary">16</button>
+            <button type="button" class="btn btn-secondary">15</button>
+            <button type="button" class="btn btn-secondary">14</button>
+            <button type="button" class="btn btn-secondary">13</button>
+            <button type="button" class="btn btn-secondary">12</button>
+            <button type="button" class="btn btn-secondary">11</button>
+            <button type="button" class="btn btn-secondary">10</button>
+            <button type="button" class="btn btn-secondary">09</button>
+            <button type="button" class="btn btn-secondary">08</button>
+            <button type="button" class="btn btn-secondary">07</button>
+            <button type="button" class="btn btn-secondary">07</button>
+            <button type="button" class="btn btn-secondary">06</button>
+            <button type="button" class="btn btn-secondary">05</button>
+            <button type="button" class="btn btn-secondary">04</button>
+            <button type="button" class="btn btn-secondary">03</button>
+            <button type="button" class="btn btn-secondary">02</button>
+            <button type="button" class="btn btn-secondary"><a href="./read3.php">01</a></button>
+            
+           
+          
+            </div>
+          </div>
       </aside>
     
      
@@ -427,7 +452,7 @@
             <div ><a href=""> <b>Tiên tôn lạc vô cực<br> </b>Chapter 77/???
               <span><br>Lượt xem:2,7934</span></a>
             </div>
-            <div class="r_c_wrap">
+             <div class="r_c_wrap">
               <span class="r_c">08</span>
             </div>
             <img src="../images/sololevening2.jpg" alt="" style="width:60px ;">
@@ -435,7 +460,7 @@
               <span><br>Lượt xem:2,7934</span></a>
             </div>
             </ul>
-          </div>
+          </div> 
        
           
 

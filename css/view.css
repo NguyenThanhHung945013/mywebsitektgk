@@ -1,6 +1,6 @@
 
 .content{
-    height: 690px;
+    height: 900px;
     width: 100%;
 }
 aside{
@@ -17,7 +17,6 @@ aside{
     border: 1px solid black;
 }
 #right{
-   
     width: 25%;
     float: left;
 }
@@ -35,6 +34,5 @@ aside{
 .aaa a{
     text-decoration: none;
 }
-
 
  

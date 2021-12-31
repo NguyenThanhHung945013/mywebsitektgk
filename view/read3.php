@@ -48,7 +48,7 @@
       </nav>
           </div>
  </strong>
-    <h2>CHAPTER 44 - One Piece</h2>
+    <h2>CHAPTER 1 - One Piece</h2>
     <div class="hhh">
     <button type="button" class="btn btn-outline-primary"><a href="read2.php"><-Chap trước</a></button>
     <button type="button" class="btn btn-outline-primary"><a href="read.php">Chap sau-></a></button>
@@ -59,7 +59,7 @@
     <img src="../images/002.jpg" alt="002"style="width:60% ; margin-left:20%;margin-right:20%;">
     </div>
     <div>
-    <img src="../images/003.jpg" alt="003"style="width:60% ; margin-left:20%;margin-right:20%;">
+    <img src="../images/003.jpg" alt="003" style="width:60% ; margin-left:20%;margin-right:20%;">
      </div> 
      <div>
     <img src="../images/004.jpg" alt="003" style="width:60% ; margin-left:20%;margin-right:20%;">
