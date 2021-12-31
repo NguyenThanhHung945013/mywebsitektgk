@@ -98,7 +98,7 @@
           <a href="index.php?page=china" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
           <a href="index.php?page=korea" class="w3-bar-item w3-button" style="width: 8%;">KOREA</a> 
           <a href="index.php?page=american" class="w3-bar-item w3-button" style="width: 8%;">AMERICAN</a> 
-          <a href="index.php?page=xephang" class="w3-bar-item w3-button" style="width: 8%;">XẾP HẠNG</a> 
+          <a href="index.php?page=xephang" class="w3-bar-item w3-button" style="width: 9%;">XẾP HẠNG</a> 
 
           <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 8%;">GROUP</a> 
           </strong>

@@ -143,9 +143,9 @@
 <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
 <nav style="height: 40px;">
         <div class="w3-bar w3-light-grey">
-          <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"><strong>HOME</a>
-          <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
-          <a href="index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
+          <a href="../index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"><strong>HOME</a>
+          <a href="../index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
+          <a href="../index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
           
 
                 <div class="w3-dropdown-hover">
@@ -177,22 +177,14 @@
                           </div>
                   </div>
           
-          <!-- <div class="w3-dropdown-hover">
-            <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">QUỐC GIA</button>
-
-            <div class="w3-dropdown-content w3-card-4">
-                <a href="#" class="w3-bar-item w3-button">JAPAN</a>
-                <a href="#" class="w3-bar-item w3-button">CHINA</a>
-                <a href="#" class="w3-bar-item w3-button">KOREA</a>
-            </div>
-          </div> -->
+         
 
 
-          <a href="index.php?page=japan" class="w3-bar-item w3-button" style="width: 8%;">JAPAN</a> 
-          <a href="index.php?page=china" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
-          <a href="index.php?page=korea" class="w3-bar-item w3-button" style="width: 8%;">KOREA</a> 
-          <a href="index.php?page=american" class="w3-bar-item w3-button" style="width: 8%;">AMERICAN</a> 
-          <a href="index.php?page=xephang" class="w3-bar-item w3-button" style="width: 8%;">XẾP HẠNG</a> 
+          <a href="../index.php?page=japan" class="w3-bar-item w3-button" style="width: 8%;">JAPAN</a> 
+          <a href="../index.php?page=china" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
+          <a href="../index.php?page=korea" class="w3-bar-item w3-button" style="width: 8%;">KOREA</a> 
+          <a href="../index.php?page=american" class="w3-bar-item w3-button" style="width: 8%;">AMERICAN</a> 
+          <a href="../index.php?page=xephang" class="w3-bar-item w3-button" style="width: 9%;">XẾP HẠNG</a> 
 
           <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 8%;">GROUP</a> 
           </strong>
@@ -222,21 +214,21 @@
        
        
         <div class="imggg">
-         <img src="../images/thanh-guom-diet-quy.jpg" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
+         <img src="../images/naruto.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
         </div>
         <div class="content" >
           <div class="h1">
             <h1  >
-            THANH GƯƠM DIỆT QUỶ
+        Naruto
             </h1>
              <h6>
              Cập nhật lúc: 16:25 15/05/2020
              </h6>
-             <h5>Tác giả : Gotouge Koyoharu</h5>
-             <h5>Thể loại: Drama - Fantasy - Historical - Manga - Shounen</h5>
+             <h5>Tác giả : Kishimoto Masashi</h5>
+             <h5>Thể loại:Action - Comedy - Drama - Fantasy - Shounen</h5>
              <h5>Dạng Anime: Chapter Series </h5>
              <h5>Season: 2022</h5>
-             <h5>Lượt Xem: 94.003.390</h5>
+             <h5>Lượt Xem:13.697.761</h5>
           </div>
           <div >
           <button type="button" class="btn btn-success">Fllow</button>
@@ -247,7 +239,7 @@
           <button type="button" class="btn btn-primary">Đọc mới Nhất</button>
           </div>
           <h3>Nội Dung</h3>
-          Kimetsu no Yaiba  Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau.
+          Naruto là một cậu bé có mơ ước trở thành hokage của làng Konoha,được Hokage phong ấn trong người một trong 9 quái vật của thể giới : Cửu vĩ Hồ ly.Vì cho cậu là một con quái vật, ko ai dám chơi với cậu!& Vì muốn được thừa nhận nên rất phá phách.Khi tốt nghiệp trướng ninja, lần đầu tiên cậu đã được thừa nhận và có một người bạn thân là Sasuke.Hai năm sau, Sasuke đã rời bỏ làng lá để đi theo Orochimaru vì muốn đạt được sức mạnh hơn người, và dùng sức mạnh đó để giết người anh của mình.Naruto muốn đem Sasuke trở về, và vì Kakashi ko đủ trình độ nên đã đi theo Jiraiya - một trong tam nin truyền thuyết của Konoha - để học tập thêm cách dùng sức mạnh.Sau hai năm trờ về, Naruto đã 16 tuổi và có nhiều thay đổi! Và những khó khăn nguy hiểm cũng từ đó tăng lên 2 năm sau Sasuke đã trưởng thành...và đúng với cái tên thiên tài Uchiha cậu đã hạ được Orochimaru ( tất nhiên là lúc hắn đang bị ấn chú của Đệ tam làm yếu nhất ) 
           <h4>Chapter</h4>
        
          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
@@ -261,6 +253,14 @@
             <button type="button" class="btn btn-secondary">127</button>
             <button type="button" class="btn btn-secondary">126</button>
             <button type="button" class="btn btn-secondary">125</button>
+            <button type="button" class="btn btn-secondary">108</button>
+            <button type="button" class="btn btn-secondary">107</button>
+            <button type="button" class="btn btn-secondary">106</button>
+            <button type="button" class="btn btn-secondary">105</button>
+            <button type="button" class="btn btn-secondary">104</button>
+            <button type="button" class="btn btn-secondary">103</button>
+            <button type="button" class="btn btn-secondary">102</button>
+            
           </div>
 
            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
@@ -274,6 +274,14 @@
             <button type="button" class="btn btn-secondary">119</button>
             <button type="button" class="btn btn-secondary">118</button>
             <button type="button" class="btn btn-secondary">117</button>
+            <button type="button" class="btn btn-secondary">108</button>
+            <button type="button" class="btn btn-secondary">107</button>
+            <button type="button" class="btn btn-secondary">106</button>
+            <button type="button" class="btn btn-secondary">105</button>
+            <button type="button" class="btn btn-secondary">104</button>
+            <button type="button" class="btn btn-secondary">103</button>
+            <button type="button" class="btn btn-secondary">102</button>
+          
           
            
           </div>
@@ -288,9 +296,18 @@
             <button type="button" class="btn btn-secondary">111</button>
             <button type="button" class="btn btn-secondary">110</button>
             <button type="button" class="btn btn-secondary">109</button>
+            <button type="button" class="btn btn-secondary">108</button>
+            <button type="button" class="btn btn-secondary">107</button>
+            <button type="button" class="btn btn-secondary">106</button>
+            <button type="button" class="btn btn-secondary">105</button>
+            <button type="button" class="btn btn-secondary">104</button>
+            <button type="button" class="btn btn-secondary">103</button>
+            <button type="button" class="btn btn-secondary">102</button>
+            
           
            
-          </div><div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+          </div>
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
           <div class="btn-group mr-2" role="group" aria-label="First group">
             
             <button type="button" class="btn btn-secondary">108</button>
@@ -302,6 +319,14 @@
             <button type="button" class="btn btn-secondary">102</button>
             <button type="button" class="btn btn-secondary">101</button>
             <button type="button" class="btn btn-secondary">100</button>  
+            <button type="button" class="btn btn-secondary">108</button>
+            <button type="button" class="btn btn-secondary">107</button>
+            <button type="button" class="btn btn-secondary">106</button>
+            <button type="button" class="btn btn-secondary">105</button>
+            <button type="button" class="btn btn-secondary">104</button>
+            <button type="button" class="btn btn-secondary">103</button>
+            <button type="button" class="btn btn-secondary">102</button>
+            
       </aside>
     
      
