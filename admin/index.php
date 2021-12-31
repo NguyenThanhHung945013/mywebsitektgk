@@ -21,7 +21,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <form action="main.php" class="was-validated" method="POST">
+    <form action="main.php" class="was-validated w3-container" method="POST">
         <div class="mb-3 mt-3">
           <label for="uname" class="form-label">Email:</label>
           <input type="email" class="form-control" id="uname" placeholder="Enter username" name="email" required>

@@ -53,22 +53,23 @@
         </div>
         <div class="head_left">
         
-            <a href="information.php"><img src="<?=$avatar?>" alt="Logo" style="width:40px;" class="rounded-pill"></a>
+            <a href='information.php?id=<?=$_SESSION['id']?>'><img src="<?=$avatar?>" alt="Logo" style="width:40px;" class="rounded-pill"></a>
         
             <i><?=$name?></i>
             <a href="logout.php" class='btn btn-info left-margin'>Logout</a>
         </div>
     </header>
-    <nav>  
+    <!-- <nav>  
         <a href='main.php' class="btn btn-info left-margin">Tất cả</a>
         <a href='main.php' class="btn btn-success left-margin">Quốc gia</a>
         <a href='main.php' class="btn btn-danger left-margin">Thể loại</a>
-    </nav>
+    </nav> -->
     <?php 
     $page = isset($_GET['pa']) ? $_GET['pa'] : 1;
     $records_per_page = 5;
     $total_rows = 60;
     $from_record_num = ($records_per_page * $page) - $records_per_page;
+    
     $stmt = $story->readAll($from_record_num, $records_per_page);
     $num = $stmt->rowCount();
 
