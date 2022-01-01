@@ -16,7 +16,7 @@
   echo "<h1>{$page_title}</h1>";
   while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
       extract($row);
-      echo "<div class='menu_left'>";
+      echo "<div class='menu_left thu-nghiem-zoom'>";
       echo "<img src='images/{$images}' alt=' 'style='width:150px ;height:200px'>";
       echo "<h2><a href='./view/{$link}' onmouseover='this.style.color = red' onmouseout='this.style.color = blue'>{$name}</a></h2>";
       echo "</div>"; 

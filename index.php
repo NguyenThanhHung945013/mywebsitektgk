@@ -17,7 +17,10 @@
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <style>
-  
+        .thu-nghiem-zoom img{display:block;transition: all .3s ease;}
+        .thu-nghiem-zoom img:hover{transform: scale(1.1);}
+        .thu-nghiem-zoom p{display:block;overflow: hidden;}
+    </style>
     </style>
   
     </head>
@@ -109,14 +112,14 @@
     </nav>
     <section class="section">
       <div class="w3-content w3-display-container">
-        <img class="mySlides" src="./images/anime.jpg" style="width:100% ;height: 400px;">
-        <img class="mySlides" src="./images/slide1.png" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/dragon-ball-super-21448-715x402.jpg" style="width:100% ;height: 400px;">
-        <img class="mySlides" src="./images/slide.jpg" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/slideonepiece.jpg" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/borutoo.png" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/10.png" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/yaiba.png" style="width:100% ;height: 400px; ">
+        <img class="mySlides w3-animate-left" src="./images/anime.jpg" style="width:100% ;height: 400px;">
+        <img class="mySlides w3-animate-left" src="./images/slide1.png" style="width:100% ;height: 400px; ">
+        <img class="mySlides w3-animate-left" src="./images/dragon-ball-super-21448-715x402.jpg" style="width:100% ;height: 400px;">
+        <img class="mySlides w3-animate-left" src="./images/slide.jpg" style="width:100% ;height: 400px; ">
+        <img class="mySlides w3-animate-left" src="./images/slideonepiece.jpg" style="width:100% ;height: 400px; ">
+        <img class="mySlides w3-animate-left" src="./images/borutoo.png" style="width:100% ;height: 400px; ">
+        <img class="mySlides w3-animate-left" src="./images/10.png" style="width:100% ;height: 400px; ">
+        <img class="mySlides w3-animate-left" src="./images/yaiba.png" style="width:100% ;height: 400px; ">
         
         
         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
