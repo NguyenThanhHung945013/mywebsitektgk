@@ -78,8 +78,8 @@
         <table class='table table-dark table-bordered'>
             <thead>
               <tr>
-                <th>Images</th>
                 <th>Name</th>
+                <th>Images</th>
                 <th>Category</th>
                 <th>Nation</th>
                 <th>Action</th>
