@@ -1,5 +1,5 @@
 <?php   
     echo "thành công";
-    session_destroy();
+    unset($_SESSION['id']);
     header('location:./index.php');
 ?>

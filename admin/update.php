@@ -26,34 +26,35 @@ echo "<!DOCTYPE html>
     <title>Admin</title>
     <link rel='icon' type='image/x-icon' href='../images/admin.jpg'>
     <link rel='stylesheet' type='text/css' href='../css/admin.css'>
+    <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css' rel='stylesheet'>
     <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js'></script>
     <link rel='stylesheet'href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' />
 </head>
 <body>
     
-    <form action='' class='was-validated' method='POST'>
-        <div class='mb-3 mt-3'>
-          <label for='uname' class='form-label'>Name:</label>
-          <input type='text' value='{$name}' class='form-control' id='uname' placeholder='Enter username' name='name' required>
-          <div class='valid-feedback'>Valid.</div>
-          <div class='invalid-feedback'>Please fill out this field.</div>
+      <form action='' class='w3-container' method='POST' style='margin: 5% 25% 0% 25% ; height: 550px;'>
+        <div class='w3-container w3-brown' style='margin: 5% 0% 0% 0%;'>
+          <h2>Cập nhật truyện</h2>
         </div>
         <div class='mb-3 mt-3'>
-            <label for='myfile'>Link:</label>
+          <label for='uname' class='w3-text-brown'>Name:</label>
+          <input type='text' value='{$name}' class='form-control' id='uname' placeholder='Enter username' name='name' required>
+          
+        </div>
+        <div class='mb-3 mt-3'>
+            <label class='w3-text-brown' for='myfile'>Link:</label>
             <input type='text' class='form-control' value='{$link}' id='uname' placeholder='Enter username' name='link' required>
-            <div class='valid-feedback'>Valid.</div>
-            <div class='invalid-feedback'>Please fill out this field.</div>
+          
           </div>
           <div class='mb-3'>
-            <label for='myfile'>Images:</label>
+            <label class='w3-text-brown' for='myfile'>Images:</label>
             <img src='../images/{$images}' alt='Logo' style='width:50px ;height:50px'>
             <input type='file' class='form-control'name='images'>
-            <div class='valid-feedback'>Valid.</div>
-            <div class='invalid-feedback'>Please fill out this field.</div>
+            
           </div>
           <div class='mb-3'>
-            <label for='pwd' class='form-label'>Nation:</label>";
+            <label for='pwd' class='w3-text-brown''>Nation:</label>";
 
             $arr = array('Japan', 'China', 'Korea','American');
           echo" <select class='form-control' id='sel1' name='nation'>";
@@ -64,14 +65,16 @@ echo "<!DOCTYPE html>
             echo"<option value='{$value}'>{$value}</option>";
           }
                 
-          echo"</select>";
-            echo"<div class='valid-feedback'>Valid.</div>
-            <div class='invalid-feedback'>Please fill out this field.</div>
+          echo"</select>
+            
+            
           </div>
           <div class='mb-3'>";
+          
           $stmt = $category->read();          
           $category->id = $category_id ;
           $category->readName();
+          echo"<label for='pwd' class='w3-text-brown'>Category:</label>";
           echo "<select class='form-control' name='category_id'>";
           echo "<option value='{$category->id}'>{$category->name}</option>";
           while ($row_category = $stmt->fetch(PDO::FETCH_ASSOC)){
@@ -80,17 +83,14 @@ echo "<!DOCTYPE html>
                   continue;
                   echo "<option value='{$id}'>{$name}</option>";
                 }
-              echo "</select>";
-            echo "<div class='valid-feedback'>Valid.</div>
-            <div class='invalid-feedback'>Please fill out this field.</div>
-          </div>
+              echo "</select>
+        </div>   
         <div class='form-check mb-3'>
           <input class='form-check-input' type='checkbox' id='myCheck' name='remember' required>
           <label class='form-check-label' for='myCheck'>I agree on blabla.</label>
-          <div class='valid-feedback'>Valid.</div>
-          <div class='invalid-feedback'>Check this checkbox to continue.</div>
         </div>
-        <button type='submit' class='btn btn-primary' name='update' >Submit</button>
+        <button type='submit' class='btn btn-primary' name='add' style='margin: 0% 0% 0% 25% ;'>Submit</button>
+        <a href='main.php' class='btn btn-danger' name='add' style='margin: 0% 10% 0% 25% ;' >Cancal</a>
     </form>
 </body>
 </html>";

@@ -1,9 +1,10 @@
 <?php
     class Admin{
-        private $conn ;
+        public $conn ;
         private $table_name = "admins" ;
-        private $email;
-        private $password;
+        public $email;
+        public $password;
+        public $avatar ;
         public function __construct($db){
             $this->conn = $db ;
         }
@@ -19,6 +20,25 @@
             $stmt=$this->conn->prepare($query);
             $stmt->execute();
             return $stmt;
+        }
+        function update($id_){
+            $query = "UPDATE 
+                " . $this->table_name . "
+                SET
+                name=:name, password=:password , avatar=:avatar WHERE id='$id_'";
+                $stmt = $this->conn->prepare($query);
+                $this->name=htmlspecialchars(strip_tags($this->name));
+                $this->password=htmlspecialchars(strip_tags($this->password));
+                $this->avatar=htmlspecialchars(strip_tags($this->avatar));            
+                $stmt->bindParam(":name", $this->name);
+                $stmt->bindParam(":password", $this->password);
+                $stmt->bindParam(":avatar", $this->avatar);
+                if($stmt->execute()){
+                    return true;
+                }else{
+                    return false;
+                }
+            
         }
         
 

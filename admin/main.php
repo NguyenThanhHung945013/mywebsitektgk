@@ -13,12 +13,16 @@
   //   header('location:index.php');
   if(!isset($_GET['pa']))
     $_GET['pa'] = 1 ;
-  if(!isset($_SESSION['id']))
-    $_SESSION['id'] = 1 ;
+  if(!isset($_SESSION['id'])){
+    $_SESSION['id'] = -1 ;
+
+  }
+ 
   if(isset($_POST['login'])){
     $acc = false ;
     $em = $_POST['email'];
     $pass = $_POST['password'];
+    echo"$em";
     $stmt = $admin->ConnectAccount();
     while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
       extract($row);
@@ -27,8 +31,13 @@
         $_SESSION['id'] = $id ;
       }
     }
+   
     if($acc==false)
       header('location:index.php?acc=false');
+  }
+   echo "{$_SESSION['id']}";
+  if($_SESSION['id'] == -1 ){
+    header('location:index.php');
   }
   
   $stmt=$admin->Account($_SESSION['id']);
@@ -42,6 +51,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADMIN</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="icon" type="image/x-icon" href="../images/admin.jpg">
     <link rel="stylesheet" type="text/css" href="../css/admin.css">
     <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
@@ -53,10 +63,10 @@
         </div>
         <div class="head_left">
         
-            <a href='information.php?id=<?=$_SESSION['id']?>'><img src="<?=$avatar?>" alt="Logo" style="width:40px;" class="rounded-pill"></a>
+            <a href='information.php?id=<?=$_SESSION['id']?>'><img src="../images/<?=$avatar?>" alt="Logo" style="width:40px;" class="rounded-pill"></a>
         
             <i><?=$name?></i>
-            <a href="logout.php" class='btn btn-info left-margin'>Logout</a>
+            <a href="logout.php" class='btn btn-primary left-margin'>Logout</a>
         </div>
     </header>
     <!-- <nav>  
@@ -74,8 +84,8 @@
     $num = $stmt->rowCount();
 
     echo "<div class='main'>
-        <a href='add.php' class='btn btn-info left-margin'>Creat</a>
-        <table class='table table-dark table-bordered'>
+        <a href='add.php' class='btn btn-success left-margin'>Creat</a>
+        <table class='table table-dark table-bordered' style='background-color :rgba(145, 137, 137, 0.705);'>
             <thead>
               <tr>
                 <th>Name</th>
@@ -89,18 +99,18 @@
             while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
               extract($row);
               echo "<tr>
-                <td>{$name}</td>
+                <td><b>{$name}</b></td>
                 <td><img src='../images/{$images}'style='width:50px ;height:50px'>
                 <td>";
                     $category->id = $category_id;
                     $category->readName();
-                    echo "{$category->name}";
+                    echo "<b>$category->name</b>";
                 echo "</td>
-                <td>{$nation}</td>
+                <td><b>{$nation}</b></td>
                 <td>
-                  <button class='btn btn-info left-margin' left-margin'>Read</button>
-                  <a href='update.php?id={$id}' class='btn btn-info left-margin'>Update</a>
-                  <button class='btn btn-info left-margin' onclick='delete_story({$id})'>Delete</button>                </td>
+                  <a href='../view/{$link}'class='btn btn-info left-margin' left-margin'>Read</a>
+                  <a href='update.php?id={$id}' class='btn btn-warning left-margin'>Update</a>
+                  <button class='btn btn-danger left-margin' onclick='delete_story({$id})'>Delete</button>                </td>
              </tr>";
               }
       
