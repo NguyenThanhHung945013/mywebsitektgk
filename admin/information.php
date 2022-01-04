@@ -30,12 +30,13 @@
             $row = $stmt->fetch(PDO::FETCH_ASSOC);
             extract($row);
     echo"
-    <form class='infoadmin' action ='update_infoadmin.php?id={$id}' method='POST'>
+  
+    <form class='infoadmin' action ='update_infoadmin.php?id={$id}' method='POST' style='padding: 0px 0px 0px 0px;'>
            <div class='w3-container w3-brown'>
               <h2 style='text-align: center;'>Thay đổi thông tin</h2>
             </div>
         
-        <div class='w3-card-4 info' style='height: 425px;'>
+        <div class='w3-card-4 info' style='height: 435px;'>
             <img src='../images/{$avatar}' alt='Logo' style='width:300px; height: 300px; margin-left: 0%;' class='w3-circle '>
             <!-- <p><button class='w3-btn w3-brown w3-bu'>Register</button></p> -->
             <p>      
@@ -43,7 +44,7 @@
                 <input class='w3-input w3-border w3-sand w3-bu' name='images' type='file'></p>
             <p> 
         </div>
-        <div class='w3-card-4 info' style='height: 425px;'>
+        <div class='w3-card-4 info' style='height: 435px;'>
             
             <div class='w3-container w3_a' style='margin-left: 5%;'>
               <p>      
@@ -64,7 +65,8 @@
                
           </div>
         </div>
-    </form>" ;
+    </form>";
+  
     ?>
 </body>
 </html>
