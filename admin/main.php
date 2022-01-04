@@ -136,14 +136,14 @@
                   <button class='btn btn-danger left-margin' onclick='delete_story({$id})'>Delete</button>                </td>
              </tr>";
               }
-            
+            }
+            else{
+              echo "<div class='alert alert-info'>No stories found.</div>";
+            }
           echo "</table>
     </div>";
     
-        }
-        else{
-          echo "<div class='alert alert-info'>No stories found.</div>";
-        }
+        
       echo"  <footer>";
               
         echo "<ul class='pagination' style='margin-left:40%;'>";
