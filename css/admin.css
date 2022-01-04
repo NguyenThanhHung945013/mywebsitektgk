@@ -93,4 +93,8 @@ footer{
     margin: 8% 0% 5% 0%;
     
 }
+.w3-bar{
+    width: 60%;
+    float : left;
+}
 

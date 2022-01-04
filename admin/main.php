@@ -8,8 +8,11 @@
     <title>ADMIN</title>
     <link rel='icon' type='image/x-icon' href='../images/admin.jpg'>
     <link rel='stylesheet' type='text/css' href='../css/admin.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css" />    
     <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
-    <link rel='stylesheet'href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' />
 </head>
 <body>
 <?php
@@ -36,7 +39,7 @@
     $acc = false ;
     $em = $_POST['email'];
     $pass = $_POST['password'];
-    echo"$em";
+    
     $stmt = $admin->ConnectAccount();
     while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
       extract($row);
@@ -49,7 +52,7 @@
     if($acc==false)
       header('location:index.php?acc=false');
   }
-  echo "{$_SESSION['id']}";
+  
   if($_SESSION['id'] == -1){
     header('location:index.php');
   }
@@ -59,9 +62,13 @@
   extract($row);
 ?>
     <header>
-        <div class="head_right">
-            <h1></h1>
-        </div>
+
+        <!-- <div class="head_right w3-bar  w3-padding" style=' width: 32%; margin-left : 38%;'> -->
+          <form action='' method="POST" class="head_right w3-bar  w3-padding" style=' width: 32%;  margin: 0% 0% 0% 38% ;height: auto;'>
+            <input type="text" class="w3-bar-item w3-input w3-white w3-mobile" placeholder="Search.." name='search'>
+            <button type='submit' name = 'ok' class="w3-bar-item w3-button w3-green"><i class="fa fa-search"></i></button>
+          </form>
+        <!-- </div> -->
         <div class="head_left">
         
             <a href='information.php?id=<?=$_SESSION['id']?>'><img src="../images/<?=$avatar?>" alt="Logo" style="width:40px;" class="rounded-pill"></a>
@@ -80,13 +87,23 @@
     $records_per_page = 5;
     $total_rows = 60;
     $from_record_num = ($records_per_page * $page) - $records_per_page;
+    $search = "";
+    if(isset($_POST['ok'])){
+      $search = $_POST['search'] ;
+      $query = "select * from list where name like '%$search%'";
+      $stmt=$story->conn->prepare($query);
+      $stmt->execute();
+    }
+    else{
+      $stmt = $story->readAll($from_record_num, $records_per_page);
+    }
     
-    $stmt = $story->readAll($from_record_num, $records_per_page);
     $num = $stmt->rowCount();
-
+    
     echo "<div class='main'>
-        <a href='add.php' class='btn btn-success left-margin'>Creat</a>
-        <table class='table table-dark table-bordered' style='background-color :rgba(145, 137, 137, 0.705);'>
+        <a href='' class='btn btn-success left-margin'>Tất cả</a>
+        <a href='add.php' class='btn btn-success left-margin'>Creat</a>";
+      echo"<table class='table table-dark table-bordered' style='background-color :rgba(145, 137, 137, 0.705);'>
             <thead>
               <tr>
                 <th>Name</th>
@@ -114,9 +131,11 @@
                   <button class='btn btn-danger left-margin' onclick='delete_story({$id})'>Delete</button>                </td>
              </tr>";
               }
-      
+            
           echo "</table>
     </div>" ;
+      
+      
     
     ?>
     <footer>
