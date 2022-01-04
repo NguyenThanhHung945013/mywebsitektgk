@@ -69,7 +69,7 @@
                  
                         <div class="dropdown-content">
                                   <div class="column">
-                                    <a href="#">MANGA</a>
+                                    <a href="index.php?page=manga">MANGA</a>
                                     <a href="#">PHIÊU LƯA</a>
                                     <a href="#">HÀNH ĐỘNG</a>
                                     <a href="#">GAME</a>
@@ -85,7 +85,7 @@
                                   <div class="column">
                                     <a href="#">KINH DỊ</a>
                                     <a href="#">VÕ THUẬT</a>
-                                    <a href="#">ANIME</a>
+                                    <a href="index.php?page=anime">ANIME</a>
                                     <a href="#">SHOUNEN</a>
           
                                   </div>

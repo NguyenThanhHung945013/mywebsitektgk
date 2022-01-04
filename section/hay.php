@@ -18,7 +18,7 @@
   while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
       extract($row);
       echo "<div class='menu_left'>";
-      echo "<img src='images/{$images}' alt=' 'style='width:150px ;height:200px'>";
+      echo "<a href='./view/{$link}' onmouseover='this.style.color = red' onmouseout='this.style.color = blue'><img src='images/{$images}' alt=' 'style='width:150px ;height:200px'></a>";
       echo "<h2><a href='./view/{$link}' onmouseover='this.style.color = red' onmouseout='this.style.color = blue'>{$name}</a></h2>";
       echo "</div>";
   }

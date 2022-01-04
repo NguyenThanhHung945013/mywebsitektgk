@@ -109,5 +109,11 @@
             $stmt->execute();
             header('location:./main.php');
         }
+        function category($from_record_num,$records_per_page,$id){
+            $query="SELECT * FROM ".$this->table_name . " WHERE category_id='$id' LIMIT {$from_record_num},{$records_per_page}";
+            $stmt=$this->conn->prepare($query);
+            $stmt->execute();
+            return $stmt;
+        }
     }
 ?>

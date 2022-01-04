@@ -87,7 +87,7 @@ echo "<!DOCTYPE html>
         </div>   
         <div class='form-check mb-3'>
           <input class='form-check-input' type='checkbox' id='myCheck' name='remember' required>
-          <label class='form-check-label' for='myCheck'>I agree on blabla.</label>
+          <label class='w3-text-brown' for='myCheck'>I agree on blabla.</label>
         </div>
         <button type='submit' class='btn btn-primary' name='update' style='margin: 0% 0% 0% 25% ;'>Submit</button>
         <a href='main.php' class='btn btn-danger' name='cancal' style='margin: 0% 10% 0% 25% ;' >Cancal</a>

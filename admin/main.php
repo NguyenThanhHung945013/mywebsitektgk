@@ -64,7 +64,7 @@
     <header>
 
         <!-- <div class="head_right w3-bar  w3-padding" style=' width: 32%; margin-left : 38%;'> -->
-          <form action='' method="POST" class="head_right w3-bar  w3-padding" style=' width: 32%;  margin: 0% 0% 0% 38% ;height: auto;'>
+          <form action='' method="POST" class="head_right w3-bar  w3-padding" style=' width: 23%;  margin: 0% 9% 0% 38% ;height: auto;'>
             <input type="text" class="w3-bar-item w3-input w3-white w3-mobile" placeholder="Search.." name='search'>
             <button type='submit' name = 'ok' class="w3-bar-item w3-button w3-green"><i class="fa fa-search"></i></button>
           </form>
@@ -90,9 +90,12 @@
     $search = "";
     if(isset($_POST['ok'])){
       $search = $_POST['search'] ;
-      $query = "select * from list where name like '%$search%'";
-      $stmt=$story->conn->prepare($query);
-      $stmt->execute();
+      if( $search !=""){
+        $query = "select * from list where name like '%$search%'  LIMIT {$from_record_num},{$records_per_page}";
+        $stmt=$story->conn->prepare($query);
+        $stmt->execute();
+      }
+     
     }
     else{
       $stmt = $story->readAll($from_record_num, $records_per_page);
@@ -101,8 +104,10 @@
     $num = $stmt->rowCount();
     
     echo "<div class='main'>
-        <a href='' class='btn btn-success left-margin'>Tất cả</a>
+        <a href='' class='btn btn-primary left-margin'>Tất cả</a>
         <a href='add.php' class='btn btn-success left-margin'>Creat</a>";
+        if($num > 0){
+          // echo "<div class='alert alert-info'>$num kết quả trả về với từ khóa <b>$search</b>.</div>";
       echo"<table class='table table-dark table-bordered' style='background-color :rgba(145, 137, 137, 0.705);'>
             <thead>
               <tr>
@@ -133,56 +138,60 @@
               }
             
           echo "</table>
-    </div>" ;
-      
-      
+    </div>";
     
-    ?>
-    <footer>
-    <?php
-    echo "<ul class='pagination' style='margin-left:40%;'>";
-        $page_url = "main.php" ;
-        // button for first page
-        if($page>1){
-          echo "<li><a href='{$page_url}?pa=1' title='Go to the first
-          page.'>";
-          echo "First";
-          echo "</a></li>";
         }
-
-        // calculate total pages
-        $total_pages = ceil($total_rows / $records_per_page);
-        // range of links to show
-        $range = 2;
-        // display links to 'range of pages' around 'current page'
-        $initial_num = $page - $range;
-        $condition_limit_num = ($page + $range) + 1;
-        for ($x=$initial_num; $x<$condition_limit_num; $x++) {
-        // be sure '$x is greater than 0' AND 'less than or equal to the$total_pages'
-          if (($x > 0) && ($x <= $total_pages)) {
-        // current page
-            if ($x == $page) {
-        
-              echo "<li class='active'><a href=\"#\">$x <span class=\"sr-
-              only\">(current)</span></a></li>";
-        
-          }
-        // not current page
-            else {
-              echo "<li><a href='{$page_url}?pa=$x'>$x</a></li>";
+        else{
+          echo "<div class='alert alert-info'>No stories found.</div>";
+        }
+      echo"  <footer>";
+              
+        echo "<ul class='pagination' style='margin-left:40%;'>";
+            $page_url = "main.php" ;
+            // button for first page
+            if($page>1){
+              echo "<li><a href='{$page_url}?pa=1' title='Go to the first
+              page.'>";
+              echo "First";
+              echo "</a></li>";
             }
-          }
-        }
-        // button for last page
-        if($page<$total_pages){
-          echo "<li><a href='" .$page_url."?pa={$total_pages}' title='Last
-          page is {$total_pages}.'>";
-          echo "Last";
-          echo "</a></li>";
-        }
-        echo "</ul>";
+    
+            // calculate total pages
+            $total_pages = ceil($total_rows / $records_per_page);
+            // range of links to show
+            $range = 2;
+            // display links to 'range of pages' around 'current page'
+            $initial_num = $page - $range;
+            $condition_limit_num = ($page + $range) + 1;
+            for ($x=$initial_num; $x<$condition_limit_num; $x++) {
+            // be sure '$x is greater than 0' AND 'less than or equal to the$total_pages'
+              if (($x > 0) && ($x <= $total_pages)) {
+            // current page
+                if ($x == $page) {
+            
+                  echo "<li class='active'><a href=\"#\">$x <span class=\"sr-
+                  only\">(current)</span></a></li>";
+            
+              }
+            // not current page
+                else {
+                  echo "<li><a href='{$page_url}?pa=$x'>$x</a></li>";
+                }
+              }
+            }
+            // button for last page
+            if($page<$total_pages){
+              echo "<li><a href='" .$page_url."?pa={$total_pages}' title='Last
+              page is {$total_pages}.'>";
+              echo "Last";
+              echo "</a></li>";
+            }
+            echo "</ul>";
+        
+      echo"  </footer>"; 
+    
+   
     ?>
-    </footer>
 </body>
 </html>
 <script language="javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>

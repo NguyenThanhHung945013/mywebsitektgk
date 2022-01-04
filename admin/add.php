@@ -72,9 +72,8 @@ echo "<!DOCTYPE html>
           </div>
         <div class='form-check mb-3'>
           <input class='form-check-input' type='checkbox' id='myCheck' name='remember' required>
-          <label class='form-check-label' for='myCheck'>I agree on blabla.</label>
-          <div class='valid-feedback'>Valid.</div>
-          <div class='invalid-feedback'>Check this checkbox to continue.</div>
+          <label class='w3-text-brown' for='myCheck'>I agree on blabla.</label>
+          
         </div>
         <button type='submit' class='btn btn-primary' name='add' style='margin: 0% 0% 0% 25% ;'>Submit</button>
         <a href='main.php' class='btn btn-danger' name='add' style='margin: 0% 10% 0% 25% ;' >Cancal</a>
