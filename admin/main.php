@@ -35,8 +35,8 @@
     if($acc==false)
       header('location:index.php?acc=false');
   }
-   echo "{$_SESSION['id']}";
-  if($_SESSION['id'] == -1 ){
+  echo "{$_SESSION['id']}";
+  if($_SESSION['id'] == -1){
     header('location:index.php');
   }
   
