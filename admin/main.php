@@ -1,3 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>ADMIN</title>
+    <link rel='icon' type='image/x-icon' href='../images/admin.jpg'>
+    <link rel='stylesheet' type='text/css' href='../css/admin.css'>
+    <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+    <link rel='stylesheet'href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' />
+</head>
+<body>
 <?php
   session_start();
   include_once '../config/database.php' ;
@@ -44,19 +58,6 @@
   $row = $stmt->fetch(PDO::FETCH_ASSOC);
   extract($row);
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADMIN</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="icon" type="image/x-icon" href="../images/admin.jpg">
-    <link rel="stylesheet" type="text/css" href="../css/admin.css">
-    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-</head>
-<body>
     <header>
         <div class="head_right">
             <h1></h1>
