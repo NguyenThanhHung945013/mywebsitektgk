@@ -34,11 +34,17 @@
          </h1>
         </div>
         <div class="search-container">
-          <form action="/action_page.php">
+          <form action="./search/timkiem.php" method="post">
             <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
+            <button type="submit"><i class="fa fa-search" name="ok"></i></button>
           </form>
         </div>
+        <!-- <div align="center">
+            <form action="search.php" method="get">
+                Search: <input type="text" name="search" />
+                <input type="submit" name="ok" value="search" />
+            </form>
+        </div> -->
         <div class="login">
           <button><a href="./admin">Login</a></button>
 
@@ -52,7 +58,8 @@
     <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
     <nav style="height: 40px;">
         <div class="w3-bar w3-light-grey">
-          <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"><strong>HOME</a>
+          <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"> <i class="fa fa-home fa-2x"></i>  <Strong> </a>
+         
           <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
           <a href="index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
           
@@ -182,57 +189,70 @@
               <span class="r_c"style="background-color: #d31a1a ">01</span>
             </div>
             <img src="images/onepiece.png" alt="" style="width:60px ;">
-            <div ><a href=""> <b> One Piece<br> </b>Chapter 1033/???
-              <span ><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b> One Piece<br></h5> <h6></b>Chapter 1033/???</h6>
+              
+               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 8.644567</span></i></a>
+
             </div>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #37c21b ">02</span>
             </div>
             <img src="images/daragon.jpg" alt=""  style="width:60px ;">
-            <div><a href=""><b>Dragon ball</b><br>Chapter 176/???
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Dragon ball<br></h5> <h6></b>Chapter 176/???</h6>
+              
+               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 7.644567</span></i></a>
+            <!-- <div><a href=""><b>Dragon ball</b><br>Chapter 176/???
+            <span><br><i class="fa fa-season ">Lượt Xem: 5.644567</i></span></a> -->
             </div>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #390f82 ">03</span>
             </div>
             <img src="images/onepusman.png" alt=""  style="width:60px ;">
-            <div><a href=""><b> One punch man</b> <br>Chapter 201/???
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>One pusMan<br></h5> <h6></b>Chapter 346/???</h6>
+              
+               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 6.644567</span></i></a>
             </div>
               <div class="r_c_wrap" >
               <span class="r_c">04</span>
             </div>
             <img src="images/naruto.png" alt=""  style="width:60px ;">
-            <div><a href=""><b> Naruto </b><br>Chapter 347
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 304/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.666567</span></i></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c">05</span>
             </div>
             <img src="images/pokemon.png" alt=""  style="width:60px ;">
-            <div><a href=""><b>pokemon</b> <br>Chapter 1000/???
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Pokemon<br></h5> <h6></b>Chapter 1003/1040</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 4.876567</span></i></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c">06</span>
             </div>
             <img src="images/doraemon.png" alt="" style="width:60px ;">
-            <div><a href=""><b> Doramon</b> <br>Chapter 156/???
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Doraemon<br></h5> <h6></b>Chapter 489/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 3.6564547</span></i></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c">07</span>
             </div>
             <img src="images/tientonlacvocuc.jpg" alt="" style="width:60px ;">
-            <div ><a href=""> <b>Tiên tôn lạc vô cực<br> </b>Chapter 77/???
-              <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c">08</span>
             </div>
             <img src="images/sololevening2.jpg" alt="" style="width:60px ;">
-            <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???
-              <span><br>Lượt xem:2,7934</span></a>
+            <!-- <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???
+              <span><br>Lượt xem:2,7934</span></a> -->
+              <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>
             </ul>
           </div>

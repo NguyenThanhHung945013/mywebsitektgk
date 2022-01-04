@@ -203,9 +203,9 @@
 
           <nav aria-label="breadcrumb" >
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
+              <li class="breadcrumb-item"><a href="../index.php"><i class="fa fa-home fa-lg"></i>Home</a></li>
               <li class="breadcrumb-item"><a href="#">Đọc Truyện</a></li>
-              <li class="breadcrumb-item active" aria-current="page"> THANH GƯƠM DIỆT QUỶ</li>
+              <li class="breadcrumb-item active" aria-current="page"> Naruto </li>
             </ol>
           </nav>
      </strong>
@@ -224,7 +224,7 @@
              <h6>
              Cập nhật lúc: 16:25 15/05/2020
              </h6>
-             <h5>Tác giả : Kishimoto Masashi</h5>
+             <!-- <h5>Tác giả : Kishimoto Masashi</h5>
              <h5>Thể loại:Action - Comedy - Drama - Fantasy - Shounen</h5>
              <h5>Dạng Anime: Chapter Series </h5>
              <h5>Season: 2022</h5>
@@ -233,104 +233,130 @@
           <div >
           <button type="button" class="btn btn-success">Fllow</button>
           <h5> 456 Người đang theo dõi</h5>
+          </div> -->
+          <h6>  <i class="fa fa-user fa-lg">Tác giả :  Kishimoto Masashi</i></h6>
+             <!-- <h5>Tác giả :  ERichi Oda</h5> -->
+             <h6>  <i class="fa fa-tags fa-lg">Thể loại :Action - Comedy - Drama - Fantasy - Shounen</i></h6>
+             <!-- <h5>Thể loại: Phiêu Lưu, kho baus, Hoạt hình Japan</h5> -->
+             <!-- <h5>Dạng Anime: Chapter Series </h5> -->
+            
+             
+             <!-- <h5>  <i class="fa fa-season fa-lg">Lượt Xem: 5.644567</i></h5> -->
+             <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
+            <div>
+          <h5>  <i class="fa fa-eye ">Lượt Xem: 5.644567</i></h5>
+           <h5>Dạng Anime: Chapter Series </h5> 
+        </div>
+          </div>
+          <div >
+          <button type="button" class="btn btn-success">Fllow</button>
+          <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
           <button type="button" class="btn btn-primary">Đọc Từ Đầu</button>
           <button type="button" class="btn btn-primary">Đọc mới Nhất</button>
           </div>
-          <h3>Nội Dung</h3>
+          <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
           Naruto là một cậu bé có mơ ước trở thành hokage của làng Konoha,được Hokage phong ấn trong người một trong 9 quái vật của thể giới : Cửu vĩ Hồ ly.Vì cho cậu là một con quái vật, ko ai dám chơi với cậu!& Vì muốn được thừa nhận nên rất phá phách.Khi tốt nghiệp trướng ninja, lần đầu tiên cậu đã được thừa nhận và có một người bạn thân là Sasuke.Hai năm sau, Sasuke đã rời bỏ làng lá để đi theo Orochimaru vì muốn đạt được sức mạnh hơn người, và dùng sức mạnh đó để giết người anh của mình.Naruto muốn đem Sasuke trở về, và vì Kakashi ko đủ trình độ nên đã đi theo Jiraiya - một trong tam nin truyền thuyết của Konoha - để học tập thêm cách dùng sức mạnh.Sau hai năm trờ về, Naruto đã 16 tuổi và có nhiều thay đổi! Và những khó khăn nguy hiểm cũng từ đó tăng lên 2 năm sau Sasuke đã trưởng thành...và đúng với cái tên thiên tài Uchiha cậu đã hạ được Orochimaru ( tất nhiên là lúc hắn đang bị ấn chú của Đệ tam làm yếu nhất ) 
-          <h4>Chapter</h4>
+          
+          <hr> 
+          <h6>  <i class="fa fa-list fa-lg">Danh Sách Chương</i></h6>
        
-         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary"><a href="./read.php">133</a></button>
-            <button type="button" class="btn btn-secondary">132</button>
-            <button type="button" class="btn btn-secondary">131</button>
-            <button type="button" class="btn btn-secondary">130</button>
-            <button type="button" class="btn btn-secondary">129</button>
-            <button type="button" class="btn btn-secondary">128</button>
-            <button type="button" class="btn btn-secondary">127</button>
-            <button type="button" class="btn btn-secondary">126</button>
-            <button type="button" class="btn btn-secondary">125</button>
-            <button type="button" class="btn btn-secondary">108</button>
-            <button type="button" class="btn btn-secondary">107</button>
-            <button type="button" class="btn btn-secondary">106</button>
-            <button type="button" class="btn btn-secondary">105</button>
-            <button type="button" class="btn btn-secondary">104</button>
-            <button type="button" class="btn btn-secondary">103</button>
-            <button type="button" class="btn btn-secondary">102</button>
-            
-          </div>
+         
+          
+  <div class="container">
+  <div class="row">
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1001</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1002</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1003</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1004</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1005</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1006</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1007</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1008</button>
+    </div>
+    
+  </div>
+        </div>
 
-           <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">125</button>
-            <button type="button" class="btn btn-secondary">124</button>
-            <button type="button" class="btn btn-secondary">123</button>
-            <button type="button" class="btn btn-secondary">122</button>
-            <button type="button" class="btn btn-secondary">121</button>
-            <button type="button" class="btn btn-secondary">120</button>
-            <button type="button" class="btn btn-secondary">119</button>
-            <button type="button" class="btn btn-secondary">118</button>
-            <button type="button" class="btn btn-secondary">117</button>
-            <button type="button" class="btn btn-secondary">108</button>
-            <button type="button" class="btn btn-secondary">107</button>
-            <button type="button" class="btn btn-secondary">106</button>
-            <button type="button" class="btn btn-secondary">105</button>
-            <button type="button" class="btn btn-secondary">104</button>
-            <button type="button" class="btn btn-secondary">103</button>
-            <button type="button" class="btn btn-secondary">102</button>
-          
-          
-           
-          </div>
-          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">116</button>
-            <button type="button" class="btn btn-secondary">115</button>
-            <button type="button" class="btn btn-secondary">114</button>
-            <button type="button" class="btn btn-secondary">114</button>
-            <button type="button" class="btn btn-secondary">113</button>
-            <button type="button" class="btn btn-secondary">112</button>
-            <button type="button" class="btn btn-secondary">111</button>
-            <button type="button" class="btn btn-secondary">110</button>
-            <button type="button" class="btn btn-secondary">109</button>
-            <button type="button" class="btn btn-secondary">108</button>
-            <button type="button" class="btn btn-secondary">107</button>
-            <button type="button" class="btn btn-secondary">106</button>
-            <button type="button" class="btn btn-secondary">105</button>
-            <button type="button" class="btn btn-secondary">104</button>
-            <button type="button" class="btn btn-secondary">103</button>
-            <button type="button" class="btn btn-secondary">102</button>
-            
-          
-           
-          </div>
-          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            
-            <button type="button" class="btn btn-secondary">108</button>
-            <button type="button" class="btn btn-secondary">107</button>
-            <button type="button" class="btn btn-secondary">106</button>
-            <button type="button" class="btn btn-secondary">105</button>
-            <button type="button" class="btn btn-secondary">104</button>
-            <button type="button" class="btn btn-secondary">103</button>
-            <button type="button" class="btn btn-secondary">102</button>
-            <button type="button" class="btn btn-secondary">101</button>
-            <button type="button" class="btn btn-secondary">100</button>  
-            <button type="button" class="btn btn-secondary">108</button>
-            <button type="button" class="btn btn-secondary">107</button>
-            <button type="button" class="btn btn-secondary">106</button>
-            <button type="button" class="btn btn-secondary">105</button>
-            <button type="button" class="btn btn-secondary">104</button>
-            <button type="button" class="btn btn-secondary">103</button>
-            <button type="button" class="btn btn-secondary">102</button>
-            
+  <hr>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1009</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1010</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1011</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1012</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1013</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1014</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1015</button>
+    </div>
+    
+    
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1016</button>
+    </div>
+  </div>
+        </div>
+  <hr>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1017</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1018</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1019</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1020</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1021</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1022</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1023</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1024</button>
+    </div>
+  </div>
+        </div>
       </aside>
     
      
-      
       <article id="right" style='height: 830px;'>
         <div class="menu_right">
         <h3><i><strong>Bảng Xếp Hạng All</strong></i></h3>
@@ -339,57 +365,70 @@
               <span class="r_c"style="background-color: #d31a1a ">01</span>
             </div>
             <img src="../images/onepiece.png" alt="" style="width:60px ;">
-            <div ><a href=""> <b> One Piece<br> </b>Chapter 1033/???
-              <span ><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b> One Piece<br></h5> <h6></b>Chapter 1033/???</h6>
+              
+               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 8.644567</span></i></a>
+
             </div>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #37c21b ">02</span>
             </div>
             <img src="../images/daragon.jpg" alt=""  style="width:60px ;">
-            <div><a href=""><b>Dragon ball</b><br>Chapter 176/???
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Dragon ball<br></h5> <h6></b>Chapter 176/???</h6>
+              
+               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 7.644567</span></i></a>
+            <!-- <div><a href=""><b>Dragon ball</b><br>Chapter 176/???
+            <span><br><i class="fa fa-season ">Lượt Xem: 5.644567</i></span></a> -->
             </div>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #390f82 ">03</span>
             </div>
             <img src="../images/onepusman.png" alt=""  style="width:60px ;">
-            <div><a href=""><b> One punch man</b> <br>Chapter 201/???
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>One pusMan<br></h5> <h6></b>Chapter 346/???</h6>
+              
+               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 6.644567</span></i></a>
             </div>
               <div class="r_c_wrap" >
               <span class="r_c">04</span>
             </div>
             <img src="../images/naruto.png" alt=""  style="width:60px ;">
-            <div><a href=""><b> Naruto </b><br>Chapter 347
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 304/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.666567</span></i></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c">05</span>
             </div>
             <img src="../images/pokemon.png" alt=""  style="width:60px ;">
-            <div><a href=""><b>pokemon</b> <br>Chapter 1000/???
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Pokemon<br></h5> <h6></b>Chapter 1003/1040</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 4.876567</span></i></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c">06</span>
             </div>
             <img src="../images/doraemon.png" alt="" style="width:60px ;">
-            <div><a href=""><b> Doramon</b> <br>Chapter 156/???
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Doraemon<br></h5> <h6></b>Chapter 489/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 3.6564547</span></i></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c">07</span>
             </div>
             <img src="../images/tientonlacvocuc.jpg" alt="" style="width:60px ;">
-            <div ><a href=""> <b>Tiên tôn lạc vô cực<br> </b>Chapter 77/???
-              <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c">08</span>
             </div>
             <img src="../images/sololevening2.jpg" alt="" style="width:60px ;">
-            <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???
-              <span><br>Lượt xem:2,7934</span></a>
+            <!-- <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???
+              <span><br>Lượt xem:2,7934</span></a> -->
+              <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>
             </ul>
           </div>

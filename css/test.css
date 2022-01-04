@@ -36,9 +36,11 @@ body{
 
 
 }
+
 .logo{
   float: left;
   width: 30%;
+  
 }
 .login input[type=text], input[type=password] {
   width: 100%;

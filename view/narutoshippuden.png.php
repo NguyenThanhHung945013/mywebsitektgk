@@ -9,7 +9,7 @@
      <meta name="viewport" container="width=device-width, initial-scale=1.0"> 
     <title>Anime</title>
     <link rel="stylesheet" type="text/css" href="../css/test.css">
-    <link rel="stylesheet" type="text/css" href="../css/view.css">    
+     <link rel="stylesheet" type="text/css" href="../css/view.css">     
     <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css" />
     <link rel="icon" type="image/x-icon" href="../images/logoo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -142,109 +142,66 @@
     
 <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
 <nav style="height: 40px;">
-    <div class="w3-bar w3-light-grey">
-      <a href="../index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"><strong>HOME</a>
-      <a href="../index.php?page=hot" class="w3-bar-item w3-button" style="width: 8%;">ANIME HOT</a>
-      <a href="../index.php?page=hay" class="w3-bar-item w3-button" style="width: 8%;">ANIME HAY</a> 
-      
+        <div class="w3-bar w3-light-grey">
+          <a href="../index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"><strong>HOME</a>
+          <a href="../index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
+          <a href="../index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
+          
 
-            <div class="w3-dropdown-hover">
-              <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">THỂ LOẠI</button>
-              
-             
-                    <div class="dropdown-content">
-                              <div class="column">
-                                <a href="#">MANGA</a>
-                                <a href="#">PHIÊU LƯA</a>
-                                <a href="#">HÀNH ĐỘNG</a>
-                                <a href="#">GAME</a>
+                <div class="w3-dropdown-hover">
+                  <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">THỂ LOẠI</button>
+                  
+                 
+                        <div class="dropdown-content">
+                                  <div class="column">
+                                    <a href="#">MANGA</a>
+                                    <a href="#">PHIÊU LƯA</a>
+                                    <a href="#">HÀNH ĐỘNG</a>
+                                    <a href="#">GAME</a>
 
-                              </div>
-                              <div class="column">
-                                <a href="#">TÌNH CẢM</a>
-                                <a href="#">HAREM</a>
-                                <a href="#">TUỔI 18</a>
-                                <a href="#">CÔNG CHÚA</a>
+                                  </div>
+                                  <div class="column">
+                                    <a href="#">TÌNH CẢM</a>
+                                    <a href="#">HAREM</a>
+                                    <a href="#">TUỔI 18</a>
+                                    <a href="#">CÔNG CHÚA</a>
 
-                              </div>
-                              <div class="column">
-                                <a href="#">KINH DỊ</a>
-                                <a href="#">VÕ THUẬT</a>
-                                <a href="#">ANIME</a>
-                                <a href="#">SHOUNEN</a>
-      
-                              </div>
-                      </div>
-              </div>
-      
-      <div class="w3-dropdown-hover">
-        <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">QUỐC GIA</button>
+                                  </div>
+                                  <div class="column">
+                                    <a href="#">KINH DỊ</a>
+                                    <a href="#">VÕ THUẬT</a>
+                                    <a href="#">ANIME</a>
+                                    <a href="#">SHOUNEN</a>
+          
+                                  </div>
+                          </div>
+                  </div>
+          
+          <!-- <div class="w3-dropdown-hover">
+            <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">QUỐC GIA</button>
 
-        <div class="w3-dropdown-content w3-card-4">
-            <a href="#" class="w3-bar-item w3-button">JAPAN</a>
-            <a href="#" class="w3-bar-item w3-button">CHINA</a>
-            <a href="#" class="w3-bar-item w3-button">KOREA</a>
+            <div class="w3-dropdown-content w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">JAPAN</a>
+                <a href="#" class="w3-bar-item w3-button">CHINA</a>
+                <a href="#" class="w3-bar-item w3-button">KOREA</a>
+            </div>
+          </div> -->
+
+
+          <a href="../index.php?page=japan" class="w3-bar-item w3-button" style="width: 8%;">JAPAN</a> 
+          <a href="../index.php?page=china" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
+          <a href="../index.php?page=korea" class="w3-bar-item w3-button" style="width: 8%;">KOREA</a> 
+          <a href="../index.php?page=american" class="w3-bar-item w3-button" style="width: 8%;">AMERICAN</a> 
+          <a href="../index.php?page=xephang" class="w3-bar-item w3-button" style="width: 9%;">XẾP HẠNG</a> 
+
+          <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 8%;">GROUP</a> 
+          </strong>
         </div>
       </div>
-      <a href="#" class="w3-bar-item w3-button" style="width: 8%;">XẾP HẠNG</a> 
-      <a href="../index.php?page=boy" class="w3-bar-item w3-button" style="width: 8%;">CON TRAI</a> 
-      <a href="../index.php?page=girl" class="w3-bar-item w3-button" style="width: 8%">CON GÁI</a> 
-      <a href="#" class="w3-bar-item w3-button" style="width: 7%;">VIDEO</a> 
-      <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 8%;">GROUP</a> 
-      </strong>
-    </div>
-  </div>
-  </div>
-  
-</nav>
-    <!-- <section class="section">
-      <div class="w3-content w3-display-container">
-        <img class="mySlides" src="./images/anime.jpg" style="width:100% ;height: 400px;">
-        <img class="mySlides" src="./images/slide1.png" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/dragon-ball-super-21448-715x402.jpg" style="width:100% ;height: 400px;">
-        <img class="mySlides" src="./images/slide.jpg" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/slideonepiece.jpg" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/borutoo.png" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/10.png" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/yaiba.png" style="width:100% ;height: 400px; ">
-        
-        
-        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
       </div>
-      <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-        function plusDivs(n) {
-          showDivs(slideIndex += n);
-        }
-
-        function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            if (n > x.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = x.length} ;
-            for (i = 0; i < x.length; i++) {
-              x[i].style.display = "none";
-            }
-            x[slideIndex-1].style.display = "block";
-          }
-          var slideIndex = 0;
-          carousel();
-          function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-              x[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > x.length) {slideIndex = 1}
-            x[slideIndex-1].style.display = "block";
-            setTimeout(carousel, 5000); // Change image every 2 seconds
-          }
-        </script>
-    </section> -->
+      
+    </nav>
+  
     <div class="contain" style="margin-left:0%">
       
       
@@ -254,9 +211,9 @@
 
           <nav aria-label="breadcrumb" >
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="./view/index.php">Home</a></li>
+              <li class="breadcrumb-item"><a href="../index.php"> <i class="fa fa-home fa-lg"></i> Home</a></li>
               <li class="breadcrumb-item"><a href="#">Đọc Truyện</a></li>
-              <li class="breadcrumb-item active" aria-current="page">One piece</li>
+              <li class="breadcrumb-item active" aria-current="page">NARUTO SHIPPUDEN</li>
             </ol>
           </nav>
      </strong>
@@ -265,111 +222,136 @@
        
        
         <div class="imggg">
-         <img src="../images/onepiece.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;">
+         <img src="../images/Superden.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
         </div>
         <div class="content" >
           <div class="h1">
             <h1  >
-              One Piece - Stampe
+            NARUTO SHIPPUDEN
             </h1>
              <h6>
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
-             <h5>Tác giả :  ERichi Oda</h5>
-             <h5>Thể loại: Phiêu Lưu, kho baus, Hoạt hình Japan</h5>
-             <h5>Dạng Anime: Chapter Series </h5>
-             <h5>Season: 2022</h5>
-             <h5>Lượt Xem: 5.644567</h5>
+             <h6>  <i class="fa fa-user fa-lg">Tác giả Kishimoto Mashashi</i></h6>
+             <h6>  <i class="fa fa-tags fa-lg">Thể loại:: Action-Comedy-Drama-Fantasy-Manga-Shounen-Truyện Màu</i></h6>
+             <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
+            <div>
+          <h5>  <i class="fa fa-eye ">Lượt Xem: 5.644567</i></h5>
+           <h5>Dạng Anime: Chapter Series </h5> 
+        </div>
           </div>
           <div >
           <button type="button" class="btn btn-success">Fllow</button>
-          <h5> 456 Người đang theo dõi</h5>
+        
+          <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
-          <button type="button" class="btn btn-primary">Đọc Từ Đầu</button>
-          <button type="button" class="btn btn-primary">Đọc mới Nhất</button>
+          <button type="button" class="btn btn-outline-success"><a href="./read3.php">Đọc Từ Đầu</a></button>
+          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
           </div>
-          <h3>Chapter</h3>
+          <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
+         
+         
+          Naruto là một cậu bé có mơ ước trở thành hokage của làng Konoha,được Hokage phong ấn trong người một trong 9 quái vật của thể giới : Cửu vĩ Hồ ly. Vì cho cậu là một con quái vật, ko ai dám chơi với cậu!& Vì muốn được thừa nhận nên rất phá phách.Khi tốt nghiệp trướng ninja, lần đầu tiên cậu đã được thừa nhận và có một người bạn thân là Sasuke <hr>
+          <h6>  <i class="fa fa-list fa-lg">Danh Sách Chương</i></h6>
+      
+  <div class="container">
+  <div class="row">
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1001</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1002</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1003</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1004</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1005</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1006</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1007</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1008</button>
+    </div>
+    
+  </div>
         </div>
-        <!-- <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">1033</button>
-            <button type="button" class="btn btn-secondary">1032</button>
-            <button type="button" class="btn btn-secondary">1031</button>
-            <button type="button" class="btn btn-secondary">1030</button>
-            <button type="button" class="btn btn-secondary">1029</button>
-            <button type="button" class="btn btn-secondary">1028</button>
-            <button type="button" class="btn btn-secondary">1027</button>
-            <button type="button" class="btn btn-secondary">1026</button>
-            <button type="button" class="btn btn-secondary">1025</button>
-          
-           
-          </div> -->
-          <!-- <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">1024</button>
-            <button type="button" class="btn btn-secondary">1023</button>
-            <button type="button" class="btn btn-secondary">1022</button>
-            <button type="button" class="btn btn-secondary">1021</button>
-            <button type="button" class="btn btn-secondary">1020</button>
-            <button type="button" class="btn btn-secondary">1019</button>
-            <button type="button" class="btn btn-secondary">1018</button>
-            <button type="button" class="btn btn-secondary">1017</button>
-            <button type="button" class="btn btn-secondary">1016</button>
-          
-           
-          </div>
-          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">1015</button>
-            <button type="button" class="btn btn-secondary">1014</button>
-            <button type="button" class="btn btn-secondary">1013</button>
-            <button type="button" class="btn btn-secondary">1012</button>
-            <button type="button" class="btn btn-secondary">1011</button>
-            <button type="button" class="btn btn-secondary">1010</button>
-            <button type="button" class="btn btn-secondary">1009</button>
-            <button type="button" class="btn btn-secondary">1008</button>
-            <button type="button" class="btn btn-secondary">1007</button>
-          
-           
-          </div><div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            
-            <button type="button" class="btn btn-secondary">1006</button>
-            <button type="button" class="btn btn-secondary">1005</button>
-            <button type="button" class="btn btn-secondary">1004</button>
-            <button type="button" class="btn btn-secondary">1003</button>
-            <button type="button" class="btn btn-secondary">1003</button>
-            <button type="button" class="btn btn-secondary">1002</button>
-            <button type="button" class="btn btn-secondary">1000</button>
-            <button type="button" class="btn btn-secondary">999</button>
-            <button type="button" class="btn btn-secondary">998</button>
-            
-           
-          
-           
-          </div>
-          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-          <button type="button" class="btn btn-secondary">989</button>
-            <button type="button" class="btn btn-secondary">990</button>
-            <button type="button" class="btn btn-secondary">991</button>
-            <button type="button" class="btn btn-secondary">992</button>
-            <button type="button" class="btn btn-secondary">993</button>
-            <button type="button" class="btn btn-secondary">994</button>
-            <button type="button" class="btn btn-secondary">995</button>
-            <button type="button" class="btn btn-secondary">996</button>
-            <button type="button" class="btn btn-secondary">997</button>
-            
-          
-           
-          </div> -->
-          
+
+  <hr>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1009</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1010</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1011</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1012</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1013</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1014</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1015</button>
+    </div>
+    
+    
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1016</button>
+    </div>
+  </div>
+        </div>
+  <hr>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1017</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1018</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1019</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1020</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1021</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1022</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1023</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1024</button>
+    </div>
+  </div>
+        </div>
+
+
       </aside>
     
      
       
-      <article id="right">
+      <article id="right" style='height: 830px;'>
         <div class="menu_right">
         <h3><i><strong>Bảng Xếp Hạng All</strong></i></h3>
            <ul>
@@ -377,39 +359,75 @@
               <span class="r_c"style="background-color: #d31a1a ">01</span>
             </div>
             <img src="../images/onepiece.png" alt="" style="width:60px ;">
-            <div ><a href=""> <b> One Piece<br> </b>Chapter 1033/???
-              <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b> One Piece<br></h5> <h6></b>Chapter 1033/???</h6>
+              
+               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 8.644567</span></i></a>
+
             </div>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #37c21b ">02</span>
             </div>
             <img src="../images/daragon.jpg" alt=""  style="width:60px ;">
-            <div><a href=""><b> Boruto</b><br>Chapter 1033</a></div>
+            <div ><a href=""> <h5><b>Dragon ball<br></h5> <h6></b>Chapter 176/???</h6>
+              
+               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 7.644567</span></i></a>
+            <!-- <div><a href=""><b>Dragon ball</b><br>Chapter 176/???
+            <span><br><i class="fa fa-season ">Lượt Xem: 5.644567</i></span></a> -->
+            </div>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #390f82 ">03</span>
             </div>
             <img src="../images/onepusman.png" alt=""  style="width:60px ;">
-            <div><a href=""><b> One Piece</b> <br>Chapter 1033</a></div>
-            
+            <div ><a href=""> <h5><b>One pusMan<br></h5> <h6></b>Chapter 346/???</h6>
+              
+               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 6.644567</span></i></a>
+            </div>
               <div class="r_c_wrap" >
-              <span class="r_c">06</span>
+              <span class="r_c">04</span>
             </div>
             <img src="../images/naruto.png" alt=""  style="width:60px ;">
-            <div><a href=""><b> One Piece </b><br>Chapter 1033</a></div>
-           
+            <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 304/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.666567</span></i></a>
+            </div>
             <div class="r_c_wrap">
-              <span class="r_c">08</span>
+              <span class="r_c">05</span>
             </div>
             <img src="../images/pokemon.png" alt=""  style="width:60px ;">
-            <div><a href=""><b> One Piece</b> <br>Chapter 1033</a></div>
+            <div ><a href=""> <h5><b>Pokemon<br></h5> <h6></b>Chapter 1003/1040</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 4.876567</span></i></a>
+            </div>
+            <div class="r_c_wrap">
+              <span class="r_c">06</span>
+            </div>
+            <img src="../images/doraemon.png" alt="" style="width:60px ;">
+            <div ><a href=""> <h5><b>Doraemon<br></h5> <h6></b>Chapter 489/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 3.6564547</span></i></a>
+            </div>
             <div class="r_c_wrap">
               <span class="r_c">07</span>
             </div>
-            <img src="../images/doraemon.png" alt="" style="width:60px ;">
-            <div><a href=""><b> Doramon</b> <br>Chapter 1033</a></div>
-          
+            <img src="../images/tientonlacvocuc.jpg" alt="" style="width:60px ;">
+            <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
+            </div>
+            <div class="r_c_wrap">
+              <span class="r_c">08</span>
+            </div>
+            <img src="../images/sololevening2.jpg" alt="" style="width:60px ;">
+            <!-- <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???
+              <span><br>Lượt xem:2,7934</span></a> -->
+              <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
+            </div>
             </ul>
           </div>
+       
+          
 
       </article>
      

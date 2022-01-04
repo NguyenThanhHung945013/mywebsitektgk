@@ -260,7 +260,7 @@
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="../index.php"> <i class="fa fa-home fa-lg"></i> Home</a></li>
               <li class="breadcrumb-item"><a href="#">Đọc Truyện</a></li>
-              <li class="breadcrumb-item active" aria-current="page">One piece</li>
+              <li class="breadcrumb-item active" aria-current="page">Daragonball</li>
             </ol>
           </nav>
      </strong>
@@ -269,24 +269,18 @@
        
        
         <div class="imggg">
-         <img src="../images/onepiece.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
+         <img src="../images/daragon.jpg" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
         </div>
         <div class="content" >
           <div class="h1">
             <h1  >
-              One Piece - Stampe
+              Daragonball super
             </h1>
              <h6>
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
-             <h6>  <i class="fa fa-user fa-lg">Tác giả :  ERichi Oda</i></h6>
-             <!-- <h5>Tác giả :  ERichi Oda</h5> -->
-             <h6>  <i class="fa fa-tags fa-lg">Thể loại: Phiêu Lưu, kho baus, Hoạt hình Japan</i></h6>
-             <!-- <h5>Thể loại: Phiêu Lưu, kho baus, Hoạt hình Japan</h5> -->
-             <!-- <h5>Dạng Anime: Chapter Series </h5> -->
-            
-             
-             <!-- <h5>  <i class="fa fa-season fa-lg">Lượt Xem: 5.644567</i></h5> -->
+             <h6>  <i class="fa fa-user fa-lg">Tác giả :Toriyama Akira</i></h6>
+             <h6>  <i class="fa fa-tags fa-lg">Thể loại:: Action , Adventure , Comedy , Drama  , Shounen</i></h6>
              <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
             <div>
           <h5>  <i class="fa fa-eye ">Lượt Xem: 5.644567</i></h5>
@@ -295,6 +289,7 @@
           </div>
           <div >
           <button type="button" class="btn btn-success">Fllow</button>
+        
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
@@ -304,14 +299,15 @@
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
 
           <!-- <h3>Nội Dung</h3> -->
-          One Piece xoay quanh 1 nhóm cướp biển được gọi là Băng Hải tặc Mũ Rơm - Straw Hat Pirates - được thành lập và lãnh đạo bởi thuyền trưởng Monkey D. Luffy. Cậu bé Luffy có ước mơ tìm thấy kho báu vĩ đại nhất, One Piece, của Vua Hải Tặc đời trước Gold D. Roger và trở thành Vua Hải Tặc đời kế tiếp. Ở Việt Nam hiện nay, truyện đang được Nhà xuất bản Thanh Hóa xuất bản nhưng không có bản quyền, với tên gọi là Đảo Hải tặc Cốt truyện: Monkey D. Luffy, 1 cậu bé rất thích hải tặc có ước mơ tìm được kho báu One Piece và trở thành Vua hải tặc - Pirate King. Lúc nhỏ, Luffy tình cờ ăn phải trái quỉ (Devil Fruit) Gomu Gomu, nó cho cơ thể cậu khả năng co dãn đàn hồi như cao su nhưng đổi lại cậu sẽ không bao giờ biết bơi. Sau đó Luffy lại được Shank cứu thoát tuy nhiên ông ta bị mất 1 cánh tay. Sau đấy Shank chia tay Luffy và để lại cho cậu cái mũ rơm (Straw Hat) và nói rằng: "Sau này bao giờ thành cướp biển hãy gặp ta và trả lại nó". Chính lời nói này đã thúc đầy Luffy trở thành 1 cướp biển thật sự...............................................................................
-         
-       
+          Huyền thoại đã trở lại sau 18 năm vắng mặt!!
+
+Dragon Ball Super là một phần tiếp theo của Dragon Ball Z.
+
+Câu chuyện của Dragon Ball Super diễn ra ngay sau khi chiến đấu với Ma Nhân Bư, cuộc sống ở trái đất lại được hòa bình thêm 1 lần nữa. Sau đó vì nhà gần như hết tiền để chi tiêu Chichi tiền ra lệnh cho Goku phải đi kiếm tiền, và không được phép luyện tập trong thời gian này!! Videl sắp trở thành chị dâu của Goten nên Goten đã đặt ra một cuộc hành trình cùng với TRunks để tìm cho Videl một món quà! ..
+<h6>  <i class="fa fa-list fa-lg">Danh Sách Chương</i></h6>
         
-          
-          <hr> 
-          <h6>  <i class="fa fa-list fa-lg">Danh Sách Chương</i></h6>
-       
+
+          <hr>
   <div class="container">
   <div class="row">
     <div class="col">
@@ -402,6 +398,7 @@
     </div>
   </div>
         </div>
+
       </aside>
     
      

@@ -9,7 +9,7 @@
      <meta name="viewport" container="width=device-width, initial-scale=1.0"> 
     <title>Anime</title>
     <link rel="stylesheet" type="text/css" href="../css/test.css">
-    <link rel="stylesheet" type="text/css" href="../css/view.css">    
+     <link rel="stylesheet" type="text/css" href="../css/view.css">     
     <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css" />
     <link rel="icon" type="image/x-icon" href="../images/logoo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -143,9 +143,9 @@
 <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
 <nav style="height: 40px;">
         <div class="w3-bar w3-light-grey">
-          <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"><strong>HOME</a>
-          <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
-          <a href="index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
+          <a href="../index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"><strong>HOME</a>
+          <a href="../index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
+          <a href="../index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
           
 
                 <div class="w3-dropdown-hover">
@@ -188,11 +188,11 @@
           </div> -->
 
 
-          <a href="index.php?page=japan" class="w3-bar-item w3-button" style="width: 8%;">JAPAN</a> 
-          <a href="index.php?page=china" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
-          <a href="index.php?page=korea" class="w3-bar-item w3-button" style="width: 8%;">KOREA</a> 
-          <a href="index.php?page=american" class="w3-bar-item w3-button" style="width: 8%;">AMERICAN</a> 
-          <a href="index.php?page=xephang" class="w3-bar-item w3-button" style="width: 8%;">XẾP HẠNG</a> 
+          <a href="../index.php?page=japan" class="w3-bar-item w3-button" style="width: 8%;">JAPAN</a> 
+          <a href="../index.php?page=china" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
+          <a href="../index.php?page=korea" class="w3-bar-item w3-button" style="width: 8%;">KOREA</a> 
+          <a href="../index.php?page=american" class="w3-bar-item w3-button" style="width: 8%;">AMERICAN</a> 
+          <a href="../index.php?page=xephang" class="w3-bar-item w3-button" style="width: 9%;">XẾP HẠNG</a> 
 
           <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 8%;">GROUP</a> 
           </strong>
@@ -201,7 +201,7 @@
       </div>
       
     </nav>
-   
+  
     <div class="contain" style="margin-left:0%">
       
       
@@ -211,9 +211,9 @@
 
           <nav aria-label="breadcrumb" >
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
+              <li class="breadcrumb-item"><a href="../index.php"> <i class="fa fa-home fa-lg"></i> Home</a></li>
               <li class="breadcrumb-item"><a href="#">Đọc Truyện</a></li>
-              <li class="breadcrumb-item active" aria-current="page"> THANH GƯƠM DIỆT QUỶ</li>
+              <li class="breadcrumb-item active" aria-current="page"> Thanh Gươm Diệt Quỷ</li>
             </ol>
           </nav>
      </strong>
@@ -227,81 +227,125 @@
         <div class="content" >
           <div class="h1">
             <h1  >
-            THANH GƯƠM DIỆT QUỶ
+            Thanh Gươm Diệt Quỷ
             </h1>
              <h6>
-             Cập nhật lúc: 16:25 15/05/2020
+             [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
-             <h5>Tác giả : Gotouge Koyoharu</h5>
-             <h5>Thể loại: Drama - Fantasy - Historical - Manga - Shounen</h5>
-             <h5>Dạng Anime: Chapter Series </h5>
-             <h5>Season: 2022</h5>
-             <h5>Lượt Xem: 94.003.390</h5>
+             <h6>  <i class="fa fa-user fa-lg">Tác giả :Gotouge Koyoharu</i></h6>
+             <h6>  <i class="fa fa-tags fa-lg">Thể loại:: Drama - Fantasy - Historical - Manga - Shounen</i></h6>
+             <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
+            <div>
+          <h5>  <i class="fa fa-eye ">Lượt Xem: 5.644567</i></h5>
+           <h5>Dạng Anime: Chapter Series </h5> 
+        </div>
           </div>
           <div >
           <button type="button" class="btn btn-success">Fllow</button>
-          <h5> 456 Người đang theo dõi</h5>
+        
+          <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
-          <button type="button" class="btn btn-primary">Đọc Từ Đầu</button>
-          <button type="button" class="btn btn-primary">Đọc mới Nhất</button>
+          <button type="button" class="btn btn-outline-success"><a href="./read3.php">Đọc Từ Đầu</a></button>
+          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
           </div>
-          <h3>Nội Dung</h3>
-          Kimetsu no Yaiba  Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau.
-          <h4>Chapter</h4>
-       
-         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary"><a href="./read.php">133</a></button>
-            <button type="button" class="btn btn-secondary">132</button>
-            <button type="button" class="btn btn-secondary">131</button>
-            <button type="button" class="btn btn-secondary">130</button>
-            <button type="button" class="btn btn-secondary">129</button>
-            <button type="button" class="btn btn-secondary">128</button>
-            <button type="button" class="btn btn-secondary">127</button>
-            <button type="button" class="btn btn-secondary">126</button>
-            <button type="button" class="btn btn-secondary">125</button>
-          </div>
+          <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
+         
+          Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…  <hr>
+          <h6>  <i class="fa fa-list fa-lg">Danh Sách Chương</i></h6>
+      
+  <div class="container">
+  <div class="row">
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1001</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1002</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1003</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1004</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1005</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1006</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1007</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1008</button>
+    </div>
+    
+  </div>
+        </div>
 
-           <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">125</button>
-            <button type="button" class="btn btn-secondary">124</button>
-            <button type="button" class="btn btn-secondary">123</button>
-            <button type="button" class="btn btn-secondary">122</button>
-            <button type="button" class="btn btn-secondary">121</button>
-            <button type="button" class="btn btn-secondary">120</button>
-            <button type="button" class="btn btn-secondary">119</button>
-            <button type="button" class="btn btn-secondary">118</button>
-            <button type="button" class="btn btn-secondary">117</button>
-          
-           
-          </div>
-          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            <button type="button" class="btn btn-secondary">116</button>
-            <button type="button" class="btn btn-secondary">115</button>
-            <button type="button" class="btn btn-secondary">114</button>
-            <button type="button" class="btn btn-secondary">114</button>
-            <button type="button" class="btn btn-secondary">113</button>
-            <button type="button" class="btn btn-secondary">112</button>
-            <button type="button" class="btn btn-secondary">111</button>
-            <button type="button" class="btn btn-secondary">110</button>
-            <button type="button" class="btn btn-secondary">109</button>
-          
-           
-          </div><div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group mr-2" role="group" aria-label="First group">
-            
-            <button type="button" class="btn btn-secondary">108</button>
-            <button type="button" class="btn btn-secondary">107</button>
-            <button type="button" class="btn btn-secondary">106</button>
-            <button type="button" class="btn btn-secondary">105</button>
-            <button type="button" class="btn btn-secondary">104</button>
-            <button type="button" class="btn btn-secondary">103</button>
-            <button type="button" class="btn btn-secondary">102</button>
-            <button type="button" class="btn btn-secondary">101</button>
-            <button type="button" class="btn btn-secondary">100</button>  
+  <hr>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1009</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1010</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1011</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1012</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1013</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1014</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1015</button>
+    </div>
+    
+    
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1016</button>
+    </div>
+  </div>
+        </div>
+  <hr>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1017</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1018</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1019</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1020</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1021</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1022</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1023</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1024</button>
+    </div>
+  </div>
+        </div>
+
+
       </aside>
     
      
@@ -314,57 +358,70 @@
               <span class="r_c"style="background-color: #d31a1a ">01</span>
             </div>
             <img src="../images/onepiece.png" alt="" style="width:60px ;">
-            <div ><a href=""> <b> One Piece<br> </b>Chapter 1033/???
-              <span ><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b> One Piece<br></h5> <h6></b>Chapter 1033/???</h6>
+              
+               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 8.644567</span></i></a>
+
             </div>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #37c21b ">02</span>
             </div>
             <img src="../images/daragon.jpg" alt=""  style="width:60px ;">
-            <div><a href=""><b>Dragon ball</b><br>Chapter 176/???
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Dragon ball<br></h5> <h6></b>Chapter 176/???</h6>
+              
+               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 7.644567</span></i></a>
+            <!-- <div><a href=""><b>Dragon ball</b><br>Chapter 176/???
+            <span><br><i class="fa fa-season ">Lượt Xem: 5.644567</i></span></a> -->
             </div>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #390f82 ">03</span>
             </div>
             <img src="../images/onepusman.png" alt=""  style="width:60px ;">
-            <div><a href=""><b> One punch man</b> <br>Chapter 201/???
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>One pusMan<br></h5> <h6></b>Chapter 346/???</h6>
+              
+               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 6.644567</span></i></a>
             </div>
               <div class="r_c_wrap" >
               <span class="r_c">04</span>
             </div>
             <img src="../images/naruto.png" alt=""  style="width:60px ;">
-            <div><a href=""><b> Naruto </b><br>Chapter 347
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 304/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.666567</span></i></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c">05</span>
             </div>
             <img src="../images/pokemon.png" alt=""  style="width:60px ;">
-            <div><a href=""><b>pokemon</b> <br>Chapter 1000/???
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Pokemon<br></h5> <h6></b>Chapter 1003/1040</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 4.876567</span></i></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c">06</span>
             </div>
             <img src="../images/doraemon.png" alt="" style="width:60px ;">
-            <div><a href=""><b> Doramon</b> <br>Chapter 156/???
-            <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Doraemon<br></h5> <h6></b>Chapter 489/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 3.6564547</span></i></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c">07</span>
             </div>
             <img src="../images/tientonlacvocuc.jpg" alt="" style="width:60px ;">
-            <div ><a href=""> <b>Tiên tôn lạc vô cực<br> </b>Chapter 77/???
-              <span><br>Lượt xem:2,7934</span></a>
+            <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>
             <div class="r_c_wrap">
               <span class="r_c">08</span>
             </div>
             <img src="../images/sololevening2.jpg" alt="" style="width:60px ;">
-            <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???
-              <span><br>Lượt xem:2,7934</span></a>
+            <!-- <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???
+              <span><br>Lượt xem:2,7934</span></a> -->
+              <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+              
+              <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>
             </ul>
           </div>

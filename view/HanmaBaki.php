@@ -260,7 +260,7 @@
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="../index.php"> <i class="fa fa-home fa-lg"></i> Home</a></li>
               <li class="breadcrumb-item"><a href="#">Đọc Truyện</a></li>
-              <li class="breadcrumb-item active" aria-current="page">One piece</li>
+              <li class="breadcrumb-item active" aria-current="page">BAKI - SON OF OGRE</li>
             </ol>
           </nav>
      </strong>
@@ -269,24 +269,18 @@
        
        
         <div class="imggg">
-         <img src="../images/onepiece.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
+         <img src="../images/HanmaBaki.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
         </div>
         <div class="content" >
           <div class="h1">
             <h1  >
-              One Piece - Stampe
+            BAKI - SON OF OGRE
             </h1>
              <h6>
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
-             <h6>  <i class="fa fa-user fa-lg">Tác giả :  ERichi Oda</i></h6>
-             <!-- <h5>Tác giả :  ERichi Oda</h5> -->
-             <h6>  <i class="fa fa-tags fa-lg">Thể loại: Phiêu Lưu, kho baus, Hoạt hình Japan</i></h6>
-             <!-- <h5>Thể loại: Phiêu Lưu, kho baus, Hoạt hình Japan</h5> -->
-             <!-- <h5>Dạng Anime: Chapter Series </h5> -->
-            
-             
-             <!-- <h5>  <i class="fa fa-season fa-lg">Lượt Xem: 5.644567</i></h5> -->
+             <h6>  <i class="fa fa-user fa-lg">Tác giả :Itagaki Keisuke</i></h6>
+             <h6>  <i class="fa fa-tags fa-lg">Thể loại:   Action, Martial Arts, Supernatural, Shounen,</i></h6>
              <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
             <div>
           <h5>  <i class="fa fa-eye ">Lượt Xem: 5.644567</i></h5>
@@ -295,6 +289,7 @@
           </div>
           <div >
           <button type="button" class="btn btn-success">Fllow</button>
+        
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
@@ -304,14 +299,10 @@
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
 
           <!-- <h3>Nội Dung</h3> -->
-          One Piece xoay quanh 1 nhóm cướp biển được gọi là Băng Hải tặc Mũ Rơm - Straw Hat Pirates - được thành lập và lãnh đạo bởi thuyền trưởng Monkey D. Luffy. Cậu bé Luffy có ước mơ tìm thấy kho báu vĩ đại nhất, One Piece, của Vua Hải Tặc đời trước Gold D. Roger và trở thành Vua Hải Tặc đời kế tiếp. Ở Việt Nam hiện nay, truyện đang được Nhà xuất bản Thanh Hóa xuất bản nhưng không có bản quyền, với tên gọi là Đảo Hải tặc Cốt truyện: Monkey D. Luffy, 1 cậu bé rất thích hải tặc có ước mơ tìm được kho báu One Piece và trở thành Vua hải tặc - Pirate King. Lúc nhỏ, Luffy tình cờ ăn phải trái quỉ (Devil Fruit) Gomu Gomu, nó cho cơ thể cậu khả năng co dãn đàn hồi như cao su nhưng đổi lại cậu sẽ không bao giờ biết bơi. Sau đó Luffy lại được Shank cứu thoát tuy nhiên ông ta bị mất 1 cánh tay. Sau đấy Shank chia tay Luffy và để lại cho cậu cái mũ rơm (Straw Hat) và nói rằng: "Sau này bao giờ thành cướp biển hãy gặp ta và trả lại nó". Chính lời nói này đã thúc đầy Luffy trở thành 1 cướp biển thật sự...............................................................................
-         
-       
+          Baki Hanma, với sức tập trung cực độ, anh đang luyện tập để trở nên mạnh vượt xa cả cha mình, Yujiro Hanma - người mạnh nhất thế giới. 5 trong số những kẻ tử tù bạo tàn và hung ác vô đối đã sẵn sàng để đối mặt với Baki. Mục tiêu của những kẻ đó chính là: nếm trải thất bại. Với sức mạnh và kĩ năng đánh nhau vượt trội, những kẻ này cảm thấy chán nản với cuộc sống của mình và họ đang đi tìm Baki với hi vọng rằng anh sẽ đánh bại họ và thỏa mãn ước mơ của họ. Trong cuộc nổi loạn này, những đấu sĩ ngầm khác cũng đang ở bên và hỗ trợ Baki, họ là: Kaoru Hanayama, Gouki Shibukawa, Retsu Kaioh, và Doppo Orochi. Trận chiến của những kẻ tử tù: Bắt đầu! Chapter 1 - Chapter 63 là từ Tập 1 - Tập 9 Anime Baki(2018) Link: http://vuighe.net/baki-2018/tap-1-dong-bo<h6>  <i class="fa fa-list fa-lg">Danh Sách Chương</i></h6>
         
-          
-          <hr> 
-          <h6>  <i class="fa fa-list fa-lg">Danh Sách Chương</i></h6>
-       
+
+          <hr>
   <div class="container">
   <div class="row">
     <div class="col">
@@ -402,6 +393,7 @@
     </div>
   </div>
         </div>
+
       </aside>
     
      

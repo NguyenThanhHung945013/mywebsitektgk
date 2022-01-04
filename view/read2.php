@@ -41,7 +41,7 @@
       <div style="width:70% ; margin-left:15%;margin-right:15%;">
       <nav aria-label="breadcrumb" >
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
+          <li class="breadcrumb-item"><a href="../index.php"><i class="fa fa-home fa-lg"></i>Home</a></li>
           <li class="breadcrumb-item"><a href="../view/onepiece.php">Đọc Truyện</a></li>
           <li class="breadcrumb-item active" aria-current="page">Chapter</li>
         </ol>

@@ -201,54 +201,7 @@
       </div>
       
     </nav>
-    <!-- <section class="section">
-      <div class="w3-content w3-display-container">
-        <img class="mySlides" src="./images/anime.jpg" style="width:100% ;height: 400px;">
-        <img class="mySlides" src="./images/slide1.png" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/dragon-ball-super-21448-715x402.jpg" style="width:100% ;height: 400px;">
-        <img class="mySlides" src="./images/slide.jpg" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/slideonepiece.jpg" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/borutoo.png" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/10.png" style="width:100% ;height: 400px; ">
-        <img class="mySlides" src="./images/yaiba.png" style="width:100% ;height: 400px; ">
-        
-        
-        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-      </div>
-      <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-        function plusDivs(n) {
-          showDivs(slideIndex += n);
-        }
-
-        function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            if (n > x.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = x.length} ;
-            for (i = 0; i < x.length; i++) {
-              x[i].style.display = "none";
-            }
-            x[slideIndex-1].style.display = "block";
-          }
-          var slideIndex = 0;
-          carousel();
-          function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-              x[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > x.length) {slideIndex = 1}
-            x[slideIndex-1].style.display = "block";
-            setTimeout(carousel, 5000); // Change image every 2 seconds
-          }
-        </script>
-    </section> -->
+  
     <div class="contain" style="margin-left:0%">
       
       
@@ -260,7 +213,7 @@
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="../index.php"> <i class="fa fa-home fa-lg"></i> Home</a></li>
               <li class="breadcrumb-item"><a href="#">Đọc Truyện</a></li>
-              <li class="breadcrumb-item active" aria-current="page">One piece</li>
+              <li class="breadcrumb-item active" aria-current="page">Le</li>
             </ol>
           </nav>
      </strong>
@@ -269,24 +222,18 @@
        
        
         <div class="imggg">
-         <img src="../images/onepiece.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
+         <img src="../images/Aracane.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
         </div>
         <div class="content" >
           <div class="h1">
             <h1  >
-              One Piece - Stampe
+           ARACANE(Liên Minh Huyền Thoại)
             </h1>
              <h6>
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
-             <h6>  <i class="fa fa-user fa-lg">Tác giả :  ERichi Oda</i></h6>
-             <!-- <h5>Tác giả :  ERichi Oda</h5> -->
-             <h6>  <i class="fa fa-tags fa-lg">Thể loại: Phiêu Lưu, kho baus, Hoạt hình Japan</i></h6>
-             <!-- <h5>Thể loại: Phiêu Lưu, kho baus, Hoạt hình Japan</h5> -->
-             <!-- <h5>Dạng Anime: Chapter Series </h5> -->
-            
-             
-             <!-- <h5>  <i class="fa fa-season fa-lg">Lượt Xem: 5.644567</i></h5> -->
+             <h6>  <i class="fa fa-user fa-lg">Tác giả :LOL</i></h6>
+             <h6>  <i class="fa fa-tags fa-lg">Thể loại:: GAME-Phiêu Lưa -Trinh Thám - School Life -Phiêu Lưa</i></h6>
              <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
             <div>
           <h5>  <i class="fa fa-eye ">Lượt Xem: 5.644567</i></h5>
@@ -295,6 +242,7 @@
           </div>
           <div >
           <button type="button" class="btn btn-success">Fllow</button>
+        
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
@@ -302,16 +250,10 @@
           <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
-
-          <!-- <h3>Nội Dung</h3> -->
-          One Piece xoay quanh 1 nhóm cướp biển được gọi là Băng Hải tặc Mũ Rơm - Straw Hat Pirates - được thành lập và lãnh đạo bởi thuyền trưởng Monkey D. Luffy. Cậu bé Luffy có ước mơ tìm thấy kho báu vĩ đại nhất, One Piece, của Vua Hải Tặc đời trước Gold D. Roger và trở thành Vua Hải Tặc đời kế tiếp. Ở Việt Nam hiện nay, truyện đang được Nhà xuất bản Thanh Hóa xuất bản nhưng không có bản quyền, với tên gọi là Đảo Hải tặc Cốt truyện: Monkey D. Luffy, 1 cậu bé rất thích hải tặc có ước mơ tìm được kho báu One Piece và trở thành Vua hải tặc - Pirate King. Lúc nhỏ, Luffy tình cờ ăn phải trái quỉ (Devil Fruit) Gomu Gomu, nó cho cơ thể cậu khả năng co dãn đàn hồi như cao su nhưng đổi lại cậu sẽ không bao giờ biết bơi. Sau đó Luffy lại được Shank cứu thoát tuy nhiên ông ta bị mất 1 cánh tay. Sau đấy Shank chia tay Luffy và để lại cho cậu cái mũ rơm (Straw Hat) và nói rằng: "Sau này bao giờ thành cướp biển hãy gặp ta và trả lại nó". Chính lời nói này đã thúc đầy Luffy trở thành 1 cướp biển thật sự...............................................................................
          
-       
-        
-          
-          <hr> 
+          Arcane là bộ phim hoạt hình chuyển thể từ game Liên Minh Huyền Thoại - League of Legends, là tác phẩm hợp tác giữa Riot Games và Netflix. Theo kế hoạch, Arcane lẽ ra đã lên sóng vào năm 2020, nhưng do ảnh hưởng của đại dịch, thời gian thực hiện bộ phim bị kéo dài và đến nay mới có thể ra mắt. Chương đầu tiên gồm 3 tập đã lên sóng vào 7/11 vừa qua. <hr>
           <h6>  <i class="fa fa-list fa-lg">Danh Sách Chương</i></h6>
-       
+      
   <div class="container">
   <div class="row">
     <div class="col">
@@ -402,6 +344,8 @@
     </div>
   </div>
         </div>
+
+
       </aside>
     
      
