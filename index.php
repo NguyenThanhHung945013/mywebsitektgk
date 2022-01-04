@@ -57,7 +57,7 @@
     <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
     <nav style="height: 40px;">
         <div class="w3-bar w3-light-grey">
-          <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"> <i class="fa fa-home fa-2x"></i>  <Strong> </a>
+        <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"> <i class="fa fa-home fa-lg"></i>  <Strong> </a>
          
           <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
           <a href="index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
@@ -126,6 +126,7 @@
         <img class="mySlides w3-animate-left" src="./images/borutoo.png" style="width:100% ;height: 400px; ">
         <img class="mySlides w3-animate-left" src="./images/10.png" style="width:100% ;height: 400px; ">
         <img class="mySlides w3-animate-left" src="./images/yaiba.png" style="width:100% ;height: 400px; ">
+        <img class="mySlides w3-animate-left" src="./images/tokyoghoul.jpg" style="width:100% ;height: 400px; ">
         
         
         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
@@ -239,7 +240,7 @@
               <span class="r_c">07</span>
             </div>
             <img src="images/tientonlacvocuc.jpg" alt="" style="width:60px ;">
-            <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+            <div ><a href=""> <h5><b>Tiên Tôn Lạc Vô Cực<br></h5> <h6></b>Chapter 505/504</h6>
               
               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>
@@ -249,7 +250,7 @@
             <img src="images/sololevening2.jpg" alt="" style="width:60px ;">
             <!-- <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???
               <span><br>Lượt xem:2,7934</span></a> -->
-              <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+              <div ><a href=""> <h5><b>sololevening<br></h5> <h6></b>Chapter 505/504</h6>
               
               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>

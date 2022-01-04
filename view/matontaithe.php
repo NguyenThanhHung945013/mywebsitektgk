@@ -141,9 +141,10 @@
 
     
 <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
-<nav style="height: 40px;">
+<nav style=" padding-bottom: 25px;">
         <div class="w3-bar w3-light-grey">
         <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"> <i class="fa fa-home fa-lg"></i>  <Strong> </a>
+         
           <a href="../index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
           <a href="../index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
           
@@ -177,7 +178,17 @@
                           </div>
                   </div>
           
-  
+          <!-- <div class="w3-dropdown-hover">
+            <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">QUỐC GIA</button>
+
+            <div class="w3-dropdown-content w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">JAPAN</a>
+                <a href="#" class="w3-bar-item w3-button">CHINA</a>
+                <a href="#" class="w3-bar-item w3-button">KOREA</a>
+            </div>
+          </div> -->
+
+
           <a href="../index.php?page=japan" class="w3-bar-item w3-button" style="width: 8%;">JAPAN</a> 
           <a href="../index.php?page=china" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
           <a href="../index.php?page=korea" class="w3-bar-item w3-button" style="width: 8%;">KOREA</a> 
@@ -191,6 +202,7 @@
       </div>
       
     </nav>
+  
     <div class="contain" style="margin-left:0%">
       
       
@@ -202,33 +214,24 @@
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="../index.php"> <i class="fa fa-home fa-lg"></i> Home</a></li>
               <li class="breadcrumb-item"><a href="#">Đọc Truyện</a></li>
-              <li class="breadcrumb-item active" aria-current="page">One piece</li>
+              <li class="breadcrumb-item active" aria-current="page"> Ma Tôn Tái Thế</li>
             </ol>
           </nav>
      </strong>
-           
-        
-       
-       
+               
         <div class="imggg">
-         <img src="../images/onepiece.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
+         <img src="../images/matontaithe.jpg" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
         </div>
         <div class="content" >
           <div class="h1">
             <h1  >
-              One Piece - Stampe
+ Ma Tôn Tái Thế
             </h1>
              <h6>
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
-             <h6>  <i class="fa fa-user fa-lg">Tác giả :  ERichi Oda</i></h6>
-             <!-- <h5>Tác giả :  ERichi Oda</h5> -->
-             <h6>  <i class="fa fa-tags fa-lg">Thể loại: Phiêu Lưu, kho baus, Hoạt hình Japan</i></h6>
-             <!-- <h5>Thể loại: Phiêu Lưu, kho baus, Hoạt hình Japan</h5> -->
-             <!-- <h5>Dạng Anime: Chapter Series </h5> -->
-            
-             
-             <!-- <h5>  <i class="fa fa-season fa-lg">Lượt Xem: 5.644567</i></h5> -->
+             <h6>  <i class="fa fa-user fa-lg">Tác giả :Đường gia tam thiếu</i></h6>
+             <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Adventure - Comedy - Fantasy - Shounen - Supernatural</i></h6>
              <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
             <div>
           <h5>  <i class="fa fa-eye ">Lượt Xem: 5.644567</i></h5>
@@ -237,6 +240,7 @@
           </div>
           <div >
           <button type="button" class="btn btn-success">Fllow</button>
+        
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
@@ -244,16 +248,9 @@
           <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
-
-          <!-- <h3>Nội Dung</h3> -->
-          One Piece xoay quanh 1 nhóm cướp biển được gọi là Băng Hải tặc Mũ Rơm - Straw Hat Pirates - được thành lập và lãnh đạo bởi thuyền trưởng Monkey D. Luffy. Cậu bé Luffy có ước mơ tìm thấy kho báu vĩ đại nhất, One Piece, của Vua Hải Tặc đời trước Gold D. Roger và trở thành Vua Hải Tặc đời kế tiếp. Ở Việt Nam hiện nay, truyện đang được Nhà xuất bản Thanh Hóa xuất bản nhưng không có bản quyền, với tên gọi là Đảo Hải tặc Cốt truyện: Monkey D. Luffy, 1 cậu bé rất thích hải tặc có ước mơ tìm được kho báu One Piece và trở thành Vua hải tặc - Pirate King. Lúc nhỏ, Luffy tình cờ ăn phải trái quỉ (Devil Fruit) Gomu Gomu, nó cho cơ thể cậu khả năng co dãn đàn hồi như cao su nhưng đổi lại cậu sẽ không bao giờ biết bơi. Sau đó Luffy lại được Shank cứu thoát tuy nhiên ông ta bị mất 1 cánh tay. Sau đấy Shank chia tay Luffy và để lại cho cậu cái mũ rơm (Straw Hat) và nói rằng: "Sau này bao giờ thành cướp biển hãy gặp ta và trả lại nó". Chính lời nói này đã thúc đầy Luffy trở thành 1 cướp biển thật sự...............................................................................
-         
-       
-        
-          
-          <hr> 
+          Tự sát bất thành sau những uất ức tủi nhục khi bị bạn bè bắt nạt, cậu nhóc đã được lực lượng cảnh sát giải cứu thành công. Mặc dù vậy, quyết tâm tự tử của cậu nhóc bằng cách nào đó lôi kéo Sierra - một tử thần, đã cung cấp cho cậu một bản hợp đồng thú vị. Hợp đồng này ban cho Kyung Ho khả năng mượn sức mạnh của danh nhân bằng cách đánh đổi tuổi thọ của mình. Liệu cậu nhóc có ký vào bản hợp đồng đó hay không?
           <h6>  <i class="fa fa-list fa-lg">Danh Sách Chương</i></h6>
-       
+      
   <div class="container">
   <div class="row">
     <div class="col">
@@ -344,6 +341,8 @@
     </div>
   </div>
         </div>
+
+
       </aside>
     
      
@@ -407,7 +406,7 @@
               <span class="r_c">07</span>
             </div>
             <img src="../images/tientonlacvocuc.jpg" alt="" style="width:60px ;">
-            <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+            <div ><a href=""> <h5><b>Tiên Tôn Lạc Vô Cực<br></h5> <h6></b>Chapter 505/504</h6>
               
               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>
@@ -417,7 +416,7 @@
             <img src="../images/sololevening2.jpg" alt="" style="width:60px ;">
             <!-- <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???
               <span><br>Lượt xem:2,7934</span></a> -->
-              <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+              <div ><a href=""> <h5><b>sololevening<br></h5> <h6></b>Chapter 505/504</h6>
               
               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>

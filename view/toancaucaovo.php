@@ -141,9 +141,10 @@
 
     
 <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
-<nav style="height: 40px;">
+<nav style=" padding-bottom: 25px;">
         <div class="w3-bar w3-light-grey">
-          <a href="../index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"><strong>HOME</a>
+        <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"> <i class="fa fa-home fa-lg"></i>  <Strong> </a>
+         
           <a href="../index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
           <a href="../index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
           
@@ -213,27 +214,24 @@
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="../index.php"> <i class="fa fa-home fa-lg"></i> Home</a></li>
               <li class="breadcrumb-item"><a href="#">Đọc Truyện</a></li>
-              <li class="breadcrumb-item active" aria-current="page">NARUTO SHIPPUDEN</li>
+              <li class="breadcrumb-item active" aria-current="page"> Toàn Cầu Cao Võ</li>
             </ol>
           </nav>
      </strong>
-           
-        
-       
-       
+               
         <div class="imggg">
-         <img src="../images/Superden.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
+         <img src="../images/dauladailuc.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
         </div>
         <div class="content" >
           <div class="h1">
             <h1  >
-            NARUTO SHIPPUDEN
+          Toàn Cầu Cao Võ
             </h1>
              <h6>
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
-             <h6>  <i class="fa fa-user fa-lg">Tác giả Kishimoto Mashashi</i></h6>
-             <h6>  <i class="fa fa-tags fa-lg">Thể loại:: Action-Comedy-Drama-Fantasy-Manga-Shounen-Truyện Màu</i></h6>
+             <h6>  <i class="fa fa-user fa-lg">Tác giả :Đường gia tam thiếu</i></h6>
+             <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Adventure - Comedy - Fantasy - Shounen - Supernatural</i></h6>
              <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
             <div>
           <h5>  <i class="fa fa-eye ">Lượt Xem: 5.644567</i></h5>
@@ -250,9 +248,7 @@
           <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
-         
-         
-          Naruto là một cậu bé có mơ ước trở thành hokage của làng Konoha,được Hokage phong ấn trong người một trong 9 quái vật của thể giới : Cửu vĩ Hồ ly. Vì cho cậu là một con quái vật, ko ai dám chơi với cậu!& Vì muốn được thừa nhận nên rất phá phách.Khi tốt nghiệp trướng ninja, lần đầu tiên cậu đã được thừa nhận và có một người bạn thân là Sasuke <hr>
+          Đấu La Đại Lục là một trong những tác phẩm đặc sắc của Đường Gia Tam Thiếu. Tác phẩm thuộc thể loại truyện Huyễn Hiệp, mang đến cho độc giả một cái nhìn, một cảm nhận mới về thế giới hiệp khách huyền ảo. Câu chuyện với nhân vật chính, con một thợ rèn, một thợ rèn trở thành tửu quỷ, vì thê tử đã mất, sẵn sàng lôi cuốn người đọc ngay từ những chương đầu tiên.  
           <h6>  <i class="fa fa-list fa-lg">Danh Sách Chương</i></h6>
       
   <div class="container">
@@ -410,7 +406,7 @@
               <span class="r_c">07</span>
             </div>
             <img src="../images/tientonlacvocuc.jpg" alt="" style="width:60px ;">
-            <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+            <div ><a href=""> <h5><b>Tiên Tôn Lạc Vô Cực<br></h5> <h6></b>Chapter 505/504</h6>
               
               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>
@@ -420,7 +416,7 @@
             <img src="../images/sololevening2.jpg" alt="" style="width:60px ;">
             <!-- <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???
               <span><br>Lượt xem:2,7934</span></a> -->
-              <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 505/504</h6>
+              <div ><a href=""> <h5><b>sololevening<br></h5> <h6></b>Chapter 505/504</h6>
               
               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>
