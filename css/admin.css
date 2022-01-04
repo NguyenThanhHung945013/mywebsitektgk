@@ -37,7 +37,7 @@ form{
     height: 500px;
     border: 1px solid snow;
     
-    background-color :rgb(253, 253, 255);
+    background-color :rgba(249, 249, 250, 0.5);
     padding: 10px 5% 10px 5%;
     color:white;
 }
