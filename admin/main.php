@@ -64,7 +64,7 @@
     <header>
 
         <!-- <div class="head_right w3-bar  w3-padding" style=' width: 32%; margin-left : 38%;'> -->
-          <form action='' method="POST" class="head_right w3-bar  w3-padding" style=' width: 32%;  margin: 0% 0% 0% 38% ;height: auto;'>
+          <form action='' method="POST" class="head_right w3-bar  w3-padding" style=' width: 23%;  margin: 0% 9% 0% 38% ;height: auto;'>
             <input type="text" class="w3-bar-item w3-input w3-white w3-mobile" placeholder="Search.." name='search'>
             <button type='submit' name = 'ok' class="w3-bar-item w3-button w3-green"><i class="fa fa-search"></i></button>
           </form>

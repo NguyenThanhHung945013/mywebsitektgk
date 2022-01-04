@@ -7,20 +7,20 @@
   $story = new Story($db);
   $category = new Category($db);
   $page = isset($_GET['pa']) ? $_GET['pa'] : 1;
-  $page_title = "Truyện mới nhất";
   $records_per_page = 15;
-  $total_rows = 30;
-  
+  $total_rows = 60;
+  $page_title = "Truyện Manga";
+  $category_id = 2 ;
   $from_record_num = ($records_per_page * $page) - $records_per_page;
-  $stmt = $story->hot($from_record_num, $records_per_page);
-  echo "<aside class='left' style='height: 850px ; '>";
+  $stmt = $story->category($from_record_num, $records_per_page,$category_id);
+  echo "<aside class='left' style='height: 830px ; '>";
   echo "<h1>{$page_title}</h1>";
   while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
       extract($row);
       echo "<div class='menu_left'>";
       echo "<a href='./view/{$link}' onmouseover='this.style.color = red' onmouseout='this.style.color = blue'><img src='images/{$images}' alt=' 'style='width:150px ;height:200px'></a>";
       echo "<h2><a href='./view/{$link}' onmouseover='this.style.color = red' onmouseout='this.style.color = blue'>{$name}</a></h2>";
-      echo "</div>";
+      echo "</div>"; 
   }
   echo"</aside>";
 ?>
