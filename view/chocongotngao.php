@@ -231,7 +231,7 @@
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
              <h6>  <i class="fa fa-user fa-lg">Tác giả :Đường gia tam thiếu</i></h6>
-             <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Adventure - Comedy - Fantasy - Shounen - Supernatural</i></h6>
+             <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Adventure - Comedy - Fantasy - Shounen</i></h6>
              <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
             <div>
           <h5>  <i class="fa fa-eye ">Lượt Xem: 5.644567</i></h5>

@@ -214,18 +214,18 @@
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="../index.php"> <i class="fa fa-home fa-lg"></i> Home</a></li>
               <li class="breadcrumb-item"><a href="#">Đọc Truyện</a></li>
-              <li class="breadcrumb-item active" aria-current="page"> Toàn Cầu Cao Võ</li>
+              <li class="breadcrumb-item active" aria-current="page">Đôc Bộ Tiêu Giao</li>
             </ol>
           </nav>
      </strong>
                
         <div class="imggg">
-         <img src="../images/dauladailuc.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
+         <img src="../images/docbotieudao.jpg" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
         </div>
         <div class="content" >
           <div class="h1">
             <h1  >
-          Toàn Cầu Cao Võ
+    Độc Bộ Tiêu Giao
             </h1>
              <h6>
              [Cập nhật lúc: 20:27 18/02/2020]
@@ -248,7 +248,7 @@
           <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
-          Đấu La Đại Lục là một trong những tác phẩm đặc sắc của Đường Gia Tam Thiếu. Tác phẩm thuộc thể loại truyện Huyễn Hiệp, mang đến cho độc giả một cái nhìn, một cảm nhận mới về thế giới hiệp khách huyền ảo. Câu chuyện với nhân vật chính, con một thợ rèn, một thợ rèn trở thành tửu quỷ, vì thê tử đã mất, sẵn sàng lôi cuốn người đọc ngay từ những chương đầu tiên.  
+          Tự sát bất thành sau những uất ức tủi nhục khi bị bạn bè bắt nạt, cậu nhóc đã được lực lượng cảnh sát giải cứu thành công. Mặc dù vậy, quyết tâm tự tử của cậu nhóc bằng cách nào đó lôi kéo Sierra - một tử thần, đã cung cấp cho cậu một bản hợp đồng thú vị. Hợp đồng này ban cho Kyung Ho khả năng mượn sức mạnh của danh nhân bằng cách đánh đổi tuổi thọ của mình. Liệu cậu nhóc có ký vào bản hợp đồng đó hay không?
           <h6>  <i class="fa fa-list fa-lg">Danh Sách Chương</i></h6>
       
   <div class="container">
