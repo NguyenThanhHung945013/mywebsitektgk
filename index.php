@@ -37,7 +37,7 @@
         </div>
         <div class="search-container">
           <form action="index.php?page=search" method="post">
-            <input type="text" placeholder="Search.." name="timkiem">
+            <input type="text" placeholder="Search.." name="timkiem" required>
             <button type="submit" name="ok"><i class="fa fa-search" ></i></button>
           </form>
         </div>
