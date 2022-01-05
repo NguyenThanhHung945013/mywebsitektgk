@@ -73,23 +73,23 @@
                         <div class="dropdown-content">
                                   <div class="column">
                                     <a href="index.php?page=manga">MANGA</a>
-                                    <a href="#">PHIÊU LƯA</a>
-                                    <a href="#">HÀNH ĐỘNG</a>
-                                    <a href="#">GAME</a>
+                                    <a href="index.php?page=phieuluu">PHIÊU LƯA</a>
+                                    <a href="index.php?page=hanhdong">HÀNH ĐỘNG</a>
+                                    <a href="index.php?page=game">GAME</a>
 
                                   </div>
                                   <div class="column">
-                                    <a href="#">TÌNH CẢM</a>
-                                    <a href="#">HAREM</a>
-                                    <a href="#">TUỔI 18</a>
-                                    <a href="#">CÔNG CHÚA</a>
+                                    <a href="index.php?page=tinhcam">TÌNH CẢM</a>
+                                    <a href="index.php?page=harem">HAREM</a>
+                                    <a href="index.php?page=tuoi18">TUỔI 18</a>
+                                    <a href="index.php?page=hocduong">HỌC ĐƯỜNG</a>
 
                                   </div>
                                   <div class="column">
-                                    <a href="#">KINH DỊ</a>
-                                    <a href="#">VÕ THUẬT</a>
+                                    <a href="index.php?page=kinhdi">KINH DỊ</a>
+                                    <a href="index.php?page=vothuat">VÕ THUẬT</a>
                                     <a href="index.php?page=anime">ANIME</a>
-                                    <a href="#">SHOUNEN</a>
+                                    <a href="index.php?page=shounen">SHOUNEN</a>
           
                                   </div>
                           </div>
@@ -222,7 +222,7 @@
               <span class="r_c"style="background-color: #390f82 ">03</span>
             </div>
             <img src="images/onepusman.png" alt=""  style="width:60px ;">
-            <div ><a href=""> <h5><b>One pusMan<br></h5> <h6></b>Chapter 346/???</h6>
+            <div ><a href=""> <h5><b>One PunchMan<br></h5> <h6></b>Chapter 346/???</h6>
               
                <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 6.644567</span></i></a>
             </div>

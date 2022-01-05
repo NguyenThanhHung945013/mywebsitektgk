@@ -143,7 +143,7 @@
 <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
 <nav style="height: 40px;">
         <div class="w3-bar w3-light-grey">
-        <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"> <i class="fa fa-home fa-lg"></i>  <Strong> </a>
+        <a href="../index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"> <i class="fa fa-home fa-lg"></i>  <Strong> </a>
           <a href="../index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
           <a href="../index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
           
@@ -151,27 +151,26 @@
                 <div class="w3-dropdown-hover">
                   <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">THỂ LOẠI</button>
                   
-                 
-                        <div class="dropdown-content">
+                  <div class="dropdown-content">
                                   <div class="column">
-                                    <a href="#">MANGA</a>
-                                    <a href="#">PHIÊU LƯA</a>
-                                    <a href="#">HÀNH ĐỘNG</a>
-                                    <a href="#">GAME</a>
+                                    <a href="../index.php?page=manga">MANGA</a>
+                                    <a href="../index.php?page=phieuluu">PHIÊU LƯA</a>
+                                    <a href="../index.php?page=hanhdong">HÀNH ĐỘNG</a>
+                                    <a href="../index.php?page=game">GAME</a>
 
                                   </div>
                                   <div class="column">
-                                    <a href="#">TÌNH CẢM</a>
-                                    <a href="#">HAREM</a>
-                                    <a href="#">TUỔI 18</a>
-                                    <a href="#">CÔNG CHÚA</a>
+                                    <a href="../index.php?page=tinhcam">TÌNH CẢM</a>
+                                    <a href="../index.php?page=harem">HAREM</a>
+                                    <a href="../index.php?page=tuoi18">TUỔI 18</a>
+                                    <a href="../index.php?page=hocduong">HỌC ĐƯỜNG</a>
 
                                   </div>
                                   <div class="column">
-                                    <a href="#">KINH DỊ</a>
-                                    <a href="#">VÕ THUẬT</a>
-                                    <a href="#">ANIME</a>
-                                    <a href="#">SHOUNEN</a>
+                                    <a href="../index.php?page=kinhdi">KINH DỊ</a>
+                                    <a href="../index.php?page=vothuat">VÕ THUẬT</a>
+                                    <a href="../index.php?page=anime">ANIME</a>
+                                    <a href="../index.php?page=shounen">SHOUNEN</a>
           
                                   </div>
                           </div>

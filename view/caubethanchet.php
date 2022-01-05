@@ -153,26 +153,26 @@
                   <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">THỂ LOẠI</button>
                   
                  
-                        <div class="dropdown-content">
+                  <div class="dropdown-content">
                                   <div class="column">
-                                    <a href="#">MANGA</a>
-                                    <a href="#">PHIÊU LƯA</a>
-                                    <a href="#">HÀNH ĐỘNG</a>
-                                    <a href="#">GAME</a>
+                                    <a href="../index.php?page=manga">MANGA</a>
+                                    <a href="../index.php?page=phieuluu">PHIÊU LƯA</a>
+                                    <a href="../index.php?page=hanhdong">HÀNH ĐỘNG</a>
+                                    <a href="../index.php?page=game">GAME</a>
 
                                   </div>
                                   <div class="column">
-                                    <a href="#">TÌNH CẢM</a>
-                                    <a href="#">HAREM</a>
-                                    <a href="#">TUỔI 18</a>
-                                    <a href="#">CÔNG CHÚA</a>
+                                    <a href="../index.php?page=tinhcam">TÌNH CẢM</a>
+                                    <a href="../index.php?page=harem">HAREM</a>
+                                    <a href="../index.php?page=tuoi18">TUỔI 18</a>
+                                    <a href="../index.php?page=hocduong">HỌC ĐƯỜNG</a>
 
                                   </div>
                                   <div class="column">
-                                    <a href="#">KINH DỊ</a>
-                                    <a href="#">VÕ THUẬT</a>
-                                    <a href="#">ANIME</a>
-                                    <a href="#">SHOUNEN</a>
+                                    <a href="../index.php?page=kinhdi">KINH DỊ</a>
+                                    <a href="../index.php?page=vothuat">VÕ THUẬT</a>
+                                    <a href="../index.php?page=anime">ANIME</a>
+                                    <a href="../index.php?page=shounen">SHOUNEN</a>
           
                                   </div>
                           </div>
@@ -230,7 +230,7 @@
              <h6>
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
-             <h6>  <i class="fa fa-user fa-lg">Tác giả :Đường gia tam thiếu</i></h6>
+             <h6>  <i class="fa fa-user fa-lg">Tác giả :Đang cập nhật</i></h6>
              <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Adventure - Comedy - Fantasy - Shounen </i></h6>
              <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
             <div>
@@ -244,8 +244,8 @@
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
-          <button type="button" class="btn btn-outline-success"><a href="./read3.php">Đọc Từ Đầu</a></button>
-          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
+          <button type="button" class="btn btn-outline-success"><a href="./cauberead.php">Đọc Từ Đầu</a></button>
+          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./cauberead2.php">Đọc mới Nhất</a></button>
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
           Tự sát bất thành sau những uất ức tủi nhục khi bị bạn bè bắt nạt, cậu nhóc đã được lực lượng cảnh sát giải cứu thành công. Mặc dù vậy, quyết tâm tự tử của cậu nhóc bằng cách nào đó lôi kéo Sierra - một tử thần, đã cung cấp cho cậu một bản hợp đồng thú vị. Hợp đồng này ban cho Kyung Ho khả năng mượn sức mạnh của danh nhân bằng cách đánh đổi tuổi thọ của mình. Liệu cậu nhóc có ký vào bản hợp đồng đó hay không?

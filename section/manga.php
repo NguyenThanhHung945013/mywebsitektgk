@@ -10,7 +10,7 @@
   $records_per_page = 15;
   $total_rows = 60;
   $page_title = "Truyện Manga";
-  $category_id = 2 ;
+  $category_id = 8 ;
   $from_record_num = ($records_per_page * $page) - $records_per_page;
   $stmt = $story->category($from_record_num, $records_per_page,$category_id);
   echo "<aside class='left' style='height: 830px ; '>";

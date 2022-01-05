@@ -54,7 +54,7 @@
     <button type="button" class="btn btn-outline-primary"><a href="read.php">Chap sau-></a></button>
     </div>
      <div>
-    <img src="../images/001.jpg" alt="001" style="width:60% ; margin-left:20%;margin-right:20%;">
+    <img src="../images/00001.jpg" alt="001" style="width:60% ; margin-left:20%;margin-right:20%;">
     <div>
     <img src="../images/002.jpg" alt="002"style="width:60% ; margin-left:20%;margin-right:20%;">
     </div>
