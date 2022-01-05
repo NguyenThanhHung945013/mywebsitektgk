@@ -29,7 +29,7 @@ echo "<!DOCTYPE html>
 </head>
 <body>
     
-    <form action='' class='w3-container' method='POST' style='margin: 5% 25% 0% 25% ; height: 550px;'>
+    <form action='' class='w3-container' method='POST' style='margin: 5% 20% 0% 20% ; height: 560px;'>
         <div class='w3-container w3-green' style='margin: 5% 0% 0% 0%;'>
               <h2>Thêm truyện</h2>
         </div>

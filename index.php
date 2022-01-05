@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -33,9 +36,9 @@
          </h1>
         </div>
         <div class="search-container">
-          <form action="../search/timkiem.php" method="post">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search" name="ok"></i></button>
+          <form action="index.php?page=search" method="post">
+            <input type="text" placeholder="Search.." name="timkiem">
+            <button type="submit" name="ok"><i class="fa fa-search" ></i></button>
           </form>
         </div>
         <!-- <div align="center">
@@ -169,10 +172,21 @@
       
       
       <?php
+      
           if(isset($_GET['page'])){
             // $currentPage = $_GET['page'];
             // echo "<h1>{$currentPage}<h1>";
             $pagePath = "./section/{$_GET['page']}.php";
+            if(isset($_REQUEST['ok'])){
+              $pagePath = "./section/{$_GET['page']}.php";
+              $_SESSION['search'] = $_POST['timkiem'] ;
+              if($_SESSION['search'] ==""){
+                $pagePath = "./section/home.php";
+                
+              }
+              // header("location:./section/{$_GET['page']}.php?s={$_POST['timkiem']}");
+            }
+            
             // echo $pagePath;
             include_once($pagePath);
           }
