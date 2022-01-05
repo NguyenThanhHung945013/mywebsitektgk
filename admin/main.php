@@ -49,8 +49,11 @@
       }
     }
    
-    if($acc==false)
+    if($acc==false){
       header('location:index.php?acc=false');
+      return ;
+    }
+      
   }
   
   if($_SESSION['id'] == -1){

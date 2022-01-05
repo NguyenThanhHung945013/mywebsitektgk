@@ -180,6 +180,10 @@
             if(isset($_REQUEST['ok'])){
               $pagePath = "./section/{$_GET['page']}.php";
               $_SESSION['search'] = $_POST['timkiem'] ;
+              if($_SESSION['search'] ==""){
+                $pagePath = "./section/home.php";
+                
+              }
               // header("location:./section/{$_GET['page']}.php?s={$_POST['timkiem']}");
             }
             
