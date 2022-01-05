@@ -152,26 +152,26 @@
                   <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">THỂ LOẠI</button>
                   
                  
-                        <div class="dropdown-content">
+                  <div class="dropdown-content">
                                   <div class="column">
-                                    <a href="#">MANGA</a>
-                                    <a href="#">PHIÊU LƯA</a>
-                                    <a href="#">HÀNH ĐỘNG</a>
-                                    <a href="#">GAME</a>
+                                    <a href="../index.php?page=manga">MANGA</a>
+                                    <a href="../index.php?page=phieuluu">PHIÊU LƯA</a>
+                                    <a href="../index.php?page=hanhdong">HÀNH ĐỘNG</a>
+                                    <a href="../index.php?page=game">GAME</a>
 
                                   </div>
                                   <div class="column">
-                                    <a href="#">TÌNH CẢM</a>
-                                    <a href="#">HAREM</a>
-                                    <a href="#">TUỔI 18</a>
-                                    <a href="#">CÔNG CHÚA</a>
+                                    <a href="../index.php?page=tinhcam">TÌNH CẢM</a>
+                                    <a href="../index.php?page=harem">HAREM</a>
+                                    <a href="../index.php?page=tuoi18">TUỔI 18</a>
+                                    <a href="../index.php?page=hocduong">HỌC ĐƯỜNG</a>
 
                                   </div>
                                   <div class="column">
-                                    <a href="#">KINH DỊ</a>
-                                    <a href="#">VÕ THUẬT</a>
-                                    <a href="#">ANIME</a>
-                                    <a href="#">SHOUNEN</a>
+                                    <a href="../index.php?page=kinhdi">KINH DỊ</a>
+                                    <a href="../index.php?page=vothuat">VÕ THUẬT</a>
+                                    <a href="../index.php?page=anime">ANIME</a>
+                                    <a href="../index.php?page=shounen">SHOUNEN</a>
           
                                   </div>
                           </div>

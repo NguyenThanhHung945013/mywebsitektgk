@@ -50,7 +50,7 @@
  </strong>
     <h2>CHAPTER 43 - One Piece</h2>
     <div class="hhh">
-    <button type="button" class="btn btn-outline-primary"><a href=""><-Chap trước</a></button>
+    <button type="button" class="btn btn-outline-primary"><a href="read3.php"><-Chap trước</a></button>
     <button type="button" class="btn btn-outline-primary"><a href="read.php">Chap sau-></a></button>
     </div>
      <div>
