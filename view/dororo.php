@@ -29,7 +29,7 @@
             WIBU.anime 
          </h1>
         </div>
-        <div class="search-container">
+        <!-- <div class="search-container">
           <form action="/action_page.php">
             <input type="text" placeholder="Search.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
@@ -136,7 +136,7 @@
                 <a href="#" class="w3-bar-item w3-button">log out</a>
             </div>
           </strong>
-    </div>
+    </div> -->
     </header>
 
     
@@ -243,8 +243,8 @@
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
-          <button type="button" class="btn btn-outline-success"><a href="./read3.php">Đọc Từ Đầu</a></button>
-          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
+          <button type="button" class="btn btn-outline-success"><a >Đọc Từ Đầu</a></button>
+          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a >Đọc mới Nhất</a></button>
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
           Lấy bối cảnh vào giữa thời đại Muromachi, vào khoảng thập niên 70 của thế kỉ 15, sau trận chiến của Onin và Bunmei, câu chuyện kể về nam nhân vật chính Hyakkimaru, anh là một chàng trai trẻ rất thiệt thòi, ngày từ khi mới sinh ra là đã bị mất 48 bộ phận trên cơ thể. Không chỉ có vậy điều bi thảm mà anh phải gánh chịu lại chính là do cha của anh – Kagemitsu Daigo – đã lập một lời hứa với bọn quỷ dữ, vì ông muốn thống trị đất nước này. Cái giá cho lời hứa đó chính là 48 bộ phận trên cơ thể của Hyakkimaru, chính vì vậy mà Hyakkimaru ngay từ khi mới được sinh ra, anh đa mang khuyết tật trên người, gia đình thì giuồng bỏ, người ngoài thì kinh tởm vì những gì mà anh gánh chịu, thậm trí Hyakkimaru còn bị ghét đến mức bị chính những người thân thiết nhất của mình thả trôi sông. Hyakkimaru giờ đã trưởng thành và anh lắp trên người mình những phần cơ thể giả để có thể tiêu diệt 48 con quỷ, nhằm lấy lại những phần cơ thể của mình. Trên cuộc hành trình ấy, anh đã gặp gỡ cậu nhóc Dororo và hai người trở thành bạn. Và từ đó câu chuyện về tình bạn đẹp này lại bắt đầu, cùng đón xem DORORO AND HYAKKIMARU để khám phá nhé các bạnhờ cậu…   

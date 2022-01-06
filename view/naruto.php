@@ -34,8 +34,8 @@
             <input type="text" placeholder="Search.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
           </form>
-        </div>
-        <div class="login">
+        </div> -->
+        <!-- <div class="login">
         <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
           <div id="id01" class="modal">
@@ -252,8 +252,8 @@
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
-          <button type="button" class="btn btn-primary">Đọc Từ Đầu</button>
-          <button type="button" class="btn btn-primary">Đọc mới Nhất</button>
+          <a type="button" class="btn btn-primary">Đọc Từ Đầu</a>
+          <a type="button" class="btn btn-primary">Đọc mới Nhất</a>
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
           Naruto là một cậu bé có mơ ước trở thành hokage của làng Konoha,được Hokage phong ấn trong người một trong 9 quái vật của thể giới : Cửu vĩ Hồ ly.Vì cho cậu là một con quái vật, ko ai dám chơi với cậu!& Vì muốn được thừa nhận nên rất phá phách.Khi tốt nghiệp trướng ninja, lần đầu tiên cậu đã được thừa nhận và có một người bạn thân là Sasuke.Hai năm sau, Sasuke đã rời bỏ làng lá để đi theo Orochimaru vì muốn đạt được sức mạnh hơn người, và dùng sức mạnh đó để giết người anh của mình.Naruto muốn đem Sasuke trở về, và vì Kakashi ko đủ trình độ nên đã đi theo Jiraiya - một trong tam nin truyền thuyết của Konoha - để học tập thêm cách dùng sức mạnh.Sau hai năm trờ về, Naruto đã 16 tuổi và có nhiều thay đổi! Và những khó khăn nguy hiểm cũng từ đó tăng lên 2 năm sau Sasuke đã trưởng thành...và đúng với cái tên thiên tài Uchiha cậu đã hạ được Orochimaru ( tất nhiên là lúc hắn đang bị ấn chú của Đệ tam làm yếu nhất ) 
@@ -286,15 +286,15 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1007</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1008</button>
-    </div>
+    </div> -->
     
   </div>
         </div>
 
   <hr>
-  <div class="container">
+  <!-- <div class="container">
   <div class="row">
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1009</button>
@@ -314,16 +314,16 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1014</button>
     </div>
-    <div class="col">
+     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1015</button>
-    </div>
+    </div> -->
     
     
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1016</button>
     </div>
   </div>
-        </div>
+        </div> --> 
   <hr>
   <div class="container">
   <div class="row">
@@ -348,9 +348,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1023</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1024</button>
-    </div>
+    </div> -->
   </div>
         </div>
       </aside>

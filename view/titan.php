@@ -246,8 +246,13 @@
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
+<<<<<<< Updated upstream
           <button type="button" class="btn btn-outline-success"><a href="">Đọc Từ Đầu</a></button>
           <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="">Đọc mới Nhất</a></button>
+=======
+          <button type="button" class="btn btn-outline-success"><a>Đọc Từ Đầu</a></button>
+          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a>Đọc mới Nhất</a></button>
+>>>>>>> Stashed changes
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
           Hơn 100 năm trước, giống người khổng lồ Titan đã tấn công và đẩy loài người tới bờ vực tuyệt chủng. Những con người sống sót tụ tập lại, xây bao quanh mình 1 tòa thành 3 lớp kiên cố và tự nhốt mình bên trong để trốn tránh những cuộc tấn công của người khổng lồ. Họ tìm mọi cách để tiêu diệt người khổng lồ nhưng không thành công. Và sau 1 thế kỉ hòa bình, giống khổng lồ đã xuất hiện trở lại, một lần nữa đe dọa sự tồn vong của con người....
@@ -276,9 +281,9 @@ Elen và cô em gái Mikasa phải chứng kiến một cảnh tượng cực ki
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1007</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1008</button>
-    </div>
+    </div> -->
     
   </div>
         </div>
@@ -304,10 +309,10 @@ Elen và cô em gái Mikasa phải chứng kiến một cảnh tượng cực ki
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1014</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1015</button>
     </div>
-    
+     -->
     
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1016</button>
@@ -338,9 +343,9 @@ Elen và cô em gái Mikasa phải chứng kiến một cảnh tượng cực ki
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1023</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1024</button>
-    </div>
+    </div> -->
   </div>
         </div>
 

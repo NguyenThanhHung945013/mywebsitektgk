@@ -29,7 +29,7 @@
             WIBU.anime 
          </h1>
         </div>
-        <div class="search-container">
+        <!-- <div class="search-container">
           <form action="/action_page.php">
             <input type="text" placeholder="Search.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
@@ -136,14 +136,14 @@
                 <a href="#" class="w3-bar-item w3-button">log out</a>
             </div>
           </strong>
-    </div>
+    </div> -->
     </header>
 
     
 <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
 <nav style=" padding-bottom: 25px;">
         <div class="w3-bar w3-light-grey">
-        <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"> <i class="fa fa-home fa-lg"></i>  <Strong> </a>
+        <a href="../index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"> <i class="fa fa-home fa-lg"></i>  <Strong> </a>
          
           <a href="../index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
           <a href="../index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
@@ -231,7 +231,7 @@
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
              <h6>  <i class="fa fa-user fa-lg">Tác giả :Đường gia tam thiếu</i></h6>
-             <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Adventure - Comedy - Fantasy - Shounen - Supernatural</i></h6>
+             <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Adventure  - Shounen - Supernatural</i></h6>
              <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
             <div>
           <h5>  <i class="fa fa-eye ">Lượt Xem: 5.644567</i></h5>
@@ -274,9 +274,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1007</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1008</button>
-    </div>
+    </div> -->
     
   </div>
         </div>
@@ -302,9 +302,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1014</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1015</button>
-    </div>
+    </div> -->
     
     
     <div class="col">
@@ -336,9 +336,38 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1023</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1024</button>
+    </div> -->
+  </div>
+        </div>
+        <hr>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1017</button>
     </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1018</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1019</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1020</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1021</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1022</button>
+    </div>
+    <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1023</button>
+    </div>
+    <!-- <div class="col">
+    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1024</button>
+    </div> -->
   </div>
         </div>
 

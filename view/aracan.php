@@ -35,6 +35,7 @@
             <button type="submit"><i class="fa fa-search"></i></button>
           </form>
         </div>
+<<<<<<< Updated upstream
         <div class="login">
         <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
@@ -137,6 +138,9 @@
             </div>
           </strong>
     </div> -->
+=======
+        -->
+>>>>>>> Stashed changes
     </header>
 
     
@@ -238,8 +242,13 @@
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
+<<<<<<< Updated upstream
           <button type="button" class="btn btn-outline-success"><a href="">Đọc Từ Đầu</a></button>
           <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="">Đọc mới Nhất</a></button>
+=======
+          <button type="button" class="btn btn-outline-success"><a >Đọc Từ Đầu</a></button>
+          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a >Đọc mới Nhất</a></button>
+>>>>>>> Stashed changes
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
          
@@ -280,7 +289,7 @@
   <div class="container">
   <div class="row">
     <div class="col">
-    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1009</button>
+    <a type="button" class="btn btn-outline-dark  btn-sm">Chapter1009</a>
     </div>
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1010</button>
