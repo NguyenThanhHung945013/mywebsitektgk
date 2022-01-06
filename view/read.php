@@ -42,7 +42,7 @@
       <nav aria-label="breadcrumb" >
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="../index.php"><i class="fa fa-home fa-lg"></i>Home</a></li>
-          <li class="breadcrumb-item"><a href="../view/onepusman.php">Đọc Truyện</a></li>
+          <li class="breadcrumb-item"><a href="../view/onepiece.php">Đọc Truyện</a></li>
           <li class="breadcrumb-item active" aria-current="page">Chapter</li>
         </ol>
       </nav>

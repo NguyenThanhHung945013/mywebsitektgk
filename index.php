@@ -47,12 +47,12 @@
                 <input type="submit" name="ok" value="search" />
             </form>
         </div> -->
-        <div class="login">
+        <!-- <div class="login">
           <button><a href="./admin">Login</a></button>
 
           
           
-        </div>
+        </div> -->
   
       </header>
 
@@ -203,7 +203,7 @@
               <span class="r_c"style="background-color: #d31a1a ">01</span>
             </div>
             <img src="images/onepiece.png" alt="" style="width:60px ;">
-            <div ><a href=""> <h5><b> One Piece<br></h5> <h6></b>Chapter 1033/???</h6>
+            <div ><a href="./view/onepiece.php"> <h5><b> One Piece<br></h5> <h6></b>Chapter 1033/???</h6>
               
                <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 8.644567</span></i></a>
 
@@ -212,7 +212,7 @@
               <span class="r_c"style="background-color: #37c21b ">02</span>
             </div>
             <img src="images/daragon.jpg" alt=""  style="width:60px ;">
-            <div ><a href=""> <h5><b>Dragon ball<br></h5> <h6></b>Chapter 176/???</h6>
+            <div ><a href="./view/daragon.php"> <h5><b>Dragon ball<br></h5> <h6></b>Chapter 176/???</h6>
               
                <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 7.644567</span></i></a>
             <!-- <div><a href=""><b>Dragon ball</b><br>Chapter 176/???
@@ -222,7 +222,7 @@
               <span class="r_c"style="background-color: #390f82 ">03</span>
             </div>
             <img src="images/onepusman.png" alt=""  style="width:60px ;">
-            <div ><a href=""> <h5><b>One PunchMan<br></h5> <h6></b>Chapter 346/???</h6>
+            <div ><a href="./view/onepusman.php"> <h5><b>One PunchMan<br></h5> <h6></b>Chapter 346/???</h6>
               
                <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 6.644567</span></i></a>
             </div>
@@ -230,7 +230,7 @@
               <span class="r_c">04</span>
             </div>
             <img src="images/naruto.png" alt=""  style="width:60px ;">
-            <div ><a href=""> <h5><b>Naruto<br></h5> <h6></b>Chapter 304/504</h6>
+            <div ><a href="./view/naruto.php"> <h5><b>Naruto<br></h5> <h6></b>Chapter 304/504</h6>
               
               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.666567</span></i></a>
             </div>
@@ -238,7 +238,7 @@
               <span class="r_c">05</span>
             </div>
             <img src="images/pokemon.png" alt=""  style="width:60px ;">
-            <div ><a href=""> <h5><b>Pokemon<br></h5> <h6></b>Chapter 1003/1040</h6>
+            <div ><a href="./view/pokemon.php"> <h5><b>Pokemon<br></h5> <h6></b>Chapter 1003/1040</h6>
               
               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 4.876567</span></i></a>
             </div>
@@ -246,7 +246,7 @@
               <span class="r_c">06</span>
             </div>
             <img src="images/doraemon.png" alt="" style="width:60px ;">
-            <div ><a href=""> <h5><b>Doraemon<br></h5> <h6></b>Chapter 489/504</h6>
+            <div ><a href="./view/doraemon.php"> <h5><b>Doraemon<br></h5> <h6></b>Chapter 489/504</h6>
               
               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 3.6564547</span></i></a>
             </div>
@@ -254,7 +254,7 @@
               <span class="r_c">07</span>
             </div>
             <img src="images/tientonlacvocuc.jpg" alt="" style="width:60px ;">
-            <div ><a href=""> <h5><b>Tiên Tôn Lạc Vô Cực<br></h5> <h6></b>Chapter 505/504</h6>
+            <div ><a href="./view/tientonlacvocuc.php"> <h5><b>Tiên Tôn Lạc Vô Cực<br></h5> <h6></b>Chapter 505/504</h6>
               
               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>
@@ -264,7 +264,7 @@
             <img src="images/sololevening2.jpg" alt="" style="width:60px ;">
             <!-- <div ><a href=""> <b>sololevening 2<br> </b>Chapter 80/???
               <span><br>Lượt xem:2,7934</span></a> -->
-              <div ><a href=""> <h5><b>sololevening<br></h5> <h6></b>Chapter 505/504</h6>
+              <div ><a href="./view/sololevening2.php"> <h5><b>sololevening<br></h5> <h6></b>Chapter 505/504</h6>
               
               <span >    <strong>    <i class="fa fa-eye ">Lượt Xem: 5.6567</span></i></a>
             </div>

@@ -29,7 +29,7 @@
             WIBU.anime 
          </h1>
         </div>
-        <div class="search-container">
+        <!-- <div class="search-container">
           <form action="/action_page.php">
             <input type="text" placeholder="Search.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
@@ -136,7 +136,7 @@
                 <a href="#" class="w3-bar-item w3-button">log out</a>
             </div>
           </strong>
-    </div>
+    </div> -->
     </header>
 
     
@@ -231,7 +231,7 @@
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
              <h6>  <i class="fa fa-user fa-lg">Tác giả :MAVEL</i></h6>
-             <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Adventure - Comedy - Fantasy - Shounen - Supernatural</i></h6>
+             <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Comedy - Fantasy - Shounen - Supernatural</i></h6>
              <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
             <div>
           <h5>  <i class="fa fa-eye ">Lượt Xem: 5.644567</i></h5>
@@ -254,10 +254,10 @@
   <div class="container">
   <div class="row">
     <div class="col">
-    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1001</button>
+    <button type="button" class="btn btn-outline-dark  btn-sm"><a href="./jokerread.php">Chapter1001</a></button>
     </div>
     <div class="col">
-    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1002</button>
+    <button type="button" class="btn btn-outline-dark  btn-sm"><a href="./jokerread2.php">Chapter1002</a></button>
     </div>
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1003</button>
@@ -274,9 +274,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1007</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1008</button>
-    </div>
+    </div> -->
     
   </div>
         </div>
@@ -307,9 +307,9 @@
     </div>
     
     
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1016</button>
-    </div>
+    </div> -->
   </div>
         </div>
   <hr>
@@ -336,9 +336,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1023</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1024</button>
-    </div>
+    </div> -->
   </div>
         </div>
 

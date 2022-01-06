@@ -246,13 +246,9 @@
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
-<<<<<<< Updated upstream
-          <button type="button" class="btn btn-outline-success"><a href="">Đọc Từ Đầu</a></button>
-          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="">Đọc mới Nhất</a></button>
-=======
+
           <button type="button" class="btn btn-outline-success"><a >Đọc Từ Đầu</a></button>
           <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a>Đọc mới Nhất</a></button>
->>>>>>> Stashed changes
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
 

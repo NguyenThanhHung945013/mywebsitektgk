@@ -37,7 +37,7 @@
             WIBU.anime 
          </h1>
         </div>
-        <div class="search-container">
+        <!-- <div class="search-container">
           <form action="/action_page.php">
             <input type="text" placeholder="Search.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
@@ -144,7 +144,7 @@
                 <a href="#" class="w3-bar-item w3-button">log out</a>
             </div>
           </strong>
-    </div>
+    </div> -->
     </header>
 
     
@@ -241,7 +241,7 @@
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
              <h6>  <i class="fa fa-user fa-lg">Tác giả :Mashima Hiro</i></h6>
-             <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Adventure - Comedy - Fantasy - Shounen - Supernatural</i></h6>
+             <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Adventure - Comedy - Shounen </i></h6>
              <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
             <div>
           <h5>  <i class="fa fa-eye ">Lượt Xem: 5.644567</i></h5>
@@ -254,8 +254,8 @@
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
-          <button type="button" class="btn btn-outline-success"><a href="./read3.php">Đọc Từ Đầu</a></button>
-          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
+          <button type="button" class="btn btn-outline-success"><a>Đọc Từ Đầu</a></button>
+          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a >Đọc mới Nhất</a></button>
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
           Lucy là một cô gái 17 tuổi, với giấc mơ trở thành một tinh linh pháp sư thực thụ.Rồi một ngày cô đến thị trấn Harujion, cô đã gặp Natsu, một thiếu niên có khả năng sử dụng ma thuật lửa.Nhưng Natsu không phải là một pháp sư thông thường, cậu sử dụng ma thuật cổ đại do một con rồng tên là Igneel dạy dỗ,và là thành viên của một trong số những hội pháp sư nổi tiếng nhất: Fairy Tail
@@ -284,9 +284,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1007</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1008</button>
-    </div>
+    </div> -->
     
   </div>
         </div>
@@ -312,9 +312,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1014</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1015</button>
-    </div>
+    </div> -->
     
     
     <div class="col">
@@ -346,9 +346,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1023</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1024</button>
-    </div>
+    </div> -->
   </div>
         </div>
 

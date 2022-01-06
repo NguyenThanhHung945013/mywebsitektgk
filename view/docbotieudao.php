@@ -29,7 +29,7 @@
             WIBU.anime 
          </h1>
         </div>
-        <div class="search-container">
+        <!-- <div class="search-container">
           <form action="/action_page.php">
             <input type="text" placeholder="Search.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
@@ -136,7 +136,7 @@
                 <a href="#" class="w3-bar-item w3-button">log out</a>
             </div>
           </strong>
-    </div>
+    </div> -->
     </header>
 
     
@@ -230,7 +230,7 @@
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
              <h6>  <i class="fa fa-user fa-lg">Tác giả :Đường gia tam thiếu</i></h6>
-             <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Adventure - Comedy - Fantasy - Shounen </i></h6>
+             <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Comedy - Fantasy - Shounen </i></h6>
              <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
             <div>
           <h5>  <i class="fa fa-eye ">Lượt Xem: 5.644567</i></h5>
@@ -243,8 +243,8 @@
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
-          <button type="button" class="btn btn-outline-success"><a href="./read3.php">Đọc Từ Đầu</a></button>
-          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
+          <button type="button" class="btn btn-outline-success"><a >Đọc Từ Đầu</a></button>
+          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a>Đọc mới Nhất</a></button>
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
           Tự sát bất thành sau những uất ức tủi nhục khi bị bạn bè bắt nạt, cậu nhóc đã được lực lượng cảnh sát giải cứu thành công. Mặc dù vậy, quyết tâm tự tử của cậu nhóc bằng cách nào đó lôi kéo Sierra - một tử thần, đã cung cấp cho cậu một bản hợp đồng thú vị. Hợp đồng này ban cho Kyung Ho khả năng mượn sức mạnh của danh nhân bằng cách đánh đổi tuổi thọ của mình. Liệu cậu nhóc có ký vào bản hợp đồng đó hay không?
@@ -273,9 +273,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1007</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1008</button>
-    </div>
+    </div> -->
     
   </div>
         </div>
@@ -301,9 +301,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1014</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1015</button>
-    </div>
+    </div> -->
     
     
     <div class="col">
@@ -335,9 +335,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1023</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1024</button>
-    </div>
+    </div> -->
   </div>
         </div>
 

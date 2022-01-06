@@ -243,10 +243,10 @@
   <div class="container">
   <div class="row">
     <div class="col">
-    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1001</button>
+    <button type="button" class="btn btn-outline-dark  btn-sm"><a href="./thanvoread.php">Chapter1001</a></button>
     </div>
     <div class="col">
-    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1002</button>
+    <button type="button" class="btn btn-outline-dark  btn-sm"><a href="./thanvoread.php">Chapter1002</a></button>
     </div>
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1003</button>
@@ -263,9 +263,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1007</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1008</button>
-    </div>
+    </div> -->
     
   </div>
         </div>
@@ -291,9 +291,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1014</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1015</button>
-    </div>
+    </div> -->
     
     
     <div class="col">
@@ -325,9 +325,9 @@
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1023</button>
     </div>
-    <div class="col">
+    <!-- <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1024</button>
-    </div>
+    </div> -->
   </div>
         </div>
 
