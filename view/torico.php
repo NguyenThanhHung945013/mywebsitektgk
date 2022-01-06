@@ -29,7 +29,7 @@
             WIBU.anime 
          </h1>
         </div>
-        <div class="search-container">
+        <!-- <div class="search-container">
           <form action="/action_page.php">
             <input type="text" placeholder="Search.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
@@ -135,7 +135,7 @@
                 <a href="#" class="w3-bar-item w3-button">Lịch sử</a>
                 <a href="#" class="w3-bar-item w3-button">log out</a>
             </div>
-          </strong>
+          </strong> -->
     </div>
     </header>
 
@@ -152,41 +152,31 @@
                   <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">THỂ LOẠI</button>
                   
                  
-                        <div class="dropdown-content">
+                  <div class="dropdown-content">
                                   <div class="column">
-                                    <a href="#">MANGA</a>
-                                    <a href="#">PHIÊU LƯA</a>
-                                    <a href="#">HÀNH ĐỘNG</a>
-                                    <a href="#">GAME</a>
+                                    <a href="../index.php?page=manga">MANGA</a>
+                                    <a href="../index.php?page=phieuluu">PHIÊU LƯA</a>
+                                    <a href="../index.php?page=hanhdong">HÀNH ĐỘNG</a>
+                                    <a href="../index.php?page=game">GAME</a>
 
                                   </div>
                                   <div class="column">
-                                    <a href="#">TÌNH CẢM</a>
-                                    <a href="#">HAREM</a>
-                                    <a href="#">TUỔI 18</a>
-                                    <a href="#">CÔNG CHÚA</a>
+                                    <a href="../index.php?page=tinhcam">TÌNH CẢM</a>
+                                    <a href="../index.php?page=harem">HAREM</a>
+                                    <a href="../index.php?page=tuoi18">TUỔI 18</a>
+                                    <a href="../index.php?page=hocduong">HỌC ĐƯỜNG</a>
 
                                   </div>
                                   <div class="column">
-                                    <a href="#">KINH DỊ</a>
-                                    <a href="#">VÕ THUẬT</a>
-                                    <a href="#">ANIME</a>
-                                    <a href="#">SHOUNEN</a>
+                                    <a href="../index.php?page=kinhdi">KINH DỊ</a>
+                                    <a href="../index.php?page=vothuat">VÕ THUẬT</a>
+                                    <a href="../index.php?page=anime">ANIME</a>
+                                    <a href="../index.php?page=shounen">SHOUNEN</a>
           
                                   </div>
                           </div>
                   </div>
           
-          <!-- <div class="w3-dropdown-hover">
-            <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">QUỐC GIA</button>
-
-            <div class="w3-dropdown-content w3-card-4">
-                <a href="#" class="w3-bar-item w3-button">JAPAN</a>
-                <a href="#" class="w3-bar-item w3-button">CHINA</a>
-                <a href="#" class="w3-bar-item w3-button">KOREA</a>
-            </div>
-          </div> -->
-
 
           <a href="../index.php?page=japan" class="w3-bar-item w3-button" style="width: 8%;">JAPAN</a> 
           <a href="../index.php?page=china" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
@@ -248,8 +238,8 @@
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
-          <button type="button" class="btn btn-outline-success"><a href="./read3.php">Đọc Từ Đầu</a></button>
-          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
+          <button type="button" class="btn btn-outline-success"><a href="">Đọc Từ Đầu</a></button>
+          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="">Đọc mới Nhất</a></button>
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
          

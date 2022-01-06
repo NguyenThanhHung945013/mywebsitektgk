@@ -29,7 +29,7 @@
             WIBU.anime 
          </h1>
         </div>
-        <div class="search-container">
+        <!-- <div class="search-container">
           <form action="/action_page.php">
             <input type="text" placeholder="Search.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
@@ -136,7 +136,7 @@
                 <a href="#" class="w3-bar-item w3-button">log out</a>
             </div>
           </strong>
-    </div>
+    </div> -->
     </header>
 
     
@@ -220,7 +220,7 @@
      </strong>
                
         <div class="imggg">
-         <img src="../images/dauladailuc.png" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
+         <img src="../images/toancaucaovo.jpg" alt="hh" style="width:250px ;height:400px;margin-left:15px;margin-top:35px;float:left;margin-right:15px;">
         </div>
         <div class="content" >
           <div class="h1">
@@ -230,7 +230,7 @@
              <h6>
              [Cập nhật lúc: 20:27 18/02/2020]
              </h6>
-             <h6>  <i class="fa fa-user fa-lg">Tác giả :Đường gia tam thiếu</i></h6>
+             <h6>  <i class="fa fa-user fa-lg">Tác giả :Đang Cập Nhập</i></h6>
              <h6>  <i class="fa fa-tags fa-lg">Thể loại:Action - Adventure - Comedy - Fantasy - Shounen </i></h6>
              <h5><i class="fa fa-cloud ">Season : 2021</i></h5>
             <div>
@@ -244,8 +244,8 @@
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
-          <button type="button" class="btn btn-outline-success"><a href="./read3.php">Đọc Từ Đầu</a></button>
-          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
+          <button type="button" class="btn btn-outline-success"><a href="">Đọc Từ Đầu</a></button>
+          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="">Đọc mới Nhất</a></button>
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
           Đấu La Đại Lục là một trong những tác phẩm đặc sắc của Đường Gia Tam Thiếu. Tác phẩm thuộc thể loại truyện Huyễn Hiệp, mang đến cho độc giả một cái nhìn, một cảm nhận mới về thế giới hiệp khách huyền ảo. Câu chuyện với nhân vật chính, con một thợ rèn, một thợ rèn trở thành tửu quỷ, vì thê tử đã mất, sẵn sàng lôi cuốn người đọc ngay từ những chương đầu tiên.  

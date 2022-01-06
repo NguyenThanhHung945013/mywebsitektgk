@@ -29,7 +29,7 @@
             WIBU.anime 
          </h1>
         </div>
-        <div class="search-container">
+        <!-- <div class="search-container">
           <form action="/action_page.php">
             <input type="text" placeholder="Search.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
@@ -136,7 +136,7 @@
                 <a href="#" class="w3-bar-item w3-button">log out</a>
             </div>
           </strong>
-    </div>
+    </div> -->
     </header>
 
     
@@ -177,15 +177,7 @@
                           </div>
                   </div>
           
-          <!-- <div class="w3-dropdown-hover">
-            <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">QUỐC GIA</button>
-
-            <div class="w3-dropdown-content w3-card-4">
-                <a href="#" class="w3-bar-item w3-button">JAPAN</a>
-                <a href="#" class="w3-bar-item w3-button">CHINA</a>
-                <a href="#" class="w3-bar-item w3-button">KOREA</a>
-            </div>
-          </div> -->
+          
 
 
           <a href="../index.php?page=japan" class="w3-bar-item w3-button" style="width: 8%;">JAPAN</a> 
@@ -246,8 +238,8 @@
           <h5>  <i class="fa fa-user-plus colorred">  4546 Người đang theo dõi</i></h5>
           </div>
           <div>
-          <button type="button" class="btn btn-outline-success"><a href="./read3.php">Đọc Từ Đầu</a></button>
-          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="./read.php">Đọc mới Nhất</a></button>
+          <button type="button" class="btn btn-outline-success"><a href="">Đọc Từ Đầu</a></button>
+          <button type="button" class="btn btn-outline-success"  styte="text-decoration:none;"><a href="">Đọc mới Nhất</a></button>
           </div>
           <h4>  <i class="fa fa-file-text-o ">Nội Dung</i></h4>
          
