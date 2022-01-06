@@ -14,7 +14,7 @@
   $from_record_num = ($records_per_page * $page) - $records_per_page;
   $stmt = $story->category($from_record_num, $records_per_page,$category_id);
   echo "<aside class='left' style='height: 830px ; '>";
-  echo "<h1>{$page_title}</h1>";
+  echo "<h1 style='color: white;'>{$page_title}</h1>";
   while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
       extract($row);
       echo "<div class='menu_left'>";

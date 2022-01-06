@@ -273,7 +273,7 @@
         <div class="content" >
           <div class="h1">
             <h1  >
-              One Piece - Stampe
+            One punch Man
             </h1>
              <h6>
              [Cập nhật lúc: 20:27 18/02/2020]

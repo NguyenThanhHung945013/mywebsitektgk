@@ -254,10 +254,10 @@
   <div class="container">
   <div class="row">
     <div class="col">
-    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1001</button>
+    <button type="button" class="btn btn-outline-dark  btn-sm"><a href="./cauberead.php">Chapter1001</a></button>
     </div>
     <div class="col">
-    <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1002</button>
+    <button type="button" class="btn btn-outline-dark  btn-sm"><a href="./cauberead2.php">Chapter1002</a></button>
     </div>
     <div class="col">
     <button type="button" class="btn btn-outline-dark  btn-sm">Chapter1003</button>

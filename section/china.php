@@ -16,7 +16,7 @@
   $stmt = $story->nation($from_record_num, $records_per_page,$nation);
   $num = $stmt->rowCount();
   echo "<aside class='left' style='height: 850px ; '>";
-  echo "<h1>{$page_title}</h1>";
+  echo "<h1 style='color: white;'>{$page_title}</h1>";
   if($num>0){
     while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
         extract($row);

@@ -28,7 +28,7 @@
  
   $page_title = "$num kết quả với từ khóa <b>{$_SESSION['search']}</b>";
   echo "<aside class='left' style='height: 830px ; '>";
-  echo "<h1>{$page_title}</h1>";
+  echo "<h1 style='color: white;'>{$page_title}</h1>";
   while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
       extract($row);
       echo "<div class='menu_left'>";

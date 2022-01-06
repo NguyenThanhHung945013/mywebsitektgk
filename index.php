@@ -26,7 +26,7 @@
     </style>
   
     </head>
-    <body>
+    <body style=" background-color: black;">
       <header>
         <div class="logo">
         <img  src="./images/icon123.png" alt="">
@@ -59,20 +59,20 @@
     
     <!-- <script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script> -->
     <nav style="height: 40px;">
-        <div class="w3-bar w3-light-grey">
-        <a href="index.php?page=home" class="w3-bar-item w3-button"  style="margin-left: 10%; width: 7%;   background: rgb(221, 13, 13);"> <i class="fa fa-home fa-lg"></i>  <Strong> </a>
+        <div class="w3-bar w3-light-black" >
+        <a href="index.php?page=home" class="w3-bar-item w3-button w3-red"  style="margin-left: 10%; width: 5%;   background: rgb(221, 13, 13);"> <i class="fa fa-home fa-lg"></i>  <Strong> </a>
          
-          <a href="index.php?page=hot" class="w3-bar-item w3-button" style="width: 10%;">ANIME HOT</a>
-          <a href="index.php?page=hay" class="w3-bar-item w3-button" style="width: 10%;">ANIME HAY</a> 
+          <a href="index.php?page=hot" class="w3-bar-item w3-button w3-orange" style="width: 10%;">ANIME HOT</a>
+          <a href="index.php?page=hay" class="w3-bar-item w3-button w3-orange" style="width: 10%;">ANIME HAY</a> 
           
 
                 <div class="w3-dropdown-hover">
-                  <button class="w3-button" style="width: 100%; padding: 9px 30px 0px 30px;">THỂ LOẠI</button>
+                  <button class="w3-button w3-orange" style="width: 100%; padding: 8px 30px 8px 30px; ">THỂ LOẠI</button>
                   
                  
-                        <div class="dropdown-content">
-                                  <div class="column">
-                                    <a href="index.php?page=manga">MANGA</a>
+                        <div class="dropdown-content " >
+                                  <div class="column" >
+                                    <a href="index.php?page=manga" >MANGA</a>
                                     <a href="index.php?page=phieuluu">PHIÊU LƯA</a>
                                     <a href="index.php?page=hanhdong">HÀNH ĐỘNG</a>
                                     <a href="index.php?page=game">GAME</a>
@@ -106,19 +106,19 @@
           </div> -->
 
 
-          <a href="index.php?page=japan" class="w3-bar-item w3-button" style="width: 8%;">JAPAN</a> 
-          <a href="index.php?page=china" class="w3-bar-item w3-button" style="width: 8%;">CHINA</a> 
-          <a href="index.php?page=korea" class="w3-bar-item w3-button" style="width: 8%;">KOREA</a> 
-          <a href="index.php?page=american" class="w3-bar-item w3-button" style="width: 8%;">AMERICAN</a> 
-          <a href="index.php?page=xephang" class="w3-bar-item w3-button" style="width: 9%;">XẾP HẠNG</a> 
+          <a href="index.php?page=japan" class="w3-bar-item w3-button w3-orange" style="width: 8%;">JAPAN</a> 
+          <a href="index.php?page=china" class="w3-bar-item w3-button w3-orange" style="width: 8%;">CHINA</a> 
+          <a href="index.php?page=korea" class="w3-bar-item w3-button w3-orange" style="width: 8%;">KOREA</a> 
+          <a href="index.php?page=american" class="w3-bar-item w3-button w3-orange" style="width: 8%;">AMERICAN</a> 
+          <a href="index.php?page=xephang" class="w3-bar-item w3-button w3-orange" style="width: 9%;">XẾP HẠNG</a> 
 
-          <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button" style="width: 8%;">GROUP</a> 
+          <a href="https://www.facebook.com/groups/462914797417282" class="w3-bar-item w3-button w3-orange" style="width: 8%;">GROUP</a> 
           </strong>
         </div>
       </div>
       </div>
       
-    </nav>
+    </nav >
     <section class="section">
       <div class="w3-content w3-display-container">
         <img class="mySlides w3-animate-left" src="./images/anime.jpg" style="width:100% ;height: 400px;">
@@ -197,7 +197,7 @@
      
       <article id="right" style='height: 830px;'>
         <div class="menu_right">
-        <h3><i><strong>Bảng Xếp Hạng All</strong></i></h3>
+        <h3 style='color: white;'><i><strong>Bảng Xếp Hạng All</strong></i></h3>
            <ul>
             <div class="r_c_wrap">
               <span class="r_c"style="background-color: #d31a1a ">01</span>
@@ -284,10 +284,16 @@
      
       // $total_rows = 50;
       include_once "./models/page.php";
+      
     ?>
-    <footer class="py-5">
+    <div class="d-flex justify-content-between py-4 my-4 border-top">
     
-    <img src="./images/footer.png" alt="Avatar"  style="width:200px ;height:70px;float:right">
+
+    </div>
+    
+    <footer class="py-5" style=" background-color: black;">
+    
+    <!-- <img src="./images/footer.png" alt="Avatar"  style="width:200px ;height:70px;float:right"> -->
 
 
 </div>
